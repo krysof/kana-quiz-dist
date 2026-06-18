@@ -1,0 +1,7273 @@
+[
+  {
+    "id": 1001,
+    "cat": "context_vocab",
+    "sentence": "この論文の（　　）を一言で説明してください。",
+    "options": [
+      "趣旨",
+      "手順",
+      "装置",
+      "関節"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「趣旨」。「手順」、「装置」、「関節」在此语境下不自然。",
+    "translation": "请一句话说明这论文的（主旨）。"
+  },
+  {
+    "id": 1002,
+    "cat": "context_vocab",
+    "sentence": "その判断には明確な（　　）が必要だ。",
+    "options": [
+      "根拠",
+      "根源",
+      "根気",
+      "根底"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「根拠」。「根源」、「根気」、「根底」在此语境下不自然。",
+    "translation": "那判断需要明确的（根据）。"
+  },
+  {
+    "id": 1003,
+    "cat": "context_vocab",
+    "sentence": "事件の（　　）を詳しく調査する。",
+    "options": [
+      "経緯",
+      "経費",
+      "経歴",
+      "経路"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「経緯」。「経費」、「経歴」、「経路」在此语境下不自然。",
+    "translation": "详细调查事件的（经过）。"
+  },
+  {
+    "id": 1004,
+    "cat": "context_vocab",
+    "sentence": "問題の（　　）に迫る必要がある。",
+    "options": [
+      "核心",
+      "中枢",
+      "中核",
+      "中心"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「核心」。「中枢」、「中核」、「中心」在此语境下不自然。",
+    "translation": "需要触及问题（本质）。"
+  },
+  {
+    "id": 1005,
+    "cat": "context_vocab",
+    "sentence": "人間の（　　）を追求する哲学。",
+    "options": [
+      "本質",
+      "本来",
+      "本音",
+      "本体"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「本質」。「本来」、「本音」、「本体」在此语境下不自然。",
+    "translation": "追求人类（本质）的哲学。"
+  },
+  {
+    "id": 1006,
+    "cat": "context_vocab",
+    "sentence": "事件の（　　）が明らかになった。",
+    "options": [
+      "真相",
+      "真理",
+      "真意",
+      "真実"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「真相」。「真理」、「真意」、「真実」在此语境下不自然。",
+    "translation": "事件（真相）大白。"
+  },
+  {
+    "id": 1007,
+    "cat": "context_vocab",
+    "sentence": "経済の（　　）を把握する。",
+    "options": [
+      "実態",
+      "実情",
+      "実質",
+      "実例"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「実態」。「実情」、「実質」、「実例」在此语境下不自然。",
+    "translation": "把握经济（实况）。"
+  },
+  {
+    "id": 1008,
+    "cat": "context_vocab",
+    "sentence": "彼は（　　）を打ち明けた。",
+    "options": [
+      "本音",
+      "建前",
+      "本気",
+      "本心"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「本音」。「建前」、「本気」、「本心」在此语境下不自然。",
+    "translation": "他说出（本心）。"
+  },
+  {
+    "id": 1009,
+    "cat": "context_vocab",
+    "sentence": "（　　）と本音を使い分ける。",
+    "options": [
+      "建前",
+      "台詞",
+      "世辞",
+      "名目"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「建前」。「台詞」、「世辞」、「名目」在此语境下不自然。",
+    "translation": "区分（表面）与真心。"
+  },
+  {
+    "id": 1010,
+    "cat": "context_vocab",
+    "sentence": "新しい（　　）を提唱する。",
+    "options": [
+      "概念",
+      "概要",
+      "概略",
+      "概説"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「概念」。「概要」、「概略」、「概説」在此语境下不自然。",
+    "translation": "提倡新的（理念）。"
+  },
+  {
+    "id": 1011,
+    "cat": "context_vocab",
+    "sentence": "教育（　　）を整える。",
+    "options": [
+      "体系",
+      "体制",
+      "体験",
+      "体裁"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「体系」。「体制」、「体験」、「体裁」在此语境下不自然。",
+    "translation": "完善教育（基础）。"
+  },
+  {
+    "id": 1012,
+    "cat": "context_vocab",
+    "sentence": "建物の（　　）を分析する。",
+    "options": [
+      "構造",
+      "構成",
+      "構想",
+      "構図"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「構造」。「構成」、「構想」、「構図」在此语境下不自然。",
+    "translation": "分析建筑（结构）。"
+  },
+  {
+    "id": 1013,
+    "cat": "context_vocab",
+    "sentence": "事件の（　　）を説明する。",
+    "options": [
+      "背景",
+      "背面",
+      "背後",
+      "背筋"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「背景」。「背面」、「背後」、「背筋」在此语境下不自然。",
+    "translation": "说明事件（经过）。"
+  },
+  {
+    "id": 1014,
+    "cat": "context_vocab",
+    "sentence": "彼は（　　）研究に励んでいる。",
+    "options": [
+      "専ら",
+      "遠ら",
+      "偶ら",
+      "久ら"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「専ら」。「遠ら」、「偶ら」、「久ら」在此语境下不自然。",
+    "translation": "他全心（研究）。"
+  },
+  {
+    "id": 1015,
+    "cat": "context_vocab",
+    "sentence": "（　　）危険を冒す必要はない。",
+    "options": [
+      "敢えて",
+      "強えて",
+      "重えて",
+      "辛えて"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「敢えて」。「強えて」、「重えて」、「辛えて」在此语境下不自然。",
+    "translation": "不必（特意）冒险。"
+  },
+  {
+    "id": 1016,
+    "cat": "context_vocab",
+    "sentence": "計画は（　　）順調に進んでいる。",
+    "options": [
+      "概ね",
+      "概に",
+      "大ね",
+      "大に"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「概ね」。「概に」、「大ね」、「大に」在此语境下不自然。",
+    "translation": "计划（大致）顺利。"
+  },
+  {
+    "id": 1017,
+    "cat": "context_vocab",
+    "sentence": "（　　）彼の言う通りだ。",
+    "options": [
+      "もっとも",
+      "もっぱら",
+      "もっぱり",
+      "もっとう"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「もっとも」。「もっぱら」、「もっぱり」、「もっとう」在此语境下不自然。",
+    "translation": "（果然）如他所说。"
+  },
+  {
+    "id": 1018,
+    "cat": "context_vocab",
+    "sentence": "（　　）には言えない問題だ。",
+    "options": [
+      "一概",
+      "一気",
+      "一切",
+      "一向"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「一概」。「一気」、「一切」、「一向」在此语境下不自然。",
+    "translation": "不能（一概）而论。"
+  },
+  {
+    "id": 1019,
+    "cat": "context_vocab",
+    "sentence": "状況は（　　）改善しない。",
+    "options": [
+      "一向に",
+      "一切に",
+      "一気に",
+      "一様に"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「一向に」。「一切に」、「一気に」、「一様に」在此语境下不自然。",
+    "translation": "状况（毫无）改善。"
+  },
+  {
+    "id": 1020,
+    "cat": "context_vocab",
+    "sentence": "その件は（　　）お断りします。",
+    "options": [
+      "一切",
+      "一向",
+      "一概",
+      "一同"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「一切」。「一向」、「一概」、「一同」在此语境下不自然。",
+    "translation": "那件事（敢）于拒绝。"
+  },
+  {
+    "id": 1021,
+    "cat": "context_vocab",
+    "sentence": "寒さが（　　）厳しくなった。",
+    "options": [
+      "一層",
+      "一切",
+      "一概",
+      "一向"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「一層」。「一切」、「一概」、「一向」在此语境下不自然。",
+    "translation": "严寒（一层）加剧。"
+  },
+  {
+    "id": 1022,
+    "cat": "context_vocab",
+    "sentence": "気温は（　　）下がっていく。",
+    "options": [
+      "徐々に",
+      "急々に",
+      "遅々に",
+      "漸々に"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「徐々に」。「急々に」、「遅々に」、「漸々に」在此语境下不自然。",
+    "translation": "气温（渐渐）下降。"
+  },
+  {
+    "id": 1023,
+    "cat": "context_vocab",
+    "sentence": "（　　）間に合った。",
+    "options": [
+      "辛うじて",
+      "危うじて",
+      "僅うじて",
+      "漸うじて"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「辛うじて」。「危うじて」、「僅うじて」、「漸うじて」在此语境下不自然。",
+    "translation": "（勉强）赶上。"
+  },
+  {
+    "id": 1024,
+    "cat": "context_vocab",
+    "sentence": "それは（　　）事実だ。",
+    "options": [
+      "紛れもない",
+      "疑れもない",
+      "間違もない",
+      "隠れもない"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「紛れもない」。「疑れもない」、「間違もない」、「隠れもない」在此语境下不自然。",
+    "translation": "那是（无可辩驳的）事实。"
+  },
+  {
+    "id": 1025,
+    "cat": "context_vocab",
+    "sentence": "膨大な時間を（　　）。",
+    "options": [
+      "費やした",
+      "費えた",
+      "費った",
+      "費んだ"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「費やした」。「費えた」、「費った」、「費んだ」在此语境下不自然。",
+    "translation": "（耗费）巨大时间。"
+  },
+  {
+    "id": 1026,
+    "cat": "context_vocab",
+    "sentence": "工事が（　　）いる。",
+    "options": [
+      "滞って",
+      "遅って",
+      "停って",
+      "止って"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「滞って」。「遅って」、「停って」、「止って」在此语境下不自然。",
+    "translation": "工程（滞后）。"
+  },
+  {
+    "id": 1027,
+    "cat": "context_vocab",
+    "sentence": "義務を（　　）はいけない。",
+    "options": [
+      "怠って",
+      "惰って",
+      "緩って",
+      "弱って"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「怠って」。「惰って」、「緩って」、「弱って」在此语境下不自然。",
+    "translation": "不可（怠忽）义务。"
+  },
+  {
+    "id": 1028,
+    "cat": "context_vocab",
+    "sentence": "彼は飲食店を（　　）いる。",
+    "options": [
+      "営んで",
+      "商んで",
+      "運んで",
+      "経んで"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「営んで」。「商んで」、「運んで」、「経んで」在此语境下不自然。",
+    "translation": "他（经营）餐馆。"
+  },
+  {
+    "id": 1029,
+    "cat": "context_vocab",
+    "sentence": "判断は君に（　　）。",
+    "options": [
+      "委ねる",
+      "任ねる",
+      "預ねる",
+      "託ねる"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「委ねる」。「任ねる」、「預ねる」、「託ねる」在此语境下不自然。",
+    "translation": "判断（委托）给你。"
+  },
+  {
+    "id": 1030,
+    "cat": "context_vocab",
+    "sentence": "初志を（　　）。",
+    "options": [
+      "貫く",
+      "通く",
+      "徹く",
+      "堅く"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「貫く」。「通く」、「徹く」、「堅く」在此语境下不自然。",
+    "translation": "（贯彻）初志。"
+  },
+  {
+    "id": 1031,
+    "cat": "context_vocab",
+    "sentence": "責任を（　　）。",
+    "options": [
+      "果たす",
+      "成たす",
+      "達たす",
+      "遂たす"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「果たす」。「成たす」、「達たす」、「遂たす」在此语境下不自然。",
+    "translation": "（尽）责任。"
+  },
+  {
+    "id": 1032,
+    "cat": "context_vocab",
+    "sentence": "目的を（　　）。",
+    "options": [
+      "遂げる",
+      "果げる",
+      "達げる",
+      "成げる"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「遂げる」。「果げる」、「達げる」、「成げる」在此语境下不自然。",
+    "translation": "（达成）目的。"
+  },
+  {
+    "id": 1033,
+    "cat": "context_vocab",
+    "sentence": "人情が（　　）現代社会。",
+    "options": [
+      "希薄な",
+      "希少な",
+      "希釈な",
+      "希望な"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「希薄な」。「希少な」、「希釈な」、「希望な」在此语境下不自然。",
+    "translation": "人情（淡薄）的现代社会。"
+  },
+  {
+    "id": 1034,
+    "cat": "context_vocab",
+    "sentence": "（　　）な味わいのスープ。",
+    "options": [
+      "濃厚",
+      "濃密",
+      "濃縮",
+      "濃郁"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「濃厚」。「濃密」、「濃縮」、「濃郁」在此语境下不自然。",
+    "translation": "（浓厚）味道的汤。"
+  },
+  {
+    "id": 1035,
+    "cat": "context_vocab",
+    "sentence": "会議は（　　）に進行した。",
+    "options": [
+      "円滑",
+      "円満",
+      "円熟",
+      "円形"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「円滑」。「円満」、「円熟」、「円形」在此语境下不自然。",
+    "translation": "会议（圆滑）进行。"
+  },
+  {
+    "id": 1036,
+    "cat": "context_vocab",
+    "sentence": "（　　）な英語を話す。",
+    "options": [
+      "流暢",
+      "流麗",
+      "流動",
+      "流行"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「流暢」。「流麗」、「流動」、「流行」在此语境下不自然。",
+    "translation": "说（流畅）英语。"
+  },
+  {
+    "id": 1037,
+    "cat": "context_vocab",
+    "sentence": "記憶に（　　）に残っている。",
+    "options": [
+      "克明",
+      "鮮明",
+      "詳明",
+      "判明"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「克明」。「鮮明」、「詳明」、「判明」在此语境下不自然。",
+    "translation": "（克明）留在记忆中。"
+  },
+  {
+    "id": 1038,
+    "cat": "context_vocab",
+    "sentence": "（　　）な説明を求める。",
+    "options": [
+      "明瞭",
+      "明白",
+      "明快",
+      "明晰"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「明瞭」。「明白」、「明快」、「明晰」在此语境下不自然。",
+    "translation": "要求（明确）说明。"
+  },
+  {
+    "id": 1039,
+    "cat": "context_vocab",
+    "sentence": "（　　）な返事が多い。",
+    "options": [
+      "曖昧",
+      "不明",
+      "朦朧",
+      "混沌"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「曖昧」。「不明」、「朦朧」、「混沌」在此语境下不自然。",
+    "translation": "（模糊）回答多。"
+  },
+  {
+    "id": 1040,
+    "cat": "context_vocab",
+    "sentence": "（　　）とした不安を感じる。",
+    "options": [
+      "漠然",
+      "茫然",
+      "呆然",
+      "憮然"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「漠然」。「茫然」、「呆然」、「憮然」在此语境下不自然。",
+    "translation": "感到（漠然）不安。"
+  },
+  {
+    "id": 1041,
+    "cat": "context_vocab",
+    "sentence": "頭脳が（　　）な人物。",
+    "options": [
+      "明晰",
+      "明瞭",
+      "明白",
+      "明快"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「明晰」。「明瞭」、「明白」、「明快」在此语境下不自然。",
+    "translation": "头脑（明晰）的人物。"
+  },
+  {
+    "id": 1042,
+    "cat": "context_vocab",
+    "sentence": "効果は（　　）に現れた。",
+    "options": [
+      "顕著",
+      "顕在",
+      "顕彰",
+      "顕示"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「顕著」。「顕在」、「顕彰」、「顕示」在此语境下不自然。",
+    "translation": "效果（显著）呈现。"
+  },
+  {
+    "id": 1043,
+    "cat": "context_vocab",
+    "sentence": "（　　）能力を引き出す。",
+    "options": [
+      "潜在",
+      "潜伏",
+      "潜行",
+      "潜入"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「潜在」。「潜伏」、「潜行」、「潜入」在此语境下不自然。",
+    "translation": "引出（潜在）能力。"
+  },
+  {
+    "id": 1044,
+    "cat": "context_vocab",
+    "sentence": "報告書の（　　）を述べる。",
+    "options": [
+      "概要",
+      "概算",
+      "概観",
+      "概略"
+    ],
+    "answer": 1,
+    "explanation": "根据句意，空白处应填「概算」。「概要」、「概観」、「概略」在此语境下不自然。",
+    "translation": "陈述报告（概要）。"
+  },
+  {
+    "id": 1045,
+    "cat": "context_vocab",
+    "sentence": "事件の（　　）を把握する。",
+    "options": [
+      "大筋",
+      "大意",
+      "大要",
+      "大量"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「大筋」。「大意」、「大要」、「大量」在此语境下不自然。",
+    "translation": "把握事件（实情）。"
+  },
+  {
+    "id": 1046,
+    "cat": "context_vocab",
+    "sentence": "講演の（　　）をまとめる。",
+    "options": [
+      "要旨",
+      "要項",
+      "要点",
+      "要件"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「要旨」。「要項」、「要点」、「要件」在此语境下不自然。",
+    "translation": "总结演讲（要旨）。"
+  },
+  {
+    "id": 1047,
+    "cat": "context_vocab",
+    "sentence": "緊急（　　）に対応する。",
+    "options": [
+      "事態",
+      "事項",
+      "事象",
+      "事柄"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「事態」。「事項」、「事象」、「事柄」在此语境下不自然。",
+    "translation": "应对紧急（事态）。"
+  },
+  {
+    "id": 1048,
+    "cat": "context_vocab",
+    "sentence": "事件の（　　）を呈する。",
+    "options": [
+      "様相",
+      "様子",
+      "様式",
+      "様態"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「様相」。「様子」、「様式」、「様態」在此语境下不自然。",
+    "translation": "呈现事件（样相）。"
+  },
+  {
+    "id": 1049,
+    "cat": "context_vocab",
+    "sentence": "芸術の（　　）に触れる。",
+    "options": [
+      "真髄",
+      "真理",
+      "真相",
+      "真意"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「真髄」。「真理」、「真相」、「真意」在此语境下不自然。",
+    "translation": "触及艺术（真髄）。"
+  },
+  {
+    "id": 1050,
+    "cat": "context_vocab",
+    "sentence": "彼の（　　）を汲み取る。",
+    "options": [
+      "真意",
+      "真実",
+      "真相",
+      "真理"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「真意」。「真実」、「真相」、「真理」在此语境下不自然。",
+    "translation": "领会他的（真意）。"
+  },
+  {
+    "id": 1051,
+    "cat": "context_vocab",
+    "sentence": "将来を（　　）する。",
+    "options": [
+      "憂慮",
+      "憂鬱",
+      "憂愁",
+      "憂患"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「憂慮」。「憂鬱」、「憂愁」、「憂患」在此语境下不自然。",
+    "translation": "（忧虑）将来。"
+  },
+  {
+    "id": 1052,
+    "cat": "context_vocab",
+    "sentence": "副作用を（　　）する。",
+    "options": [
+      "懸念",
+      "懸賞",
+      "懸命",
+      "懸垂"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「懸念」。「懸賞」、「懸命」、「懸垂」在此语境下不自然。",
+    "translation": "（担忧）副作用。"
+  },
+  {
+    "id": 1053,
+    "cat": "context_vocab",
+    "sentence": "景気悪化を（　　）する。",
+    "options": [
+      "危惧",
+      "危機",
+      "危険",
+      "危害"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「危惧」。「危機」、「危険」、「危害」在此语境下不自然。",
+    "translation": "（危惧）景气恶化。"
+  },
+  {
+    "id": 1054,
+    "cat": "context_vocab",
+    "sentence": "市民の強い（　　）を受ける。",
+    "options": [
+      "反発",
+      "反応",
+      "反射",
+      "反省"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「反発」。「反応」、「反射」、「反省」在此语境下不自然。",
+    "translation": "受市民强烈（反对）。"
+  },
+  {
+    "id": 1055,
+    "cat": "context_vocab",
+    "sentence": "彼の主張には（　　）がある。",
+    "options": [
+      "矛盾",
+      "衝突",
+      "対立",
+      "抵触"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「矛盾」。「衝突」、「対立」、「抵触」在此语境下不自然。",
+    "translation": "他的主张有（抵触）。"
+  },
+  {
+    "id": 1056,
+    "cat": "context_vocab",
+    "sentence": "政府の方針に（　　）する。",
+    "options": [
+      "抵触",
+      "抵抗",
+      "抵当",
+      "抵価"
+    ],
+    "answer": 1,
+    "explanation": "根据句意，空白处应填「抵抗」。「抵触」、「抵当」、「抵価」在此语境下不自然。",
+    "translation": "（反对）政府方针。"
+  },
+  {
+    "id": 1057,
+    "cat": "context_vocab",
+    "sentence": "彼の意見に（　　）する。",
+    "options": [
+      "同調",
+      "同感",
+      "同意",
+      "同席"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「同調」。「同感」、「同意」、「同席」在此语境下不自然。",
+    "translation": "（保护）他的意见。"
+  },
+  {
+    "id": 1058,
+    "cat": "context_vocab",
+    "sentence": "計画を（　　）に練る。",
+    "options": [
+      "入念",
+      "入魂",
+      "入用",
+      "入学"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「入念」。「入魂」、「入用」、「入学」在此语境下不自然。",
+    "translation": "（慎重）制定计划。"
+  },
+  {
+    "id": 1059,
+    "cat": "context_vocab",
+    "sentence": "（　　）な対応をする。",
+    "options": [
+      "迅速",
+      "早急",
+      "敏速",
+      "急速"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「迅速」。「早急」、「敏速」、「急速」在此语境下不自然。",
+    "translation": "做（适当）应对。"
+  },
+  {
+    "id": 1060,
+    "cat": "context_vocab",
+    "sentence": "その手続きは（　　）だ。",
+    "options": [
+      "煩雑",
+      "繁雑",
+      "雑多",
+      "複雑"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「煩雑」。「繁雑」、「雑多」、「複雑」在此语境下不自然。",
+    "translation": "那手续（繁琐）。"
+  },
+  {
+    "id": 1061,
+    "cat": "context_vocab",
+    "sentence": "（　　）な議論が続く。",
+    "options": [
+      "活発",
+      "活動",
+      "活気",
+      "活性"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「活発」。「活動」、「活気」、「活性」在此语境下不自然。",
+    "translation": "（活跃）讨论持续。"
+  },
+  {
+    "id": 1062,
+    "cat": "context_vocab",
+    "sentence": "（　　）な態度を取る。",
+    "options": [
+      "慎重",
+      "厳重",
+      "重厚",
+      "重大"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「慎重」。「厳重」、「重厚」、「重大」在此语境下不自然。",
+    "translation": "采取（模棱两可）态度。"
+  },
+  {
+    "id": 1063,
+    "cat": "context_vocab",
+    "sentence": "時代に（　　）する。",
+    "options": [
+      "逆行",
+      "逆流",
+      "逆転",
+      "逆襲"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「逆行」。「逆流」、「逆転」、「逆襲」在此语境下不自然。",
+    "translation": "（适应）时代。"
+  },
+  {
+    "id": 1064,
+    "cat": "context_vocab",
+    "sentence": "（　　）な手段を講じる。",
+    "options": [
+      "巧妙",
+      "巧緻",
+      "精巧",
+      "技巧"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「巧妙」。「巧緻」、「精巧」、「技巧」在此语境下不自然。",
+    "translation": "讲求（有效）手段。"
+  },
+  {
+    "id": 1065,
+    "cat": "context_vocab",
+    "sentence": "（　　）な計画を立てる。",
+    "options": [
+      "綿密",
+      "緻密",
+      "精密",
+      "厳密"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「綿密」。「緻密」、「精密」、「厳密」在此语境下不自然。",
+    "translation": "制定（严密）计划。"
+  },
+  {
+    "id": 1066,
+    "cat": "context_vocab",
+    "sentence": "（　　）な態度で臨む。",
+    "options": [
+      "厳粛",
+      "厳格",
+      "厳重",
+      "厳密"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「厳粛」。「厳格」、「厳重」、「厳密」在此语境下不自然。",
+    "translation": "以（冷静）态度应对。"
+  },
+  {
+    "id": 1067,
+    "cat": "context_vocab",
+    "sentence": "（　　）な空気が漂う。",
+    "options": [
+      "厳か",
+      "静か",
+      "穏か",
+      "爽か"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「厳か」。「静か」、「穏か」、「爽か」在此语境下不自然。",
+    "translation": "弥漫（紧张）空气。"
+  },
+  {
+    "id": 1068,
+    "cat": "context_vocab",
+    "sentence": "言葉を（　　）選ぶ。",
+    "options": [
+      "慎重に",
+      "厳重に",
+      "重大に",
+      "大事に"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「慎重に」。「厳重に」、「重大に」、「大事に」在此语境下不自然。",
+    "translation": "（慎重）选词。"
+  },
+  {
+    "id": 1069,
+    "cat": "context_vocab",
+    "sentence": "（　　）な措置を取る。",
+    "options": [
+      "適切",
+      "適当",
+      "適応",
+      "適度"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「適切」。「適当」、「適応」、「適度」在此语境下不自然。",
+    "translation": "采取（巧妙）措施。"
+  },
+  {
+    "id": 1070,
+    "cat": "context_vocab",
+    "sentence": "（　　）な判断を下す。",
+    "options": [
+      "妥当",
+      "適切",
+      "適当",
+      "適正"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「妥当」。「適切」、「適当」、「適正」在此语境下不自然。",
+    "translation": "下（正确）判断。"
+  },
+  {
+    "id": 1071,
+    "cat": "context_vocab",
+    "sentence": "予算を（　　）する。",
+    "options": [
+      "計上",
+      "計画",
+      "計測",
+      "計算"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「計上」。「計画」、「計測」、「計算」在此语境下不自然。",
+    "translation": "（使用）预算。"
+  },
+  {
+    "id": 1072,
+    "cat": "context_vocab",
+    "sentence": "経費を（　　）する。",
+    "options": [
+      "削減",
+      "減少",
+      "低減",
+      "縮小"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「削減」。「減少」、「低減」、「縮小」在此语境下不自然。",
+    "translation": "（削减）经费。"
+  },
+  {
+    "id": 1073,
+    "cat": "context_vocab",
+    "sentence": "利益を（　　）する。",
+    "options": [
+      "計上",
+      "掲載",
+      "計測",
+      "計画"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「計上」。「掲載」、「計測」、「計画」在此语境下不自然。",
+    "translation": "（还元）利益。"
+  },
+  {
+    "id": 1074,
+    "cat": "context_vocab",
+    "sentence": "法律を（　　）する。",
+    "options": [
+      "改正",
+      "改定",
+      "改善",
+      "改革"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「改正」。「改定」、「改善」、「改革」在此语境下不自然。",
+    "translation": "（遵守）法律。"
+  },
+  {
+    "id": 1075,
+    "cat": "context_vocab",
+    "sentence": "制度を（　　）する。",
+    "options": [
+      "廃止",
+      "廃棄",
+      "廃除",
+      "廃絶"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「廃止」。「廃棄」、「廃除」、「廃絶」在此语境下不自然。",
+    "translation": "（废除）制度。"
+  },
+  {
+    "id": 1076,
+    "cat": "context_vocab",
+    "sentence": "会議を（　　）する。",
+    "options": [
+      "招集",
+      "召集",
+      "集合",
+      "結集"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「招集」。「召集」、「集合」、「結集」在此语境下不自然。",
+    "translation": "（召开）会议。"
+  },
+  {
+    "id": 1077,
+    "cat": "context_vocab",
+    "sentence": "権力を（　　）する。",
+    "options": [
+      "掌握",
+      "把握",
+      "掴握",
+      "握取"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「掌握」。「把握」、「掴握」、「握取」在此语境下不自然。",
+    "translation": "（掌握）权力。"
+  },
+  {
+    "id": 1078,
+    "cat": "context_vocab",
+    "sentence": "情報を（　　）する。",
+    "options": [
+      "把握",
+      "掌握",
+      "握取",
+      "捉取"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「把握」。「掌握」、「握取」、「捉取」在此语境下不自然。",
+    "translation": "（公开）信息。"
+  },
+  {
+    "id": 1079,
+    "cat": "context_vocab",
+    "sentence": "計画を（　　）する。",
+    "options": [
+      "遂行",
+      "実行",
+      "執行",
+      "進行"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「遂行」。「実行」、「執行」、「進行」在此语境下不自然。",
+    "translation": "（修订）计划。"
+  },
+  {
+    "id": 1080,
+    "cat": "context_vocab",
+    "sentence": "職務を（　　）する。",
+    "options": [
+      "遂行",
+      "実施",
+      "執行",
+      "履行"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「遂行」。「実施」、「執行」、「履行」在此语境下不自然。",
+    "translation": "（履行）职务。"
+  },
+  {
+    "id": 1081,
+    "cat": "context_vocab",
+    "sentence": "約束を（　　）する。",
+    "options": [
+      "履行",
+      "執行",
+      "遂行",
+      "実行"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「履行」。「執行」、「遂行」、「実行」在此语境下不自然。",
+    "translation": "（遵守）约定。"
+  },
+  {
+    "id": 1082,
+    "cat": "context_vocab",
+    "sentence": "法案を（　　）する。",
+    "options": [
+      "可決",
+      "議決",
+      "採決",
+      "裁決"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「可決」。「議決」、「採決」、「裁決」在此语境下不自然。",
+    "translation": "（审议）法案。"
+  },
+  {
+    "id": 1083,
+    "cat": "context_vocab",
+    "sentence": "議案を（　　）する。",
+    "options": [
+      "審議",
+      "審査",
+      "審判",
+      "審理"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「審議」。「審査」、「審判」、「審理」在此语境下不自然。",
+    "translation": "（通过）议案。"
+  },
+  {
+    "id": 1084,
+    "cat": "context_vocab",
+    "sentence": "不正を（　　）する。",
+    "options": [
+      "摘発",
+      "摘出",
+      "指摘",
+      "発覚"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「摘発」。「摘出」、「指摘」、「発覚」在此语境下不自然。",
+    "translation": "（取缔）不正。"
+  },
+  {
+    "id": 1085,
+    "cat": "context_vocab",
+    "sentence": "悪事を（　　）する。",
+    "options": [
+      "暴露",
+      "披露",
+      "発露",
+      "吐露"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「暴露」。「披露」、「発露」、「吐露」在此语境下不自然。",
+    "translation": "（抑制）恶行。"
+  },
+  {
+    "id": 1086,
+    "cat": "context_vocab",
+    "sentence": "心情を（　　）する。",
+    "options": [
+      "吐露",
+      "暴露",
+      "披露",
+      "発露"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「吐露」。「暴露」、「披露」、「発露」在此语境下不自然。",
+    "translation": "（抒发）心情。"
+  },
+  {
+    "id": 1087,
+    "cat": "context_vocab",
+    "sentence": "才能を（　　）する。",
+    "options": [
+      "発揮",
+      "発散",
+      "発露",
+      "発表"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「発揮」。「発散」、「発露」、「発表」在此语境下不自然。",
+    "translation": "（发挥）才能。"
+  },
+  {
+    "id": 1088,
+    "cat": "context_vocab",
+    "sentence": "経験を（　　）する。",
+    "options": [
+      "蓄積",
+      "累積",
+      "堆積",
+      "集積"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「蓄積」。「累積」、「堆積」、「集積」在此语境下不自然。",
+    "translation": "（积累）经验。"
+  },
+  {
+    "id": 1089,
+    "cat": "context_vocab",
+    "sentence": "財産を（　　）する。",
+    "options": [
+      "蓄積",
+      "累積",
+      "堆積",
+      "集積"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「蓄積」。「累積」、「堆積」、「集積」在此语境下不自然。",
+    "translation": "（继承）财产。"
+  },
+  {
+    "id": 1090,
+    "cat": "context_vocab",
+    "sentence": "疑問が（　　）する。",
+    "options": [
+      "氷解",
+      "氷結",
+      "氷山",
+      "氷河"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「氷解」。「氷結」、「氷山」、「氷河」在此语境下不自然。",
+    "translation": "疑问（产生）。"
+  },
+  {
+    "id": 1091,
+    "cat": "context_vocab",
+    "sentence": "問題が（　　）する。",
+    "options": [
+      "山積",
+      "累積",
+      "堆積",
+      "蓄積"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「山積」。「累積」、「堆積」、「蓄積」在此语境下不自然。",
+    "translation": "问题（发生）。"
+  },
+  {
+    "id": 1092,
+    "cat": "context_vocab",
+    "sentence": "仕事に（　　）する。",
+    "options": [
+      "専念",
+      "専心",
+      "専従",
+      "専業"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「専念」。「専心」、「専従」、「専業」在此语境下不自然。",
+    "translation": "（投身）工作。"
+  },
+  {
+    "id": 1093,
+    "cat": "context_vocab",
+    "sentence": "研究に（　　）する。",
+    "options": [
+      "没頭",
+      "没入",
+      "埋没",
+      "沈没"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「没頭」。「没入」、「埋没」、「沈没」在此语境下不自然。",
+    "translation": "（投身）研究。"
+  },
+  {
+    "id": 1094,
+    "cat": "context_vocab",
+    "sentence": "趣味に（　　）する。",
+    "options": [
+      "熱中",
+      "熱心",
+      "熱狂",
+      "熱意"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「熱中」。「熱心」、「熱狂」、「熱意」在此语境下不自然。",
+    "translation": "（沉迷）爱好。"
+  },
+  {
+    "id": 1095,
+    "cat": "context_vocab",
+    "sentence": "事業に（　　）する。",
+    "options": [
+      "着手",
+      "着工",
+      "着任",
+      "着眼"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「着手」。「着工」、「着任」、「着眼」在此语境下不自然。",
+    "translation": "（涉足）事业。"
+  },
+  {
+    "id": 1096,
+    "cat": "context_vocab",
+    "sentence": "工事に（　　）する。",
+    "options": [
+      "着工",
+      "着手",
+      "着任",
+      "着眼"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「着工」。「着手」、「着任」、「着眼」在此语境下不自然。",
+    "translation": "（着手）施工。"
+  },
+  {
+    "id": 1097,
+    "cat": "context_vocab",
+    "sentence": "新任地に（　　）する。",
+    "options": [
+      "着任",
+      "赴任",
+      "就任",
+      "在任"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「着任」。「赴任」、「就任」、「在任」在此语境下不自然。",
+    "translation": "（赴）新任地。"
+  },
+  {
+    "id": 1098,
+    "cat": "context_vocab",
+    "sentence": "海外に（　　）する。",
+    "options": [
+      "赴任",
+      "着任",
+      "就任",
+      "在任"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「赴任」。「着任」、「就任」、「在任」在此语境下不自然。",
+    "translation": "（前往）海外。"
+  },
+  {
+    "id": 1099,
+    "cat": "context_vocab",
+    "sentence": "会長に（　　）する。",
+    "options": [
+      "就任",
+      "着任",
+      "赴任",
+      "在任"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「就任」。「着任」、「赴任」、「在任」在此语境下不自然。",
+    "translation": "（就任）会长。"
+  },
+  {
+    "id": 1100,
+    "cat": "context_vocab",
+    "sentence": "業務に（　　）する。",
+    "options": [
+      "従事",
+      "従属",
+      "従来",
+      "従軍"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「従事」。「従属」、「従来」、「従軍」在此语境下不自然。",
+    "translation": "（致力）业务。"
+  },
+  {
+    "id": 1101,
+    "cat": "context_vocab",
+    "sentence": "研究に（　　）する。",
+    "options": [
+      "携わる",
+      "関わる",
+      "加わる",
+      "備わる"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「携わる」。「関わる」、「加わる」、「備わる」在此语境下不自然。",
+    "translation": "（专注）研究。"
+  },
+  {
+    "id": 1102,
+    "cat": "context_vocab",
+    "sentence": "事業を（　　）する。",
+    "options": [
+      "手掛ける",
+      "手配する",
+      "手伝う",
+      "手渡す"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「手掛ける」。「手配する」、「手伝う」、「手渡す」在此语境下不自然。",
+    "translation": "（开展）事业。"
+  },
+  {
+    "id": 1103,
+    "cat": "context_vocab",
+    "sentence": "ご注文を（　　）。",
+    "options": [
+      "承ります",
+      "伺います",
+      "頂戴します",
+      "拝見します"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「承ります」。「伺います」、「頂戴します」、「拝見します」在此语境下不自然。",
+    "translation": "（接受）订单。"
+  },
+  {
+    "id": 1104,
+    "cat": "context_vocab",
+    "sentence": "賞を（　　）。",
+    "options": [
+      "賜る",
+      "授る",
+      "承る",
+      "拝る"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「賜る」。「授る」、「承る」、「拝る」在此语境下不自然。",
+    "translation": "（获）奖。"
+  },
+  {
+    "id": 1105,
+    "cat": "context_vocab",
+    "sentence": "文化を（　　）する。",
+    "options": [
+      "継承",
+      "継続",
+      "継受",
+      "継投"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「継承」。「継続」、「継受」、「継投」在此语境下不自然。",
+    "translation": "（传承）文化。"
+  },
+  {
+    "id": 1106,
+    "cat": "context_vocab",
+    "sentence": "伝統を（　　）する。",
+    "options": [
+      "踏襲",
+      "踏破",
+      "踏査",
+      "踏切"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「踏襲」。「踏破」、「踏査」、「踏切」在此语境下不自然。",
+    "translation": "（传承）传统。"
+  },
+  {
+    "id": 1107,
+    "cat": "context_vocab",
+    "sentence": "規則を（　　）する。",
+    "options": [
+      "遵守",
+      "遵法",
+      "遵行",
+      "遵奉"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「遵守」。「遵法」、「遵行」、「遵奉」在此语境下不自然。",
+    "translation": "（遵守）规则。"
+  },
+  {
+    "id": 1108,
+    "cat": "context_vocab",
+    "sentence": "期限を（　　）する。",
+    "options": [
+      "厳守",
+      "厳選",
+      "厳格",
+      "厳重"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「厳守」。「厳選」、「厳格」、「厳重」在此语境下不自然。",
+    "translation": "（延长）期限。"
+  },
+  {
+    "id": 1109,
+    "cat": "context_vocab",
+    "sentence": "秘密を（　　）する。",
+    "options": [
+      "保持",
+      "維持",
+      "支持",
+      "保守"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「保持」。「維持」、「支持」、「保守」在此语境下不自然。",
+    "translation": "（保守）秘密。"
+  },
+  {
+    "id": 1110,
+    "cat": "context_vocab",
+    "sentence": "責任を（　　）する。",
+    "options": [
+      "回避",
+      "逃避",
+      "退避",
+      "避難"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「回避」。「逃避」、「退避」、「避難」在此语境下不自然。",
+    "translation": "（承担）责任。"
+  },
+  {
+    "id": 1111,
+    "cat": "context_vocab",
+    "sentence": "危険を（　　）する。",
+    "options": [
+      "察知",
+      "感知",
+      "認知",
+      "熟知"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「察知」。「感知」、「認知」、「熟知」在此语境下不自然。",
+    "translation": "（避开）危险。"
+  },
+  {
+    "id": 1112,
+    "cat": "context_vocab",
+    "sentence": "意図を（　　）する。",
+    "options": [
+      "察する",
+      "観する",
+      "感する",
+      "知する"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「察する」。「観する」、「感する」、「知する」在此语境下不自然。",
+    "translation": "（暴露）意图。"
+  },
+  {
+    "id": 1113,
+    "cat": "context_vocab",
+    "sentence": "真意を（　　）する。",
+    "options": [
+      "推察",
+      "推測",
+      "推定",
+      "推論"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「推察」。「推測」、「推定」、「推論」在此语境下不自然。",
+    "translation": "（解读）真意。"
+  },
+  {
+    "id": 1114,
+    "cat": "context_vocab",
+    "sentence": "動向を（　　）する。",
+    "options": [
+      "注視",
+      "注目",
+      "監視",
+      "凝視"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「注視」。「注目」、「監視」、「凝視」在此语境下不自然。",
+    "translation": "（关注）动向。"
+  },
+  {
+    "id": 1115,
+    "cat": "context_vocab",
+    "sentence": "彼の行動を（　　）する。",
+    "options": [
+      "観察",
+      "観賞",
+      "観測",
+      "観光"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「観察」。「観賞」、「観測」、「観光」在此语境下不自然。",
+    "translation": "（观察）他的行动。"
+  },
+  {
+    "id": 1116,
+    "cat": "context_vocab",
+    "sentence": "結果を（　　）する。",
+    "options": [
+      "検証",
+      "検討",
+      "検査",
+      "検索"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「検証」。「検討」、「検査」、「検索」在此语境下不自然。",
+    "translation": "（分析）结果。"
+  },
+  {
+    "id": 1117,
+    "cat": "context_vocab",
+    "sentence": "データを（　　）する。",
+    "options": [
+      "分析",
+      "分解",
+      "分類",
+      "分離"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「分析」。「分解」、「分類」、「分離」在此语境下不自然。",
+    "translation": "（分析）数据。"
+  },
+  {
+    "id": 1118,
+    "cat": "context_vocab",
+    "sentence": "原因を（　　）する。",
+    "options": [
+      "究明",
+      "解明",
+      "判明",
+      "証明"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「究明」。「解明」、「判明」、「証明」在此语境下不自然。",
+    "translation": "（追究）原因。"
+  },
+  {
+    "id": 1119,
+    "cat": "context_vocab",
+    "sentence": "事実を（　　）する。",
+    "options": [
+      "解明",
+      "究明",
+      "判明",
+      "証明"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「解明」。「究明」、「判明」、「証明」在此语境下不自然。",
+    "translation": "（确认）事实。"
+  },
+  {
+    "id": 1120,
+    "cat": "context_vocab",
+    "sentence": "理論を（　　）する。",
+    "options": [
+      "構築",
+      "構成",
+      "構想",
+      "構造"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「構築」。「構成」、「構想」、「構造」在此语境下不自然。",
+    "translation": "（验证）理论。"
+  },
+  {
+    "id": 1121,
+    "cat": "context_vocab",
+    "sentence": "関係を（　　）する。",
+    "options": [
+      "構築",
+      "築造",
+      "建築",
+      "構成"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「構築」。「築造」、「建築」、「構成」在此语境下不自然。",
+    "translation": "（维持）关系。"
+  },
+  {
+    "id": 1122,
+    "cat": "context_vocab",
+    "sentence": "基盤を（　　）する。",
+    "options": [
+      "確立",
+      "設立",
+      "樹立",
+      "成立"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「確立」。「設立」、「樹立」、「成立」在此语境下不自然。",
+    "translation": "（奠定）基础。"
+  },
+  {
+    "id": 1123,
+    "cat": "context_vocab",
+    "sentence": "新記録を（　　）する。",
+    "options": [
+      "樹立",
+      "確立",
+      "設立",
+      "成立"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「樹立」。「確立」、「設立」、「成立」在此语境下不自然。",
+    "translation": "（树立）新纪录。"
+  },
+  {
+    "id": 1124,
+    "cat": "context_vocab",
+    "sentence": "会社を（　　）する。",
+    "options": [
+      "設立",
+      "樹立",
+      "確立",
+      "成立"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「設立」。「樹立」、「確立」、「成立」在此语境下不自然。",
+    "translation": "（经营）公司。"
+  },
+  {
+    "id": 1125,
+    "cat": "context_vocab",
+    "sentence": "事業を（　　）する。",
+    "options": [
+      "展開",
+      "展望",
+      "展示",
+      "発展"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「展開」。「展望」、「展示」、「発展」在此语境下不自然。",
+    "translation": "（扩展）事业。"
+  },
+  {
+    "id": 1126,
+    "cat": "context_vocab",
+    "sentence": "将来を（　　）する。",
+    "options": [
+      "展望",
+      "展開",
+      "展示",
+      "発展"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「展望」。「展開」、「展示」、「発展」在此语境下不自然。",
+    "translation": "（展望）将来。"
+  },
+  {
+    "id": 1127,
+    "cat": "context_vocab",
+    "sentence": "市場を（　　）する。",
+    "options": [
+      "開拓",
+      "開発",
+      "開放",
+      "開設"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「開拓」。「開発」、「開放」、「開設」在此语境下不自然。",
+    "translation": "（开拓）市场。"
+  },
+  {
+    "id": 1128,
+    "cat": "context_vocab",
+    "sentence": "新技術を（　　）する。",
+    "options": [
+      "開発",
+      "開拓",
+      "開放",
+      "開設"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「開発」。「開拓」、「開放」、「開設」在此语境下不自然。",
+    "translation": "（引进）新技术。"
+  },
+  {
+    "id": 1129,
+    "cat": "context_vocab",
+    "sentence": "伝統を（　　）する。",
+    "options": [
+      "守護",
+      "保護",
+      "保守",
+      "保全"
+    ],
+    "answer": 1,
+    "explanation": "根据句意，空白处应填「保護」。「守護」、「保守」、「保全」在此语境下不自然。",
+    "translation": "（继承）传统。"
+  },
+  {
+    "id": 1130,
+    "cat": "context_vocab",
+    "sentence": "環境を（　　）する。",
+    "options": [
+      "保全",
+      "保守",
+      "保護",
+      "保持"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「保全」。「保守」、「保護」、「保持」在此语境下不自然。",
+    "translation": "（保护）环境。"
+  },
+  {
+    "id": 1131,
+    "cat": "context_vocab",
+    "sentence": "資源を（　　）する。",
+    "options": [
+      "枯渇",
+      "枯死",
+      "枯葉",
+      "枯木"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「枯渇」。「枯死」、「枯葉」、「枯木」在此语境下不自然。",
+    "translation": "（保护）资源。"
+  },
+  {
+    "id": 1132,
+    "cat": "context_vocab",
+    "sentence": "関心を（　　）する。",
+    "options": [
+      "喚起",
+      "奮起",
+      "想起",
+      "提起"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「喚起」。「奮起」、「想起」、「提起」在此语境下不自然。",
+    "translation": "（引起）关注。"
+  },
+  {
+    "id": 1133,
+    "cat": "context_vocab",
+    "sentence": "問題を（　　）する。",
+    "options": [
+      "提起",
+      "提出",
+      "提案",
+      "提供"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「提起」。「提出」、「提案」、「提供」在此语境下不自然。",
+    "translation": "（解决）问题。"
+  },
+  {
+    "id": 1134,
+    "cat": "context_vocab",
+    "sentence": "疑問を（　　）する。",
+    "options": [
+      "呈する",
+      "提する",
+      "表する",
+      "現する"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「呈する」。「提する」、「表する」、「現する」在此语境下不自然。",
+    "translation": "（澄清）疑问。"
+  },
+  {
+    "id": 1135,
+    "cat": "context_vocab",
+    "sentence": "進歩に（　　）する。",
+    "options": [
+      "寄与",
+      "寄付",
+      "寄贈",
+      "寄託"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「寄与」。「寄付」、「寄贈」、「寄託」在此语境下不自然。",
+    "translation": "（贡献）进步。"
+  },
+  {
+    "id": 1136,
+    "cat": "context_vocab",
+    "sentence": "社会に（　　）する。",
+    "options": [
+      "貢献",
+      "寄与",
+      "貢納",
+      "献身"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「貢献」。「寄与」、「貢納」、「献身」在此语境下不自然。",
+    "translation": "（奉献）社会。"
+  },
+  {
+    "id": 1137,
+    "cat": "context_vocab",
+    "sentence": "国家に（　　）する。",
+    "options": [
+      "尽力",
+      "尽忠",
+      "尽くす",
+      "貢献"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「尽力」。「尽忠」、「尽くす」、「貢献」在此语境下不自然。",
+    "translation": "（忠于）国家。"
+  },
+  {
+    "id": 1138,
+    "cat": "context_vocab",
+    "sentence": "彼は成功を（　　）した。",
+    "options": [
+      "収めた",
+      "納めた",
+      "治めた",
+      "修めた"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「収めた」。「納めた」、「治めた」、「修めた」在此语境下不自然。",
+    "translation": "他（取得）成功。"
+  },
+  {
+    "id": 1139,
+    "cat": "context_vocab",
+    "sentence": "学問を（　　）する。",
+    "options": [
+      "修める",
+      "収める",
+      "治める",
+      "納める"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「修める」。「収める」、「治める」、「納める」在此语境下不自然。",
+    "translation": "（研究）学问。"
+  },
+  {
+    "id": 1140,
+    "cat": "context_vocab",
+    "sentence": "国を（　　）する。",
+    "options": [
+      "治める",
+      "修める",
+      "収める",
+      "納める"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「治める」。「修める」、「収める」、「納める」在此语境下不自然。",
+    "translation": "（建设）国家。"
+  },
+  {
+    "id": 1141,
+    "cat": "context_vocab",
+    "sentence": "税金を（　　）する。",
+    "options": [
+      "納める",
+      "治める",
+      "修める",
+      "収める"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「納める」。「治める」、「修める」、「収める」在此语境下不自然。",
+    "translation": "（缴纳）税金。"
+  },
+  {
+    "id": 1142,
+    "cat": "context_vocab",
+    "sentence": "議論が（　　）する。",
+    "options": [
+      "紛糾",
+      "紛争",
+      "紛失",
+      "紛然"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「紛糾」。「紛争」、「紛失」、「紛然」在此语境下不自然。",
+    "translation": "议论（激化）。"
+  },
+  {
+    "id": 1143,
+    "cat": "context_vocab",
+    "sentence": "事態が（　　）する。",
+    "options": [
+      "悪化",
+      "劣化",
+      "退化",
+      "弱化"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「悪化」。「劣化」、「退化」、「弱化」在此语境下不自然。",
+    "translation": "事态（恶化）。"
+  },
+  {
+    "id": 1144,
+    "cat": "context_vocab",
+    "sentence": "病状が（　　）する。",
+    "options": [
+      "悪化",
+      "劣化",
+      "退化",
+      "弱化"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「悪化」。「劣化」、「退化」、「弱化」在此语境下不自然。",
+    "translation": "病状（恶化）。"
+  },
+  {
+    "id": 1145,
+    "cat": "context_vocab",
+    "sentence": "関係が（　　）する。",
+    "options": [
+      "悪化",
+      "劣化",
+      "硬化",
+      "退化"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「悪化」。「劣化」、「硬化」、「退化」在此语境下不自然。",
+    "translation": "关系（恶化）。"
+  },
+  {
+    "id": 1146,
+    "cat": "context_vocab",
+    "sentence": "態度が（　　）する。",
+    "options": [
+      "硬化",
+      "軟化",
+      "強化",
+      "弱化"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「硬化」。「軟化」、「強化」、「弱化」在此语境下不自然。",
+    "translation": "态度（改变）。"
+  },
+  {
+    "id": 1147,
+    "cat": "context_vocab",
+    "sentence": "情勢が（　　）する。",
+    "options": [
+      "逼迫",
+      "圧迫",
+      "脅迫",
+      "切迫"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「逼迫」。「圧迫」、「脅迫」、「切迫」在此语境下不自然。",
+    "translation": "情势（变化）。"
+  },
+  {
+    "id": 1148,
+    "cat": "context_vocab",
+    "sentence": "期限が（　　）する。",
+    "options": [
+      "切迫",
+      "逼迫",
+      "圧迫",
+      "急迫"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「切迫」。「逼迫」、「圧迫」、「急迫」在此语境下不自然。",
+    "translation": "期限（迫近）。"
+  },
+  {
+    "id": 1149,
+    "cat": "context_vocab",
+    "sentence": "危機が（　　）する。",
+    "options": [
+      "差し迫る",
+      "押し迫る",
+      "引き迫る",
+      "立ち迫る"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「差し迫る」。「押し迫る」、「引き迫る」、「立ち迫る」在此语境下不自然。",
+    "translation": "危机（迫近）。"
+  },
+  {
+    "id": 1150,
+    "cat": "context_vocab",
+    "sentence": "証拠が（　　）している。",
+    "options": [
+      "歴然",
+      "明然",
+      "判然",
+      "当然"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「歴然」。「明然」、「判然」、「当然」在此语境下不自然。",
+    "translation": "证据（充足）。"
+  },
+  {
+    "id": 1151,
+    "cat": "context_vocab",
+    "sentence": "事実は（　　）だ。",
+    "options": [
+      "明白",
+      "明瞭",
+      "明快",
+      "明朗"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「明白」。「明瞭」、「明快」、「明朗」在此语境下不自然。",
+    "translation": "事实（明确）。"
+  },
+  {
+    "id": 1152,
+    "cat": "context_vocab",
+    "sentence": "疑いが（　　）する。",
+    "options": [
+      "晴れる",
+      "消える",
+      "解ける",
+      "失せる"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「晴れる」。「消える」、「解ける」、「失せる」在此语境下不自然。",
+    "translation": "疑问（产生）。"
+  },
+  {
+    "id": 1153,
+    "cat": "context_vocab",
+    "sentence": "疑念を（　　）する。",
+    "options": [
+      "抱く",
+      "持つ",
+      "有する",
+      "保つ"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「抱く」。「持つ」、「有する」、「保つ」在此语境下不自然。",
+    "translation": "（抱有）疑念。"
+  },
+  {
+    "id": 1154,
+    "cat": "context_vocab",
+    "sentence": "不信感を（　　）する。",
+    "options": [
+      "募らせる",
+      "強める",
+      "高める",
+      "増やす"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「募らせる」。「強める」、「高める」、「増やす」在此语境下不自然。",
+    "translation": "（抱有）不信感。"
+  },
+  {
+    "id": 1155,
+    "cat": "context_vocab",
+    "sentence": "信頼関係を（　　）する。",
+    "options": [
+      "築く",
+      "作る",
+      "建てる",
+      "立てる"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「築く」。「作る」、「建てる」、「立てる」在此语境下不自然。",
+    "translation": "（建立）信赖关系。"
+  },
+  {
+    "id": 1156,
+    "cat": "context_vocab",
+    "sentence": "絆を（　　）する。",
+    "options": [
+      "深める",
+      "厚める",
+      "濃める",
+      "強める"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「深める」。「厚める」、「濃める」、「強める」在此语境下不自然。",
+    "translation": "（加深）羁绊。"
+  },
+  {
+    "id": 1157,
+    "cat": "context_vocab",
+    "sentence": "友情を（　　）する。",
+    "options": [
+      "育む",
+      "養う",
+      "培う",
+      "育てる"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「育む」。「養う」、「培う」、「育てる」在此语境下不自然。",
+    "translation": "（深化）友情。"
+  },
+  {
+    "id": 1158,
+    "cat": "context_vocab",
+    "sentence": "忍耐力を（　　）する。",
+    "options": [
+      "培う",
+      "養う",
+      "育む",
+      "鍛える"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「培う」。「養う」、「育む」、「鍛える」在此语境下不自然。",
+    "translation": "（养成）忍耐力。"
+  },
+  {
+    "id": 1159,
+    "cat": "context_vocab",
+    "sentence": "知識を（　　）する。",
+    "options": [
+      "培う",
+      "養う",
+      "育む",
+      "鍛える"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「培う」。「養う」、「育む」、「鍛える」在此语境下不自然。",
+    "translation": "（积累）知识。"
+  },
+  {
+    "id": 1160,
+    "cat": "context_vocab",
+    "sentence": "実力を（　　）する。",
+    "options": [
+      "養う",
+      "培う",
+      "育む",
+      "鍛える"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「養う」。「培う」、「育む」、「鍛える」在此语境下不自然。",
+    "translation": "（发挥）实力。"
+  },
+  {
+    "id": 1161,
+    "cat": "context_vocab",
+    "sentence": "勘を（　　）する。",
+    "options": [
+      "養う",
+      "培う",
+      "育む",
+      "鍛える"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「養う」。「培う」、「育む」、「鍛える」在此语境下不自然。",
+    "translation": "（运用）直觉。"
+  },
+  {
+    "id": 1162,
+    "cat": "context_vocab",
+    "sentence": "才能を（　　）する。",
+    "options": [
+      "開花",
+      "満開",
+      "花開",
+      "開放"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「開花」。「満開」、「花開」、「開放」在此语境下不自然。",
+    "translation": "（开发）才能。"
+  },
+  {
+    "id": 1163,
+    "cat": "context_vocab",
+    "sentence": "アイデアを（　　）する。",
+    "options": [
+      "練る",
+      "磨く",
+      "築く",
+      "鍛える"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「練る」。「磨く」、「築く」、「鍛える」在此语境下不自然。",
+    "translation": "（产生）主意。"
+  },
+  {
+    "id": 1164,
+    "cat": "context_vocab",
+    "sentence": "文章を（　　）する。",
+    "options": [
+      "推敲",
+      "推測",
+      "推理",
+      "推薦"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「推敲」。「推測」、「推理」、「推薦」在此语境下不自然。",
+    "translation": "（撰写）文章。"
+  },
+  {
+    "id": 1165,
+    "cat": "context_vocab",
+    "sentence": "結論を（　　）する。",
+    "options": [
+      "導出",
+      "抽出",
+      "排出",
+      "算出"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「導出」。「抽出」、「排出」、「算出」在此语境下不自然。",
+    "translation": "（得出）结论。"
+  },
+  {
+    "id": 1166,
+    "cat": "context_vocab",
+    "sentence": "答えを（　　）する。",
+    "options": [
+      "導き出",
+      "引き出",
+      "取り出",
+      "送り出"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「導き出」。「引き出」、「取り出」、「送り出」在此语境下不自然。",
+    "translation": "（作出）答案。"
+  },
+  {
+    "id": 1167,
+    "cat": "context_vocab",
+    "sentence": "真実を（　　）する。",
+    "options": [
+      "見抜く",
+      "見破る",
+      "見通す",
+      "見極める"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「見抜く」。「見破る」、「見通す」、「見極める」在此语境下不自然。",
+    "translation": "（追求）真实。"
+  },
+  {
+    "id": 1168,
+    "cat": "context_vocab",
+    "sentence": "本質を（　　）する。",
+    "options": [
+      "見極める",
+      "見抜く",
+      "見通す",
+      "見破る"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「見極める」。「見抜く」、「見通す」、「見破る」在此语境下不自然。",
+    "translation": "（看清）本质。"
+  },
+  {
+    "id": 1169,
+    "cat": "context_vocab",
+    "sentence": "将来を（　　）する。",
+    "options": [
+      "見据える",
+      "見通す",
+      "見抜く",
+      "見極める"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「見据える」。「見通す」、「見抜く」、「見極める」在此语境下不自然。",
+    "translation": "（预测）将来。"
+  },
+  {
+    "id": 1170,
+    "cat": "context_vocab",
+    "sentence": "現実を（　　）する。",
+    "options": [
+      "直視",
+      "凝視",
+      "注視",
+      "重視"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「直視」。「凝視」、「注視」、「重視」在此语境下不自然。",
+    "translation": "（接受）现实。"
+  },
+  {
+    "id": 1171,
+    "cat": "context_vocab",
+    "sentence": "現状を（　　）する。",
+    "options": [
+      "打破",
+      "打開",
+      "破壊",
+      "突破"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「打破」。「打開」、「破壊」、「突破」在此语境下不自然。",
+    "translation": "（把握）现状。"
+  },
+  {
+    "id": 1172,
+    "cat": "context_vocab",
+    "sentence": "困難を（　　）する。",
+    "options": [
+      "克服",
+      "征服",
+      "制服",
+      "屈服"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「克服」。「征服」、「制服」、「屈服」在此语境下不自然。",
+    "translation": "（克服）困难。"
+  },
+  {
+    "id": 1173,
+    "cat": "context_vocab",
+    "sentence": "壁を（　　）する。",
+    "options": [
+      "乗り越える",
+      "飛び越える",
+      "通り越す",
+      "越える"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「乗り越える」。「飛び越える」、「通り越す」、「越える」在此语境下不自然。",
+    "translation": "（突破）壁垒。"
+  },
+  {
+    "id": 1174,
+    "cat": "context_vocab",
+    "sentence": "逆境を（　　）する。",
+    "options": [
+      "はね返す",
+      "はね除く",
+      "はね上げる",
+      "はねつける"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「はね返す」。「はね除く」、「はね上げる」、「はねつける」在此语境下不自然。",
+    "translation": "（战胜）逆境。"
+  },
+  {
+    "id": 1175,
+    "cat": "context_vocab",
+    "sentence": "批判を（　　）する。",
+    "options": [
+      "浴びる",
+      "受ける",
+      "被る",
+      "蒙る"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「浴びる」。「受ける」、「被る」、「蒙る」在此语境下不自然。",
+    "translation": "（承受）批评。"
+  },
+  {
+    "id": 1176,
+    "cat": "context_vocab",
+    "sentence": "非難を（　　）する。",
+    "options": [
+      "浴びせる",
+      "与える",
+      "向ける",
+      "投げる"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「浴びせる」。「与える」、「向ける」、「投げる」在此语境下不自然。",
+    "translation": "（遭受）非难。"
+  },
+  {
+    "id": 1177,
+    "cat": "context_vocab",
+    "sentence": "重圧に（　　）する。",
+    "options": [
+      "耐える",
+      "堪える",
+      "辛える",
+      "忍える"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「耐える」。「堪える」、「辛える」、「忍える」在此语境下不自然。",
+    "translation": "（承受）重压。"
+  },
+  {
+    "id": 1178,
+    "cat": "context_vocab",
+    "sentence": "試練を（　　）する。",
+    "options": [
+      "乗り切る",
+      "切り抜け",
+      "切り開く",
+      "切り替え"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「乗り切る」。「切り抜け」、「切り開く」、「切り替え」在此语境下不自然。",
+    "translation": "（经历）试炼。"
+  },
+  {
+    "id": 1179,
+    "cat": "context_vocab",
+    "sentence": "苦境を（　　）する。",
+    "options": [
+      "脱する",
+      "抜ける",
+      "逃れる",
+      "逃げる"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「脱する」。「抜ける」、「逃れる」、「逃げる」在此语境下不自然。",
+    "translation": "（脱出）苦境。"
+  },
+  {
+    "id": 1180,
+    "cat": "context_vocab",
+    "sentence": "窮地に（　　）する。",
+    "options": [
+      "陥る",
+      "落ちる",
+      "沈む",
+      "はまる"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「陥る」。「落ちる」、「沈む」、「はまる」在此语境下不自然。",
+    "translation": "（陷入）困境。"
+  },
+  {
+    "id": 1181,
+    "cat": "context_vocab",
+    "sentence": "悲嘆に（　　）する。",
+    "options": [
+      "暮れる",
+      "浸る",
+      "沈む",
+      "沈殿"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「暮れる」。「浸る」、「沈む」、「沈殿」在此语境下不自然。",
+    "translation": "（陷入）悲叹。"
+  },
+  {
+    "id": 1182,
+    "cat": "context_vocab",
+    "sentence": "希望を（　　）する。",
+    "options": [
+      "抱く",
+      "持つ",
+      "願う",
+      "望む"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「抱く」。「持つ」、「願う」、「望む」在此语境下不自然。",
+    "translation": "（抱）希望。"
+  },
+  {
+    "id": 1183,
+    "cat": "context_vocab",
+    "sentence": "期待を（　　）する。",
+    "options": [
+      "寄せる",
+      "向ける",
+      "注ぐ",
+      "込める"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「寄せる」。「向ける」、「注ぐ」、「込める」在此语境下不自然。",
+    "translation": "（期望）期待。"
+  },
+  {
+    "id": 1184,
+    "cat": "context_vocab",
+    "sentence": "信頼を（　　）する。",
+    "options": [
+      "寄せる",
+      "与える",
+      "注ぐ",
+      "向ける"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「寄せる」。「与える」、「注ぐ」、「向ける」在此语境下不自然。",
+    "translation": "（取得）信赖。"
+  },
+  {
+    "id": 1185,
+    "cat": "context_vocab",
+    "sentence": "決意を（　　）する。",
+    "options": [
+      "新た",
+      "改新",
+      "一新",
+      "更新"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「新た」。「改新」、「一新」、「更新」在此语境下不自然。",
+    "translation": "（下定）决心。"
+  },
+  {
+    "id": 1186,
+    "cat": "context_vocab",
+    "sentence": "覚悟を（　　）する。",
+    "options": [
+      "決める",
+      "固める",
+      "持つ",
+      "据える"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「決める」。「固める」、「持つ」、「据える」在此语境下不自然。",
+    "translation": "（做好）觉悟。"
+  },
+  {
+    "id": 1187,
+    "cat": "context_vocab",
+    "sentence": "腹を（　　）する。",
+    "options": [
+      "括る",
+      "決める",
+      "固める",
+      "据える"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「括る」。「決める」、「固める」、「据える」在此语境下不自然。",
+    "translation": "（下定）决心。"
+  },
+  {
+    "id": 1188,
+    "cat": "context_vocab",
+    "sentence": "目を（　　）する。",
+    "options": [
+      "見張る",
+      "見開く",
+      "見通す",
+      "見抜く"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「見張る」。「見開く」、「見通す」、「見抜く」在此语境下不自然。",
+    "translation": "（引人）目光。"
+  },
+  {
+    "id": 1189,
+    "cat": "context_vocab",
+    "sentence": "耳を（　　）する。",
+    "options": [
+      "傾ける",
+      "澄ます",
+      "塞ぐ",
+      "疑う"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「傾ける」。「澄ます」、「塞ぐ」、「疑う」在此语境下不自然。",
+    "translation": "（倾听）耳朵。"
+  },
+  {
+    "id": 1191,
+    "cat": "context_vocab",
+    "sentence": "手を（　　）する。",
+    "options": [
+      "焼く",
+      "焙る",
+      "焦がす",
+      "煮る"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「焼く」。「焙る」、「焦がす」、「煮る」在此语境下不自然。",
+    "translation": "（下手）手。"
+  },
+  {
+    "id": 1192,
+    "cat": "context_vocab",
+    "sentence": "足を（　　）する。",
+    "options": [
+      "引っ張る",
+      "引っ掛け",
+      "引き裂く",
+      "引き上げ"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「引っ張る」。「引っ掛け」、「引き裂く」、「引き上げ」在此语境下不自然。",
+    "translation": "（举）步。"
+  },
+  {
+    "id": 1193,
+    "cat": "context_vocab",
+    "sentence": "頭が（　　）する。",
+    "options": [
+      "痛い",
+      "固い",
+      "重い",
+      "鈍い"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「痛い」。「固い」、「重い」、「鈍い」在此语境下不自然。",
+    "translation": "（聪明）头脑。"
+  },
+  {
+    "id": 1194,
+    "cat": "context_vocab",
+    "sentence": "気が（　　）する。",
+    "options": [
+      "重い",
+      "軽い",
+      "多い",
+      "短い"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「重い」。「軽い」、「多い」、「短い」在此语境下不自然。",
+    "translation": "（觉得）心情。"
+  },
+  {
+    "id": 1195,
+    "cat": "context_vocab",
+    "sentence": "腰が（　　）する。",
+    "options": [
+      "重い",
+      "低い",
+      "軽い",
+      "強い"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「重い」。「低い」、「軽い」、「強い」在此语境下不自然。",
+    "translation": "（起）身。"
+  },
+  {
+    "id": 1196,
+    "cat": "context_vocab",
+    "sentence": "肩の荷が（　　）する。",
+    "options": [
+      "下りる",
+      "上がる",
+      "重い",
+      "軽い"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「下りる」。「上がる」、「重い」、「軽い」在此语境下不自然。",
+    "translation": "肩上重担（卸下）。"
+  },
+  {
+    "id": 1197,
+    "cat": "context_vocab",
+    "sentence": "胸を（　　）する。",
+    "options": [
+      "張る",
+      "開く",
+      "打つ",
+      "躍る"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「張る」。「開く」、「打つ」、「躍る」在此语境下不自然。",
+    "translation": "（感激）胸。"
+  },
+  {
+    "id": 1198,
+    "cat": "context_vocab",
+    "sentence": "肝を（　　）する。",
+    "options": [
+      "冷やす",
+      "潰す",
+      "据える",
+      "抜く"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「冷やす」。「潰す」、「据える」、「抜く」在此语境下不自然。",
+    "translation": "（惊）心。"
+  },
+  {
+    "id": 1199,
+    "cat": "context_vocab",
+    "sentence": "骨を（　　）する。",
+    "options": [
+      "折る",
+      "砕く",
+      "埋める",
+      "惜しむ"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「折る」。「砕く」、「埋める」、「惜しむ」在此语境下不自然。",
+    "translation": "（费）骨。"
+  },
+  {
+    "id": 1200,
+    "cat": "context_vocab",
+    "sentence": "筆を（　　)する。",
+    "options": [
+      "執る",
+      "振る",
+      "置く",
+      "握る"
+    ],
+    "answer": 0,
+    "explanation": "根据句意，空白处应填「執る」。「振る」、「置く」、「握る」在此语境下不自然。",
+    "translation": "（执）笔。"
+  },
+  {
+    "id": 1201,
+    "cat": "paraphrase",
+    "sentence": "彼は殊に優秀な学生だ。",
+    "target": "殊に",
+    "options": [
+      "特に",
+      "偶に",
+      "滅多に",
+      "あまり"
+    ],
+    "answer": 0,
+    "explanation": "「殊に」的近义表达是「特に」，两者意思最接近。",
+    "translation": "他是尤其优秀的学生。"
+  },
+  {
+    "id": 1202,
+    "cat": "paraphrase",
+    "sentence": "殊更取り上げる必要はない。",
+    "target": "殊更",
+    "options": [
+      "わざわざ",
+      "偶然",
+      "自然に",
+      "無意識に"
+    ],
+    "answer": 0,
+    "explanation": "「殊更」的近义表达是「わざわざ」，两者意思最接近。",
+    "translation": "无需特意提及。"
+  },
+  {
+    "id": 1203,
+    "cat": "paraphrase",
+    "sentence": "心底彼を尊敬している。",
+    "target": "心底",
+    "options": [
+      "本当に",
+      "表面的に",
+      "形式的に",
+      "一応"
+    ],
+    "answer": 0,
+    "explanation": "「心底」的近义表达是「本当に」，两者意思最接近。",
+    "translation": "衷心尊敬他。"
+  },
+  {
+    "id": 1204,
+    "cat": "paraphrase",
+    "sentence": "頗る調子がいい。",
+    "target": "頗る",
+    "options": [
+      "非常に",
+      "少し",
+      "まあまあ",
+      "あまり"
+    ],
+    "answer": 0,
+    "explanation": "「頗る」的近义表达是「非常に」，两者意思最接近。",
+    "translation": "状态极好。"
+  },
+  {
+    "id": 1205,
+    "cat": "paraphrase",
+    "sentence": "概ね賛成だ。",
+    "target": "概ね",
+    "options": [
+      "だいたい",
+      "絶対",
+      "完全に",
+      "全く"
+    ],
+    "answer": 0,
+    "explanation": "「概ね」的近义表达是「だいたい」，两者意思最接近。",
+    "translation": "大致赞成。"
+  },
+  {
+    "id": 1206,
+    "cat": "paraphrase",
+    "sentence": "極めて重要な問題だ。",
+    "target": "極めて",
+    "options": [
+      "非常に",
+      "少し",
+      "まあまあ",
+      "あまり"
+    ],
+    "answer": 0,
+    "explanation": "「極めて」的近义表达是「非常に」，两者意思最接近。",
+    "translation": "极其重要的问题。"
+  },
+  {
+    "id": 1207,
+    "cat": "paraphrase",
+    "sentence": "彼は滅多に怒らない。",
+    "target": "滅多に",
+    "options": [
+      "ほとんど",
+      "頻繁に",
+      "時々",
+      "いつも"
+    ],
+    "answer": 0,
+    "explanation": "「滅多に」的近义表达是「ほとんど」，两者意思最接近。",
+    "translation": "他很少生气。"
+  },
+  {
+    "id": 1208,
+    "cat": "paraphrase",
+    "sentence": "ことごとく失敗した。",
+    "target": "ことごとく",
+    "options": [
+      "全て",
+      "一部",
+      "たまに",
+      "時々"
+    ],
+    "answer": 0,
+    "explanation": "「ことごとく」的近义表达是「全て」，两者意思最接近。",
+    "translation": "全部失败。"
+  },
+  {
+    "id": 1209,
+    "cat": "paraphrase",
+    "sentence": "ひたすら謝り続けた。",
+    "target": "ひたすら",
+    "options": [
+      "ずっと",
+      "少し",
+      "時々",
+      "たまに"
+    ],
+    "answer": 0,
+    "explanation": "「ひたすら」的近义表达是「ずっと」，两者意思最接近。",
+    "translation": "一味道歉。"
+  },
+  {
+    "id": 1210,
+    "cat": "paraphrase",
+    "sentence": "もっぱら勉強している。",
+    "target": "もっぱら",
+    "options": [
+      "主に",
+      "たまに",
+      "時々",
+      "少し"
+    ],
+    "answer": 0,
+    "explanation": "「もっぱら」的近义表达是「主に」，两者意思最接近。",
+    "translation": "专心学习。"
+  },
+  {
+    "id": 1211,
+    "cat": "paraphrase",
+    "sentence": "あくまで反対する。",
+    "target": "あくまで",
+    "options": [
+      "どこまでも",
+      "少しだけ",
+      "一応",
+      "形だけ"
+    ],
+    "answer": 0,
+    "explanation": "「あくまで」的近义表达是「どこまでも」，两者意思最接近。",
+    "translation": "坚决反对。"
+  },
+  {
+    "id": 1212,
+    "cat": "paraphrase",
+    "sentence": "あえて言わせてもらう。",
+    "target": "あえて",
+    "options": [
+      "わざと",
+      "偶然",
+      "自然に",
+      "無意識に"
+    ],
+    "answer": 0,
+    "explanation": "「あえて」的近义表达是「わざと」，两者意思最接近。",
+    "translation": "敢于让我说。"
+  },
+  {
+    "id": 1213,
+    "cat": "paraphrase",
+    "sentence": "しいて言えば赤が好きだ。",
+    "target": "しいて",
+    "options": [
+      "無理に",
+      "自然に",
+      "簡単に",
+      "気軽に"
+    ],
+    "answer": 0,
+    "explanation": "「しいて」的近义表达是「無理に」，两者意思最接近。",
+    "translation": "硬要说的话喜欢红。"
+  },
+  {
+    "id": 1214,
+    "cat": "paraphrase",
+    "sentence": "それならなおさら行くべきだ。",
+    "target": "なおさら",
+    "options": [
+      "一層",
+      "少し",
+      "あまり",
+      "ほとんど"
+    ],
+    "answer": 0,
+    "explanation": "「なおさら」的近义表达是「一層」，两者意思最接近。",
+    "translation": "那更该去。"
+  },
+  {
+    "id": 1215,
+    "cat": "paraphrase",
+    "sentence": "辛うじて合格した。",
+    "target": "辛うじて",
+    "options": [
+      "何とか",
+      "簡単に",
+      "楽に",
+      "自然に"
+    ],
+    "answer": 0,
+    "explanation": "「辛うじて」的近义表达是「何とか」，两者意思最接近。",
+    "translation": "勉强合格。"
+  },
+  {
+    "id": 1216,
+    "cat": "paraphrase",
+    "sentence": "準備万端だ。",
+    "target": "万端",
+    "options": [
+      "すべて",
+      "一部",
+      "少し",
+      "半分"
+    ],
+    "answer": 0,
+    "explanation": "「万端」的近义表达是「すべて」，两者意思最接近。",
+    "translation": "准备万全。"
+  },
+  {
+    "id": 1217,
+    "cat": "paraphrase",
+    "sentence": "万全の対策を講じる。",
+    "target": "万全",
+    "options": [
+      "完全",
+      "一部",
+      "半分",
+      "少し"
+    ],
+    "answer": 0,
+    "explanation": "「万全」的近义表达是「完全」，两者意思最接近。",
+    "translation": "采取万全对策。"
+  },
+  {
+    "id": 1218,
+    "cat": "paraphrase",
+    "sentence": "支払いが滞っている。",
+    "target": "滞って",
+    "options": [
+      "遅れて",
+      "進んで",
+      "早まって",
+      "完了して"
+    ],
+    "answer": 0,
+    "explanation": "「滞って」的近义表达是「遅れて」，两者意思最接近。",
+    "translation": "支付拖延。"
+  },
+  {
+    "id": 1219,
+    "cat": "paraphrase",
+    "sentence": "仕事を怠るな。",
+    "target": "怠る",
+    "options": [
+      "サボる",
+      "励む",
+      "頑張る",
+      "取り組む"
+    ],
+    "answer": 0,
+    "explanation": "「怠る」的近义表达是「サボる」，两者意思最接近。",
+    "translation": "别怠惰工作。"
+  },
+  {
+    "id": 1220,
+    "cat": "paraphrase",
+    "sentence": "店を営んでいる。",
+    "target": "営んで",
+    "options": [
+      "経営して",
+      "働いて",
+      "訪れて",
+      "利用して"
+    ],
+    "answer": 0,
+    "explanation": "「営んで」的近义表达是「経営して」，两者意思最接近。",
+    "translation": "经营店铺。"
+  },
+  {
+    "id": 1221,
+    "cat": "paraphrase",
+    "sentence": "研究に携わる。",
+    "target": "携わる",
+    "options": [
+      "関わる",
+      "離れる",
+      "避ける",
+      "無視する"
+    ],
+    "answer": 0,
+    "explanation": "「携わる」的近义表达是「関わる」，两者意思最接近。",
+    "translation": "从事研究。"
+  },
+  {
+    "id": 1222,
+    "cat": "paraphrase",
+    "sentence": "決定を委ねる。",
+    "target": "委ねる",
+    "options": [
+      "任せる",
+      "奪う",
+      "拒む",
+      "断る"
+    ],
+    "answer": 0,
+    "explanation": "「委ねる」的近义表达是「任せる」，两者意思最接近。",
+    "translation": "委托决定。"
+  },
+  {
+    "id": 1223,
+    "cat": "paraphrase",
+    "sentence": "信念を貫く。",
+    "target": "貫く",
+    "options": [
+      "やり通す",
+      "諦める",
+      "放棄する",
+      "変える"
+    ],
+    "answer": 0,
+    "explanation": "「貫く」的近义表达是「やり通す」，两者意思最接近。",
+    "translation": "贯彻信念。"
+  },
+  {
+    "id": 1224,
+    "cat": "paraphrase",
+    "sentence": "目標を遂げる。",
+    "target": "遂げる",
+    "options": [
+      "達成する",
+      "諦める",
+      "放棄する",
+      "失う"
+    ],
+    "answer": 0,
+    "explanation": "「遂げる」的近义表达是「達成する」，两者意思最接近。",
+    "translation": "达成目标。"
+  },
+  {
+    "id": 1225,
+    "cat": "paraphrase",
+    "sentence": "事業を手掛ける。",
+    "target": "手掛ける",
+    "options": [
+      "担当する",
+      "放棄する",
+      "諦める",
+      "拒む"
+    ],
+    "answer": 0,
+    "explanation": "「手掛ける」的近义表达是「担当する」，两者意思最接近。",
+    "translation": "经手事业。"
+  },
+  {
+    "id": 1226,
+    "cat": "paraphrase",
+    "sentence": "ご依頼を承る。",
+    "target": "承る",
+    "options": [
+      "受ける",
+      "断る",
+      "拒む",
+      "返す"
+    ],
+    "answer": 0,
+    "explanation": "「承る」的近义表达是「受ける」，两者意思最接近。",
+    "translation": "恭敬承接委托。"
+  },
+  {
+    "id": 1227,
+    "cat": "paraphrase",
+    "sentence": "お言葉を賜る。",
+    "target": "賜る",
+    "options": [
+      "いただく",
+      "与える",
+      "捨てる",
+      "返す"
+    ],
+    "answer": 0,
+    "explanation": "「賜る」的近义表达是「いただく」，两者意思最接近。",
+    "translation": "承蒙赐言。"
+  },
+  {
+    "id": 1228,
+    "cat": "paraphrase",
+    "sentence": "報告の概要を述べる。",
+    "target": "概要",
+    "options": [
+      "あらまし",
+      "詳細",
+      "全文",
+      "原稿"
+    ],
+    "answer": 0,
+    "explanation": "「概要」的近义表达是「あらまし」，两者意思最接近。",
+    "translation": "陈述报告概要。"
+  },
+  {
+    "id": 1229,
+    "cat": "paraphrase",
+    "sentence": "話の大筋を理解する。",
+    "target": "大筋",
+    "options": [
+      "概略",
+      "詳細",
+      "全文",
+      "結論"
+    ],
+    "answer": 0,
+    "explanation": "「大筋」的近义表达是「概略」，两者意思最接近。",
+    "translation": "理解话的大致。"
+  },
+  {
+    "id": 1230,
+    "cat": "paraphrase",
+    "sentence": "論文の要旨をまとめる。",
+    "target": "要旨",
+    "options": [
+      "ポイント",
+      "詳細",
+      "全文",
+      "結論"
+    ],
+    "answer": 0,
+    "explanation": "「要旨」的近义表达是「ポイント」，两者意思最接近。",
+    "translation": "总结论文要点。"
+  },
+  {
+    "id": 1231,
+    "cat": "paraphrase",
+    "sentence": "緊急事態が発生した。",
+    "target": "事態",
+    "options": [
+      "状況",
+      "予定",
+      "計画",
+      "方針"
+    ],
+    "answer": 0,
+    "explanation": "「事態」的近义表达是「状況」，两者意思最接近。",
+    "translation": "发生紧急事态。"
+  },
+  {
+    "id": 1232,
+    "cat": "paraphrase",
+    "sentence": "事件の様相を呈する。",
+    "target": "様相",
+    "options": [
+      "様子",
+      "結果",
+      "原因",
+      "対策"
+    ],
+    "answer": 0,
+    "explanation": "「様相」的近义表达是「様子」，两者意思最接近。",
+    "translation": "事件呈现样相。"
+  },
+  {
+    "id": 1233,
+    "cat": "paraphrase",
+    "sentence": "問題の本質を捉える。",
+    "target": "本質",
+    "options": [
+      "核心",
+      "表面",
+      "形式",
+      "装飾"
+    ],
+    "answer": 0,
+    "explanation": "「本質」的近义表达是「核心」，两者意思最接近。",
+    "translation": "把握问题本质。"
+  },
+  {
+    "id": 1234,
+    "cat": "paraphrase",
+    "sentence": "芸術の真髄に触れる。",
+    "target": "真髄",
+    "options": [
+      "本質",
+      "表面",
+      "装飾",
+      "形式"
+    ],
+    "answer": 0,
+    "explanation": "「真髄」的近义表达是「本質」，两者意思最接近。",
+    "translation": "触及艺术真髓。"
+  },
+  {
+    "id": 1235,
+    "cat": "paraphrase",
+    "sentence": "彼の真意を探る。",
+    "target": "真意",
+    "options": [
+      "本当の気持ち",
+      "表向きの意見",
+      "一般論",
+      "建前"
+    ],
+    "answer": 0,
+    "explanation": "「真意」的近义表达是「本当の気持ち」，两者意思最接近。",
+    "translation": "探他的真意。"
+  },
+  {
+    "id": 1236,
+    "cat": "paraphrase",
+    "sentence": "彼は本音を語った。",
+    "target": "本音",
+    "options": [
+      "本心",
+      "建前",
+      "世辞",
+      "表向き"
+    ],
+    "answer": 0,
+    "explanation": "「本音」的近义表达是「本心」，两者意思最接近。",
+    "translation": "他说了真心话。"
+  },
+  {
+    "id": 1237,
+    "cat": "paraphrase",
+    "sentence": "建前で話す。",
+    "target": "建前",
+    "options": [
+      "表向き",
+      "本心",
+      "本音",
+      "真意"
+    ],
+    "answer": 0,
+    "explanation": "「建前」的近义表达是「表向き」，两者意思最接近。",
+    "translation": "以表面话说话。"
+  },
+  {
+    "id": 1238,
+    "cat": "paraphrase",
+    "sentence": "将来を憂慮する。",
+    "target": "憂慮",
+    "options": [
+      "心配",
+      "期待",
+      "希望",
+      "安心"
+    ],
+    "answer": 0,
+    "explanation": "「憂慮」的近义表达是「心配」，两者意思最接近。",
+    "translation": "忧虑将来。"
+  },
+  {
+    "id": 1239,
+    "cat": "paraphrase",
+    "sentence": "副作用を懸念する。",
+    "target": "懸念",
+    "options": [
+      "不安",
+      "期待",
+      "希望",
+      "安心"
+    ],
+    "answer": 0,
+    "explanation": "「懸念」的近义表达是「不安」，两者意思最接近。",
+    "translation": "担忧副作用。"
+  },
+  {
+    "id": 1240,
+    "cat": "paraphrase",
+    "sentence": "景気悪化を危惧する。",
+    "target": "危惧",
+    "options": [
+      "心配",
+      "期待",
+      "希望",
+      "安心"
+    ],
+    "answer": 0,
+    "explanation": "「危惧」的近义表达是「心配」，两者意思最接近。",
+    "translation": "危惧景气恶化。"
+  },
+  {
+    "id": 1241,
+    "cat": "paraphrase",
+    "sentence": "政策に反発する。",
+    "target": "反発",
+    "options": [
+      "抵抗",
+      "賛成",
+      "同意",
+      "支持"
+    ],
+    "answer": 0,
+    "explanation": "「反発」的近义表达是「抵抗」，两者意思最接近。",
+    "translation": "反对政策。"
+  },
+  {
+    "id": 1242,
+    "cat": "paraphrase",
+    "sentence": "会議が円滑に進む。",
+    "target": "円滑",
+    "options": [
+      "スムーズ",
+      "停滞",
+      "混乱",
+      "困難"
+    ],
+    "answer": 0,
+    "explanation": "「円滑」的近义表达是「スムーズ」，两者意思最接近。",
+    "translation": "会议圆滑进行。"
+  },
+  {
+    "id": 1243,
+    "cat": "paraphrase",
+    "sentence": "流暢な英語を話す。",
+    "target": "流暢",
+    "options": [
+      "なめらか",
+      "たどたどしい",
+      "ぎこちない",
+      "不自然"
+    ],
+    "answer": 0,
+    "explanation": "「流暢」的近义表达是「なめらか」，两者意思最接近。",
+    "translation": "说流畅英语。"
+  },
+  {
+    "id": 1244,
+    "cat": "paraphrase",
+    "sentence": "克明な記録を残す。",
+    "target": "克明",
+    "options": [
+      "詳細",
+      "簡単",
+      "大雑把",
+      "粗い"
+    ],
+    "answer": 0,
+    "explanation": "「克明」的近义表达是「詳細」，两者意思最接近。",
+    "translation": "留下克明记录。"
+  },
+  {
+    "id": 1245,
+    "cat": "paraphrase",
+    "sentence": "曖昧な返答をする。",
+    "target": "曖昧",
+    "options": [
+      "はっきりしない",
+      "明確",
+      "鮮明",
+      "明白"
+    ],
+    "answer": 0,
+    "explanation": "「曖昧」的近义表达是「はっきりしない」，两者意思最接近。",
+    "translation": "做模糊回答。"
+  },
+  {
+    "id": 1246,
+    "cat": "paraphrase",
+    "sentence": "漠然とした不安を感じる。",
+    "target": "漠然",
+    "options": [
+      "ぼんやり",
+      "はっきり",
+      "明確",
+      "鮮明"
+    ],
+    "answer": 0,
+    "explanation": "「漠然」的近义表达是「ぼんやり」，两者意思最接近。",
+    "translation": "感到漠然的不安。"
+  },
+  {
+    "id": 1247,
+    "cat": "paraphrase",
+    "sentence": "明晰な頭脳の持ち主。",
+    "target": "明晰",
+    "options": [
+      "はっきり",
+      "鈍い",
+      "曖昧",
+      "漠然"
+    ],
+    "answer": 0,
+    "explanation": "「明晰」的近义表达是「はっきり」，两者意思最接近。",
+    "translation": "明晰头脑的持有者。"
+  },
+  {
+    "id": 1248,
+    "cat": "paraphrase",
+    "sentence": "効果が顕著に現れる。",
+    "target": "顕著",
+    "options": [
+      "目立つ",
+      "隠れる",
+      "少ない",
+      "微かな"
+    ],
+    "answer": 0,
+    "explanation": "「顕著」的近义表达是「目立つ」，两者意思最接近。",
+    "translation": "效果显著出现。"
+  },
+  {
+    "id": 1249,
+    "cat": "paraphrase",
+    "sentence": "潜在能力を引き出す。",
+    "target": "潜在",
+    "options": [
+      "隠れている",
+      "表に出る",
+      "明らかな",
+      "顕在化"
+    ],
+    "answer": 0,
+    "explanation": "「潜在」的近义表达是「隠れている」，两者意思最接近。",
+    "translation": "引出潜在能力。"
+  },
+  {
+    "id": 1250,
+    "cat": "paraphrase",
+    "sentence": "時間を費やす。",
+    "target": "費やす",
+    "options": [
+      "使う",
+      "節約する",
+      "貯める",
+      "余らせる"
+    ],
+    "answer": 0,
+    "explanation": "「費やす」的近义表达是「使う」，两者意思最接近。",
+    "translation": "耗费时间。"
+  },
+  {
+    "id": 1251,
+    "cat": "paraphrase",
+    "sentence": "責任を果たす。",
+    "target": "果たす",
+    "options": [
+      "遂行する",
+      "放棄する",
+      "逃れる",
+      "避ける"
+    ],
+    "answer": 0,
+    "explanation": "「果たす」的近义表达是「遂行する」，两者意思最接近。",
+    "translation": "尽责任。"
+  },
+  {
+    "id": 1252,
+    "cat": "paraphrase",
+    "sentence": "紛れもない事実だ。",
+    "target": "紛れもない",
+    "options": [
+      "確かな",
+      "曖昧な",
+      "疑わしい",
+      "不明な"
+    ],
+    "answer": 0,
+    "explanation": "「紛れもない」的近义表达是「確かな」，两者意思最接近。",
+    "translation": "毫无疑问的事实。"
+  },
+  {
+    "id": 1253,
+    "cat": "paraphrase",
+    "sentence": "徐々に回復した。",
+    "target": "徐々に",
+    "options": [
+      "少しずつ",
+      "急激に",
+      "一気に",
+      "突然"
+    ],
+    "answer": 0,
+    "explanation": "「徐々に」的近义表达是「少しずつ」，两者意思最接近。",
+    "translation": "逐渐恢复。"
+  },
+  {
+    "id": 1254,
+    "cat": "paraphrase",
+    "sentence": "一切関与しない。",
+    "target": "一切",
+    "options": [
+      "全く",
+      "少し",
+      "時々",
+      "多少"
+    ],
+    "answer": 0,
+    "explanation": "「一切」的近义表达是「全く」，两者意思最接近。",
+    "translation": "完全不参与。"
+  },
+  {
+    "id": 1255,
+    "cat": "paraphrase",
+    "sentence": "一概には言えない。",
+    "target": "一概に",
+    "options": [
+      "単純に",
+      "詳しく",
+      "具体的に",
+      "明確に"
+    ],
+    "answer": 0,
+    "explanation": "「一概に」的近义表达是「単純に」，两者意思最接近。",
+    "translation": "不能一概而论。"
+  },
+  {
+    "id": 1256,
+    "cat": "paraphrase",
+    "sentence": "一向に改善しない。",
+    "target": "一向に",
+    "options": [
+      "全然",
+      "少し",
+      "かなり",
+      "だいぶ"
+    ],
+    "answer": 0,
+    "explanation": "「一向に」的近义表达是「全然」，两者意思最接近。",
+    "translation": "毫无改善。"
+  },
+  {
+    "id": 1257,
+    "cat": "paraphrase",
+    "sentence": "一層努力する。",
+    "target": "一層",
+    "options": [
+      "もっと",
+      "少し",
+      "あまり",
+      "ほとんど"
+    ],
+    "answer": 0,
+    "explanation": "「一層」的近义表达是「もっと」，两者意思最接近。",
+    "translation": "更加努力。"
+  },
+  {
+    "id": 1258,
+    "cat": "paraphrase",
+    "sentence": "敢えて反論する。",
+    "target": "敢えて",
+    "options": [
+      "わざと",
+      "偶然",
+      "自然に",
+      "無意識に"
+    ],
+    "answer": 0,
+    "explanation": "「敢えて」的近义表达是「わざと」，两者意思最接近。",
+    "translation": "敢于反驳。"
+  },
+  {
+    "id": 1259,
+    "cat": "paraphrase",
+    "sentence": "専ら研究に従事する。",
+    "target": "専ら",
+    "options": [
+      "主に",
+      "たまに",
+      "時々",
+      "少し"
+    ],
+    "answer": 0,
+    "explanation": "「専ら」的近义表达是「主に」，两者意思最接近。",
+    "translation": "专心从事研究。"
+  },
+  {
+    "id": 1261,
+    "cat": "paraphrase",
+    "sentence": "計画を遂行する。",
+    "target": "遂行",
+    "options": [
+      "実行",
+      "中止",
+      "延期",
+      "放棄"
+    ],
+    "answer": 0,
+    "explanation": "「遂行」的近义表达是「実行」，两者意思最接近。",
+    "translation": "遂行计划。"
+  },
+  {
+    "id": 1262,
+    "cat": "paraphrase",
+    "sentence": "職務を履行する。",
+    "target": "履行",
+    "options": [
+      "果たす",
+      "放棄する",
+      "逃れる",
+      "避ける"
+    ],
+    "answer": 0,
+    "explanation": "「履行」的近义表达是「果たす」，两者意思最接近。",
+    "translation": "履行职务。"
+  },
+  {
+    "id": 1263,
+    "cat": "paraphrase",
+    "sentence": "権力を掌握する。",
+    "target": "掌握",
+    "options": [
+      "握る",
+      "手放す",
+      "失う",
+      "譲る"
+    ],
+    "answer": 0,
+    "explanation": "「掌握」的近义表达是「握る」，两者意思最接近。",
+    "translation": "掌握权力。"
+  },
+  {
+    "id": 1264,
+    "cat": "paraphrase",
+    "sentence": "状況を把握する。",
+    "target": "把握",
+    "options": [
+      "理解する",
+      "誤解する",
+      "知らない",
+      "見落とす"
+    ],
+    "answer": 0,
+    "explanation": "「把握」的近义表达是「理解する」，两者意思最接近。",
+    "translation": "把握状况。"
+  },
+  {
+    "id": 1265,
+    "cat": "paraphrase",
+    "sentence": "議案を審議する。",
+    "target": "審議",
+    "options": [
+      "検討",
+      "承認",
+      "否決",
+      "採決"
+    ],
+    "answer": 0,
+    "explanation": "「審議」的近义表达是「検討」，两者意思最接近。",
+    "translation": "审议议案。"
+  },
+  {
+    "id": 1266,
+    "cat": "paraphrase",
+    "sentence": "法案を可決する。",
+    "target": "可決",
+    "options": [
+      "認める",
+      "否決する",
+      "棄却する",
+      "廃案にする"
+    ],
+    "answer": 0,
+    "explanation": "「可決」的近义表达是「認める」，两者意思最接近。",
+    "translation": "可决法案。"
+  },
+  {
+    "id": 1267,
+    "cat": "paraphrase",
+    "sentence": "不正を摘発する。",
+    "target": "摘発",
+    "options": [
+      "暴く",
+      "隠す",
+      "見逃す",
+      "許す"
+    ],
+    "answer": 0,
+    "explanation": "「摘発」的近义表达是「暴く」，两者意思最接近。",
+    "translation": "揭发不正。"
+  },
+  {
+    "id": 1268,
+    "cat": "paraphrase",
+    "sentence": "秘密を暴露する。",
+    "target": "暴露",
+    "options": [
+      "明らかにする",
+      "隠す",
+      "守る",
+      "黙る"
+    ],
+    "answer": 0,
+    "explanation": "「暴露」的近义表达是「明らかにする」，两者意思最接近。",
+    "translation": "暴露秘密。"
+  },
+  {
+    "id": 1269,
+    "cat": "paraphrase",
+    "sentence": "心情を吐露する。",
+    "target": "吐露",
+    "options": [
+      "打ち明ける",
+      "隠す",
+      "偽る",
+      "黙る"
+    ],
+    "answer": 0,
+    "explanation": "「吐露」的近义表达是「打ち明ける」，两者意思最接近。",
+    "translation": "吐露心情。"
+  },
+  {
+    "id": 1270,
+    "cat": "paraphrase",
+    "sentence": "才能を発揮する。",
+    "target": "発揮",
+    "options": [
+      "見せる",
+      "隠す",
+      "失う",
+      "抑える"
+    ],
+    "answer": 0,
+    "explanation": "「発揮」的近义表达是「見せる」，两者意思最接近。",
+    "translation": "发挥才能。"
+  },
+  {
+    "id": 1271,
+    "cat": "paraphrase",
+    "sentence": "経験を蓄積する。",
+    "target": "蓄積",
+    "options": [
+      "積み重ねる",
+      "失う",
+      "忘れる",
+      "捨てる"
+    ],
+    "answer": 0,
+    "explanation": "「蓄積」的近义表达是「積み重ねる」，两者意思最接近。",
+    "translation": "积累经验。"
+  },
+  {
+    "id": 1272,
+    "cat": "paraphrase",
+    "sentence": "問題が山積する。",
+    "target": "山積",
+    "options": [
+      "たくさんたまる",
+      "少ない",
+      "解決する",
+      "消える"
+    ],
+    "answer": 0,
+    "explanation": "「山積」的近义表达是「たくさんたまる」，两者意思最接近。",
+    "translation": "问题堆积。"
+  },
+  {
+    "id": 1273,
+    "cat": "paraphrase",
+    "sentence": "仕事に専念する。",
+    "target": "専念",
+    "options": [
+      "集中する",
+      "放棄する",
+      "逃げる",
+      "避ける"
+    ],
+    "answer": 0,
+    "explanation": "「専念」的近义表达是「集中する」，两者意思最接近。",
+    "translation": "专心工作。"
+  },
+  {
+    "id": 1274,
+    "cat": "paraphrase",
+    "sentence": "研究に没頭する。",
+    "target": "没頭",
+    "options": [
+      "熱中する",
+      "放棄する",
+      "避ける",
+      "嫌う"
+    ],
+    "answer": 0,
+    "explanation": "「没頭」的近义表达是「熱中する」，两者意思最接近。",
+    "translation": "埋头研究。"
+  },
+  {
+    "id": 1275,
+    "cat": "paraphrase",
+    "sentence": "事業に着手する。",
+    "target": "着手",
+    "options": [
+      "始める",
+      "終わる",
+      "やめる",
+      "延期する"
+    ],
+    "answer": 0,
+    "explanation": "「着手」的近义表达是「始める」，两者意思最接近。",
+    "translation": "着手事业。"
+  },
+  {
+    "id": 1276,
+    "cat": "paraphrase",
+    "sentence": "新任地に赴任する。",
+    "target": "赴任",
+    "options": [
+      "向かう",
+      "帰る",
+      "離れる",
+      "辞める"
+    ],
+    "answer": 0,
+    "explanation": "「赴任」的近义表达是「向かう」，两者意思最接近。",
+    "translation": "赴任新岗位。"
+  },
+  {
+    "id": 1277,
+    "cat": "paraphrase",
+    "sentence": "会長に就任する。",
+    "target": "就任",
+    "options": [
+      "就く",
+      "退く",
+      "辞める",
+      "離れる"
+    ],
+    "answer": 0,
+    "explanation": "「就任」的近义表达是「就く」，两者意思最接近。",
+    "translation": "就任会长。"
+  },
+  {
+    "id": 1278,
+    "cat": "paraphrase",
+    "sentence": "業務に従事する。",
+    "target": "従事",
+    "options": [
+      "携わる",
+      "離れる",
+      "避ける",
+      "放棄する"
+    ],
+    "answer": 0,
+    "explanation": "「従事」的近义表达是「携わる」，两者意思最接近。",
+    "translation": "从事业务。"
+  },
+  {
+    "id": 1279,
+    "cat": "paraphrase",
+    "sentence": "伝統を踏襲する。",
+    "target": "踏襲",
+    "options": [
+      "受け継ぐ",
+      "放棄する",
+      "変える",
+      "革新する"
+    ],
+    "answer": 0,
+    "explanation": "「踏襲」的近义表达是「受け継ぐ」，两者意思最接近。",
+    "translation": "袭承传统。"
+  },
+  {
+    "id": 1280,
+    "cat": "paraphrase",
+    "sentence": "規則を遵守する。",
+    "target": "遵守",
+    "options": [
+      "守る",
+      "破る",
+      "無視する",
+      "違反する"
+    ],
+    "answer": 0,
+    "explanation": "「遵守」的近义表达是「守る」，两者意思最接近。",
+    "translation": "遵守规则。"
+  },
+  {
+    "id": 1281,
+    "cat": "paraphrase",
+    "sentence": "期限を厳守する。",
+    "target": "厳守",
+    "options": [
+      "必ず守る",
+      "破る",
+      "無視する",
+      "延ばす"
+    ],
+    "answer": 0,
+    "explanation": "「厳守」的近义表达是「必ず守る」，两者意思最接近。",
+    "translation": "严守期限。"
+  },
+  {
+    "id": 1282,
+    "cat": "paraphrase",
+    "sentence": "秘密を保持する。",
+    "target": "保持",
+    "options": [
+      "保つ",
+      "失う",
+      "捨てる",
+      "忘れる"
+    ],
+    "answer": 0,
+    "explanation": "「保持」的近义表达是「保つ」，两者意思最接近。",
+    "translation": "保守秘密。"
+  },
+  {
+    "id": 1283,
+    "cat": "paraphrase",
+    "sentence": "責任を回避する。",
+    "target": "回避",
+    "options": [
+      "避ける",
+      "負う",
+      "引き受ける",
+      "果たす"
+    ],
+    "answer": 0,
+    "explanation": "「回避」的近义表达是「避ける」，两者意思最接近。",
+    "translation": "回避责任。"
+  },
+  {
+    "id": 1284,
+    "cat": "paraphrase",
+    "sentence": "危険を察知する。",
+    "target": "察知",
+    "options": [
+      "気づく",
+      "無視する",
+      "見落とす",
+      "忘れる"
+    ],
+    "answer": 0,
+    "explanation": "「察知」的近义表达是「気づく」，两者意思最接近。",
+    "translation": "察觉危险。"
+  },
+  {
+    "id": 1285,
+    "cat": "paraphrase",
+    "sentence": "真意を推察する。",
+    "target": "推察",
+    "options": [
+      "推し量る",
+      "断定する",
+      "無視する",
+      "否定する"
+    ],
+    "answer": 0,
+    "explanation": "「推察」的近义表达是「推し量る」，两者意思最接近。",
+    "translation": "推察真意。"
+  },
+  {
+    "id": 1286,
+    "cat": "paraphrase",
+    "sentence": "動向を注視する。",
+    "target": "注視",
+    "options": [
+      "よく見る",
+      "見落とす",
+      "無視する",
+      "放置する"
+    ],
+    "answer": 0,
+    "explanation": "「注視」的近义表达是「よく見る」，两者意思最接近。",
+    "translation": "注视动向。"
+  },
+  {
+    "id": 1287,
+    "cat": "paraphrase",
+    "sentence": "結果を検証する。",
+    "target": "検証",
+    "options": [
+      "確かめる",
+      "無視する",
+      "放置する",
+      "忘れる"
+    ],
+    "answer": 0,
+    "explanation": "「検証」的近义表达是「確かめる」，两者意思最接近。",
+    "translation": "验证结果。"
+  },
+  {
+    "id": 1288,
+    "cat": "paraphrase",
+    "sentence": "原因を究明する。",
+    "target": "究明",
+    "options": [
+      "突き止める",
+      "見逃す",
+      "無視する",
+      "放置する"
+    ],
+    "answer": 0,
+    "explanation": "「究明」的近义表达是「突き止める」，两者意思最接近。",
+    "translation": "查明原因。"
+  },
+  {
+    "id": 1289,
+    "cat": "paraphrase",
+    "sentence": "理論を構築する。",
+    "target": "構築",
+    "options": [
+      "組み立てる",
+      "壊す",
+      "破壊する",
+      "放棄する"
+    ],
+    "answer": 0,
+    "explanation": "「構築」的近义表达是「組み立てる」，两者意思最接近。",
+    "translation": "构筑理论。"
+  },
+  {
+    "id": 1290,
+    "cat": "paraphrase",
+    "sentence": "基盤を確立する。",
+    "target": "確立",
+    "options": [
+      "しっかり作る",
+      "壊す",
+      "崩す",
+      "放棄する"
+    ],
+    "answer": 0,
+    "explanation": "「確立」的近义表达是「しっかり作る」，两者意思最接近。",
+    "translation": "确立基盘。"
+  },
+  {
+    "id": 1291,
+    "cat": "paraphrase",
+    "sentence": "市場を開拓する。",
+    "target": "開拓",
+    "options": [
+      "切り開く",
+      "閉じる",
+      "放棄する",
+      "諦める"
+    ],
+    "answer": 0,
+    "explanation": "「開拓」的近义表达是「切り開く」，两者意思最接近。",
+    "translation": "开拓市场。"
+  },
+  {
+    "id": 1292,
+    "cat": "paraphrase",
+    "sentence": "関心を喚起する。",
+    "target": "喚起",
+    "options": [
+      "呼び起こす",
+      "抑える",
+      "隠す",
+      "無視する"
+    ],
+    "answer": 0,
+    "explanation": "「喚起」的近义表达是「呼び起こす」，两者意思最接近。",
+    "translation": "唤起关心。"
+  },
+  {
+    "id": 1293,
+    "cat": "paraphrase",
+    "sentence": "社会に貢献する。",
+    "target": "貢献",
+    "options": [
+      "役立つ",
+      "損なう",
+      "害する",
+      "無視する"
+    ],
+    "answer": 0,
+    "explanation": "「貢献」的近义表达是「役立つ」，两者意思最接近。",
+    "translation": "贡献社会。"
+  },
+  {
+    "id": 1294,
+    "cat": "paraphrase",
+    "sentence": "進歩に寄与する。",
+    "target": "寄与",
+    "options": [
+      "貢献する",
+      "妨げる",
+      "阻害する",
+      "無視する"
+    ],
+    "answer": 0,
+    "explanation": "「寄与」的近义表达是「貢献する」，两者意思最接近。",
+    "translation": "推动进步。"
+  },
+  {
+    "id": 1295,
+    "cat": "paraphrase",
+    "sentence": "事態が悪化する。",
+    "target": "悪化",
+    "options": [
+      "悪くなる",
+      "良くなる",
+      "改善する",
+      "回復する"
+    ],
+    "answer": 0,
+    "explanation": "「悪化」的近义表达是「悪くなる」，两者意思最接近。",
+    "translation": "事态恶化。"
+  },
+  {
+    "id": 1296,
+    "cat": "paraphrase",
+    "sentence": "情勢が逼迫する。",
+    "target": "逼迫",
+    "options": [
+      "差し迫る",
+      "緩和する",
+      "落ち着く",
+      "安定する"
+    ],
+    "answer": 0,
+    "explanation": "「逼迫」的近义表达是「差し迫る」，两者意思最接近。",
+    "translation": "情势紧迫。"
+  },
+  {
+    "id": 1297,
+    "cat": "paraphrase",
+    "sentence": "期限が切迫する。",
+    "target": "切迫",
+    "options": [
+      "差し迫る",
+      "遠のく",
+      "緩む",
+      "延びる"
+    ],
+    "answer": 0,
+    "explanation": "「切迫」的近义表达是「差し迫る」，两者意思最接近。",
+    "translation": "期限切迫。"
+  },
+  {
+    "id": 1298,
+    "cat": "paraphrase",
+    "sentence": "真実が歴然としている。",
+    "target": "歴然",
+    "options": [
+      "明らか",
+      "曖昧",
+      "不明",
+      "微か"
+    ],
+    "answer": 0,
+    "explanation": "「歴然」的近义表达是「明らか」，两者意思最接近。",
+    "translation": "真实历然。"
+  },
+  {
+    "id": 1299,
+    "cat": "paraphrase",
+    "sentence": "疑念を抱く。",
+    "target": "抱く",
+    "options": [
+      "持つ",
+      "捨てる",
+      "消す",
+      "放棄する"
+    ],
+    "answer": 0,
+    "explanation": "「抱く」的近义表达是「持つ」，两者意思最接近。",
+    "translation": "抱有疑念。"
+  },
+  {
+    "id": 1300,
+    "cat": "paraphrase",
+    "sentence": "不信感を募らせる。",
+    "target": "募らせる",
+    "options": [
+      "強める",
+      "弱める",
+      "失う",
+      "消す"
+    ],
+    "answer": 0,
+    "explanation": "「募らせる」的近义表达是「強める」，两者意思最接近。",
+    "translation": "加深不信感。"
+  },
+  {
+    "id": 1301,
+    "cat": "paraphrase",
+    "sentence": "絆を深める。",
+    "target": "深める",
+    "options": [
+      "強化する",
+      "弱める",
+      "失う",
+      "切る"
+    ],
+    "answer": 0,
+    "explanation": "「深める」的近义表达是「強化する」，两者意思最接近。",
+    "translation": "加深羁绊。"
+  },
+  {
+    "id": 1302,
+    "cat": "paraphrase",
+    "sentence": "友情を育む。",
+    "target": "育む",
+    "options": [
+      "育てる",
+      "壊す",
+      "失う",
+      "断つ"
+    ],
+    "answer": 0,
+    "explanation": "「育む」的近义表达是「育てる」，两者意思最接近。",
+    "translation": "培育友情。"
+  },
+  {
+    "id": 1303,
+    "cat": "paraphrase",
+    "sentence": "忍耐力を培う。",
+    "target": "培う",
+    "options": [
+      "養う",
+      "失う",
+      "捨てる",
+      "弱める"
+    ],
+    "answer": 0,
+    "explanation": "「培う」的近义表达是「養う」，两者意思最接近。",
+    "translation": "培养忍耐力。"
+  },
+  {
+    "id": 1304,
+    "cat": "paraphrase",
+    "sentence": "実力を養う。",
+    "target": "養う",
+    "options": [
+      "身につける",
+      "失う",
+      "捨てる",
+      "弱める"
+    ],
+    "answer": 0,
+    "explanation": "「養う」的近义表达是「身につける」，两者意思最接近。",
+    "translation": "养实力。"
+  },
+  {
+    "id": 1305,
+    "cat": "paraphrase",
+    "sentence": "才能が開花する。",
+    "target": "開花",
+    "options": [
+      "花開く",
+      "しぼむ",
+      "枯れる",
+      "消える"
+    ],
+    "answer": 0,
+    "explanation": "「開花」的近义表达是「花開く」，两者意思最接近。",
+    "translation": "才能开花。"
+  },
+  {
+    "id": 1306,
+    "cat": "paraphrase",
+    "sentence": "文章を推敲する。",
+    "target": "推敲",
+    "options": [
+      "練り直す",
+      "書く",
+      "消す",
+      "捨てる"
+    ],
+    "answer": 0,
+    "explanation": "「推敲」的近义表达是「練り直す」，两者意思最接近。",
+    "translation": "推敲文章。"
+  },
+  {
+    "id": 1307,
+    "cat": "paraphrase",
+    "sentence": "真実を見抜く。",
+    "target": "見抜く",
+    "options": [
+      "看破する",
+      "見落とす",
+      "見逃す",
+      "無視する"
+    ],
+    "answer": 0,
+    "explanation": "「見抜く」的近义表达是「看破する」，两者意思最接近。",
+    "translation": "看透真相。"
+  },
+  {
+    "id": 1308,
+    "cat": "paraphrase",
+    "sentence": "本質を見極める。",
+    "target": "見極める",
+    "options": [
+      "見定める",
+      "見失う",
+      "見逃す",
+      "誤る"
+    ],
+    "answer": 0,
+    "explanation": "「見極める」的近义表达是「見定める」，两者意思最接近。",
+    "translation": "看清本质。"
+  },
+  {
+    "id": 1309,
+    "cat": "paraphrase",
+    "sentence": "将来を見据える。",
+    "target": "見据える",
+    "options": [
+      "じっくり見る",
+      "見逃す",
+      "無視する",
+      "避ける"
+    ],
+    "answer": 0,
+    "explanation": "「見据える」的近义表达是「じっくり見る」，两者意思最接近。",
+    "translation": "展望将来。"
+  },
+  {
+    "id": 1310,
+    "cat": "paraphrase",
+    "sentence": "現実を直視する。",
+    "target": "直視",
+    "options": [
+      "まっすぐ見る",
+      "目をそらす",
+      "見ない",
+      "避ける"
+    ],
+    "answer": 0,
+    "explanation": "「直視」的近义表达是「まっすぐ見る」，两者意思最接近。",
+    "translation": "直视现实。"
+  },
+  {
+    "id": 1311,
+    "cat": "paraphrase",
+    "sentence": "現状を打破する。",
+    "target": "打破",
+    "options": [
+      "破る",
+      "守る",
+      "維持する",
+      "従う"
+    ],
+    "answer": 0,
+    "explanation": "「打破」的近义表达是「破る」，两者意思最接近。",
+    "translation": "打破现状。"
+  },
+  {
+    "id": 1312,
+    "cat": "paraphrase",
+    "sentence": "困難を克服する。",
+    "target": "克服",
+    "options": [
+      "乗り越える",
+      "屈する",
+      "諦める",
+      "放棄する"
+    ],
+    "answer": 0,
+    "explanation": "「克服」的近义表达是「乗り越える」，两者意思最接近。",
+    "translation": "克服困难。"
+  },
+  {
+    "id": 1313,
+    "cat": "paraphrase",
+    "sentence": "批判を浴びる。",
+    "target": "浴びる",
+    "options": [
+      "受ける",
+      "与える",
+      "避ける",
+      "返す"
+    ],
+    "answer": 0,
+    "explanation": "「浴びる」的近义表达是「受ける」，两者意思最接近。",
+    "translation": "遭受批判。"
+  },
+  {
+    "id": 1314,
+    "cat": "paraphrase",
+    "sentence": "重圧に耐える。",
+    "target": "耐える",
+    "options": [
+      "我慢する",
+      "屈する",
+      "諦める",
+      "逃げる"
+    ],
+    "answer": 0,
+    "explanation": "「耐える」的近义表达是「我慢する」，两者意思最接近。",
+    "translation": "承受重压。"
+  },
+  {
+    "id": 1315,
+    "cat": "paraphrase",
+    "sentence": "苦境を脱する。",
+    "target": "脱する",
+    "options": [
+      "抜け出す",
+      "陥る",
+      "はまる",
+      "落ちる"
+    ],
+    "answer": 0,
+    "explanation": "「脱する」的近义表达是「抜け出す」，两者意思最接近。",
+    "translation": "摆脱苦境。"
+  },
+  {
+    "id": 1316,
+    "cat": "paraphrase",
+    "sentence": "窮地に陥る。",
+    "target": "陥る",
+    "options": [
+      "はまる",
+      "脱する",
+      "抜け出す",
+      "逃れる"
+    ],
+    "answer": 0,
+    "explanation": "「陥る」的近义表达是「はまる」，两者意思最接近。",
+    "translation": "陷入困境。"
+  },
+  {
+    "id": 1317,
+    "cat": "paraphrase",
+    "sentence": "悲嘆に暮れる。",
+    "target": "暮れる",
+    "options": [
+      "浸る",
+      "抜け出す",
+      "脱する",
+      "忘れる"
+    ],
+    "answer": 0,
+    "explanation": "「暮れる」的近义表达是「浸る」，两者意思最接近。",
+    "translation": "暮在悲叹中。"
+  },
+  {
+    "id": 1318,
+    "cat": "paraphrase",
+    "sentence": "希望を抱く。",
+    "target": "抱く",
+    "options": [
+      "持つ",
+      "捨てる",
+      "失う",
+      "放棄する"
+    ],
+    "answer": 0,
+    "explanation": "「抱く」的近义表达是「持つ」，两者意思最接近。",
+    "translation": "抱希望。"
+  },
+  {
+    "id": 1319,
+    "cat": "paraphrase",
+    "sentence": "期待を寄せる。",
+    "target": "寄せる",
+    "options": [
+      "向ける",
+      "捨てる",
+      "失う",
+      "放棄する"
+    ],
+    "answer": 0,
+    "explanation": "「寄せる」的近义表达是「向ける」，两者意思最接近。",
+    "translation": "寄予期待。"
+  },
+  {
+    "id": 1320,
+    "cat": "paraphrase",
+    "sentence": "決意を新たにする。",
+    "target": "新た",
+    "options": [
+      "一新",
+      "古い",
+      "放棄",
+      "失う"
+    ],
+    "answer": 0,
+    "explanation": "「新た」的近义表达是「一新」，两者意思最接近。",
+    "translation": "重新下决心。"
+  },
+  {
+    "id": 1321,
+    "cat": "paraphrase",
+    "sentence": "腹を括る。",
+    "target": "括る",
+    "options": [
+      "決める",
+      "迷う",
+      "躊躇する",
+      "諦める"
+    ],
+    "answer": 0,
+    "explanation": "「括る」的近义表达是「決める」，两者意思最接近。",
+    "translation": "下定决心。"
+  },
+  {
+    "id": 1322,
+    "cat": "paraphrase",
+    "sentence": "目を見張る。",
+    "target": "見張る",
+    "options": [
+      "驚く",
+      "無視する",
+      "見逃す",
+      "見落とす"
+    ],
+    "answer": 0,
+    "explanation": "「見張る」的近义表达是「驚く」，两者意思最接近。",
+    "translation": "瞠目结舌。"
+  },
+  {
+    "id": 1323,
+    "cat": "paraphrase",
+    "sentence": "耳を傾ける。",
+    "target": "傾ける",
+    "options": [
+      "集中して聞く",
+      "無視する",
+      "聞き流す",
+      "塞ぐ"
+    ],
+    "answer": 0,
+    "explanation": "「傾ける」的近义表达是「集中して聞く」，两者意思最接近。",
+    "translation": "倾耳聆听。"
+  },
+  {
+    "id": 1324,
+    "cat": "paraphrase",
+    "sentence": "口を閉ざす。",
+    "target": "閉ざす",
+    "options": [
+      "話さない",
+      "話す",
+      "叫ぶ",
+      "語る"
+    ],
+    "answer": 0,
+    "explanation": "「閉ざす」的近义表达是「話さない」，两者意思最接近。",
+    "translation": "闭口不言。"
+  },
+  {
+    "id": 1325,
+    "cat": "paraphrase",
+    "sentence": "手を焼く。",
+    "target": "焼く",
+    "options": [
+      "手こずる",
+      "簡単にする",
+      "楽にする",
+      "解決する"
+    ],
+    "answer": 0,
+    "explanation": "「焼く」的近义表达是「手こずる」，两者意思最接近。",
+    "translation": "棘手。"
+  },
+  {
+    "id": 1326,
+    "cat": "paraphrase",
+    "sentence": "足を引っ張る。",
+    "target": "引っ張る",
+    "options": [
+      "邪魔する",
+      "助ける",
+      "支える",
+      "導く"
+    ],
+    "answer": 0,
+    "explanation": "「引っ張る」的近义表达是「邪魔する」，两者意思最接近。",
+    "translation": "拖后腿。"
+  },
+  {
+    "id": 1327,
+    "cat": "paraphrase",
+    "sentence": "気が重い。",
+    "target": "重い",
+    "options": [
+      "憂鬱",
+      "軽やか",
+      "楽しい",
+      "明るい"
+    ],
+    "answer": 0,
+    "explanation": "「重い」的近义表达是「憂鬱」，两者意思最接近。",
+    "translation": "心情沉重。"
+  },
+  {
+    "id": 1328,
+    "cat": "paraphrase",
+    "sentence": "腰が重い。",
+    "target": "重い",
+    "options": [
+      "なかなか動かない",
+      "すぐ動く",
+      "軽快",
+      "活発"
+    ],
+    "answer": 0,
+    "explanation": "「重い」的近义表达是「なかなか動かない」，两者意思最接近。",
+    "translation": "行动迟缓。"
+  },
+  {
+    "id": 1329,
+    "cat": "paraphrase",
+    "sentence": "肩の荷が下りる。",
+    "target": "下りる",
+    "options": [
+      "楽になる",
+      "重くなる",
+      "苦しくなる",
+      "増える"
+    ],
+    "answer": 0,
+    "explanation": "「下りる」的近义表达是「楽になる」，两者意思最接近。",
+    "translation": "如释重负。"
+  },
+  {
+    "id": 1330,
+    "cat": "paraphrase",
+    "sentence": "胸を張る。",
+    "target": "張る",
+    "options": [
+      "誇る",
+      "恥じる",
+      "隠す",
+      "うつむく"
+    ],
+    "answer": 0,
+    "explanation": "「張る」的近义表达是「誇る」，两者意思最接近。",
+    "translation": "挺胸。"
+  },
+  {
+    "id": 1331,
+    "cat": "paraphrase",
+    "sentence": "肝を冷やす。",
+    "target": "冷やす",
+    "options": [
+      "驚く",
+      "安心する",
+      "落ち着く",
+      "喜ぶ"
+    ],
+    "answer": 0,
+    "explanation": "「冷やす」的近义表达是「驚く」，两者意思最接近。",
+    "translation": "心惊。"
+  },
+  {
+    "id": 1332,
+    "cat": "paraphrase",
+    "sentence": "骨を折る。",
+    "target": "折る",
+    "options": [
+      "苦労する",
+      "楽をする",
+      "休む",
+      "怠ける"
+    ],
+    "answer": 0,
+    "explanation": "「折る」的近义表达是「苦労する」，两者意思最接近。",
+    "translation": "费力。"
+  },
+  {
+    "id": 1333,
+    "cat": "paraphrase",
+    "sentence": "筆を執る。",
+    "target": "執る",
+    "options": [
+      "書く",
+      "置く",
+      "捨てる",
+      "折る"
+    ],
+    "answer": 0,
+    "explanation": "「執る」的近义表达是「書く」，两者意思最接近。",
+    "translation": "执笔。"
+  },
+  {
+    "id": 1334,
+    "cat": "paraphrase",
+    "sentence": "彼の話に同調する。",
+    "target": "同調",
+    "options": [
+      "賛同する",
+      "反対する",
+      "無視する",
+      "批判する"
+    ],
+    "answer": 0,
+    "explanation": "「同調」的近义表达是「賛同する」，两者意思最接近。",
+    "translation": "附和他的话。"
+  },
+  {
+    "id": 1335,
+    "cat": "paraphrase",
+    "sentence": "方針に抵触する。",
+    "target": "抵触",
+    "options": [
+      "触れる",
+      "合う",
+      "従う",
+      "沿う"
+    ],
+    "answer": 0,
+    "explanation": "「抵触」的近义表达是「触れる」，两者意思最接近。",
+    "translation": "触犯方针。"
+  },
+  {
+    "id": 1336,
+    "cat": "paraphrase",
+    "sentence": "主張に矛盾がある。",
+    "target": "矛盾",
+    "options": [
+      "食い違い",
+      "一致",
+      "整合",
+      "同調"
+    ],
+    "answer": 0,
+    "explanation": "「矛盾」的近义表达是「食い違い」，两者意思最接近。",
+    "translation": "主张有矛盾。"
+  },
+  {
+    "id": 1337,
+    "cat": "paraphrase",
+    "sentence": "入念に準備する。",
+    "target": "入念",
+    "options": [
+      "念入り",
+      "雑",
+      "簡単",
+      "いい加減"
+    ],
+    "answer": 0,
+    "explanation": "「入念」的近义表达是「念入り」，两者意思最接近。",
+    "translation": "周密准备。"
+  },
+  {
+    "id": 1338,
+    "cat": "paraphrase",
+    "sentence": "迅速に対応する。",
+    "target": "迅速",
+    "options": [
+      "素早く",
+      "遅く",
+      "のんびり",
+      "ゆっくり"
+    ],
+    "answer": 0,
+    "explanation": "「迅速」的近义表达是「素早く」，两者意思最接近。",
+    "translation": "迅速应对。"
+  },
+  {
+    "id": 1339,
+    "cat": "paraphrase",
+    "sentence": "煩雑な手続きだ。",
+    "target": "煩雑",
+    "options": [
+      "複雑",
+      "簡単",
+      "単純",
+      "容易"
+    ],
+    "answer": 0,
+    "explanation": "「煩雑」的近义表达是「複雑」，两者意思最接近。",
+    "translation": "繁杂手续。"
+  },
+  {
+    "id": 1340,
+    "cat": "paraphrase",
+    "sentence": "慎重な態度をとる。",
+    "target": "慎重",
+    "options": [
+      "注意深い",
+      "軽率",
+      "大胆",
+      "適当"
+    ],
+    "answer": 0,
+    "explanation": "「慎重」的近义表达是「注意深い」，两者意思最接近。",
+    "translation": "采取慎重态度。"
+  },
+  {
+    "id": 1341,
+    "cat": "paraphrase",
+    "sentence": "巧妙な手段を使う。",
+    "target": "巧妙",
+    "options": [
+      "うまい",
+      "下手",
+      "稚拙",
+      "粗雑"
+    ],
+    "answer": 0,
+    "explanation": "「巧妙」的近义表达是「うまい」，两者意思最接近。",
+    "translation": "用巧妙手段。"
+  },
+  {
+    "id": 1342,
+    "cat": "paraphrase",
+    "sentence": "綿密な計画を立てる。",
+    "target": "綿密",
+    "options": [
+      "細かい",
+      "大雑把",
+      "雑",
+      "粗い"
+    ],
+    "answer": 0,
+    "explanation": "「綿密」的近义表达是「細かい」，两者意思最接近。",
+    "translation": "制定绵密计划。"
+  },
+  {
+    "id": 1343,
+    "cat": "paraphrase",
+    "sentence": "厳粛な雰囲気だ。",
+    "target": "厳粛",
+    "options": [
+      "おごそか",
+      "軽やか",
+      "賑やか",
+      "陽気"
+    ],
+    "answer": 0,
+    "explanation": "「厳粛」的近义表达是「おごそか」，两者意思最接近。",
+    "translation": "严肃气氛。"
+  },
+  {
+    "id": 1344,
+    "cat": "paraphrase",
+    "sentence": "妥当な判断だ。",
+    "target": "妥当",
+    "options": [
+      "適切",
+      "不適",
+      "誤り",
+      "無理"
+    ],
+    "answer": 0,
+    "explanation": "「妥当」的近义表达是「適切」，两者意思最接近。",
+    "translation": "妥当判断。"
+  },
+  {
+    "id": 1345,
+    "cat": "paraphrase",
+    "sentence": "予算を計上する。",
+    "target": "計上",
+    "options": [
+      "組み込む",
+      "削除する",
+      "無視する",
+      "省く"
+    ],
+    "answer": 0,
+    "explanation": "「計上」的近义表达是「組み込む」，两者意思最接近。",
+    "translation": "计入预算。"
+  },
+  {
+    "id": 1346,
+    "cat": "paraphrase",
+    "sentence": "経費を削減する。",
+    "target": "削減",
+    "options": [
+      "減らす",
+      "増やす",
+      "維持する",
+      "放置する"
+    ],
+    "answer": 0,
+    "explanation": "「削減」的近义表达是「減らす」，两者意思最接近。",
+    "translation": "削减经费。"
+  },
+  {
+    "id": 1347,
+    "cat": "paraphrase",
+    "sentence": "制度を廃止する。",
+    "target": "廃止",
+    "options": [
+      "やめる",
+      "続ける",
+      "導入する",
+      "開始する"
+    ],
+    "answer": 0,
+    "explanation": "「廃止」的近义表达是「やめる」，两者意思最接近。",
+    "translation": "废止制度。"
+  },
+  {
+    "id": 1348,
+    "cat": "paraphrase",
+    "sentence": "会議を招集する。",
+    "target": "招集",
+    "options": [
+      "集める",
+      "解散する",
+      "中止する",
+      "延期する"
+    ],
+    "answer": 0,
+    "explanation": "「招集」的近义表达是「集める」，两者意思最接近。",
+    "translation": "召集会议。"
+  },
+  {
+    "id": 1349,
+    "cat": "paraphrase",
+    "sentence": "疑問が氷解する。",
+    "target": "氷解",
+    "options": [
+      "解ける",
+      "増える",
+      "深まる",
+      "複雑になる"
+    ],
+    "answer": 0,
+    "explanation": "「氷解」的近义表达是「解ける」，两者意思最接近。",
+    "translation": "疑问冰解。"
+  },
+  {
+    "id": 1350,
+    "cat": "paraphrase",
+    "sentence": "希薄な関係だ。",
+    "target": "希薄",
+    "options": [
+      "薄い",
+      "濃い",
+      "深い",
+      "強い"
+    ],
+    "answer": 0,
+    "explanation": "「希薄」的近义表达是「薄い」，两者意思最接近。",
+    "translation": "淡薄关系。"
+  },
+  {
+    "id": 1351,
+    "cat": "paraphrase",
+    "sentence": "濃厚な味わい。",
+    "target": "濃厚",
+    "options": [
+      "濃い",
+      "薄い",
+      "淡い",
+      "軽い"
+    ],
+    "answer": 0,
+    "explanation": "「濃厚」的近义表达是「濃い」，两者意思最接近。",
+    "translation": "浓厚风味。"
+  },
+  {
+    "id": 1352,
+    "cat": "paraphrase",
+    "sentence": "事件の真相を暴く。",
+    "target": "真相",
+    "options": [
+      "実態",
+      "虚像",
+      "表面",
+      "建前"
+    ],
+    "answer": 0,
+    "explanation": "「真相」的近义表达是「実態」，两者意思最接近。",
+    "translation": "揭露事件真相。"
+  },
+  {
+    "id": 1353,
+    "cat": "paraphrase",
+    "sentence": "経済の実態を知る。",
+    "target": "実態",
+    "options": [
+      "実情",
+      "虚構",
+      "理想",
+      "建前"
+    ],
+    "answer": 0,
+    "explanation": "「実態」的近义表达是「実情」，两者意思最接近。",
+    "translation": "了解经济实态。"
+  },
+  {
+    "id": 1354,
+    "cat": "paraphrase",
+    "sentence": "教育体系を整える。",
+    "target": "体系",
+    "options": [
+      "システム",
+      "個々",
+      "部分",
+      "要素"
+    ],
+    "answer": 0,
+    "explanation": "「体系」的近义表达是「システム」，两者意思最接近。",
+    "translation": "整顿教育体系。"
+  },
+  {
+    "id": 1355,
+    "cat": "paraphrase",
+    "sentence": "建物の構造を分析する。",
+    "target": "構造",
+    "options": [
+      "組み立て",
+      "装飾",
+      "外観",
+      "色彩"
+    ],
+    "answer": 0,
+    "explanation": "「構造」的近义表达是「組み立て」，两者意思最接近。",
+    "translation": "分析建筑构造。"
+  },
+  {
+    "id": 1356,
+    "cat": "paraphrase",
+    "sentence": "事件の背景を調べる。",
+    "target": "背景",
+    "options": [
+      "事情",
+      "表面",
+      "結果",
+      "影響"
+    ],
+    "answer": 0,
+    "explanation": "「背景」的近义表达是「事情」，两者意思最接近。",
+    "translation": "调查事件背景。"
+  },
+  {
+    "id": 1357,
+    "cat": "paraphrase",
+    "sentence": "新概念を提唱する。",
+    "target": "概念",
+    "options": [
+      "考え方",
+      "具体物",
+      "実例",
+      "事例"
+    ],
+    "answer": 0,
+    "explanation": "「概念」的近义表达是「考え方」，两者意思最接近。",
+    "translation": "提倡新概念。"
+  },
+  {
+    "id": 1358,
+    "cat": "paraphrase",
+    "sentence": "話の趣旨を理解する。",
+    "target": "趣旨",
+    "options": [
+      "意図",
+      "詳細",
+      "脇道",
+      "枝葉"
+    ],
+    "answer": 0,
+    "explanation": "「趣旨」的近义表达是「意図」，两者意思最接近。",
+    "translation": "理解话的主旨。"
+  },
+  {
+    "id": 1359,
+    "cat": "paraphrase",
+    "sentence": "明確な根拠を示す。",
+    "target": "根拠",
+    "options": [
+      "裏付け",
+      "推測",
+      "憶測",
+      "想像"
+    ],
+    "answer": 0,
+    "explanation": "「根拠」的近义表达是「裏付け」，两者意思最接近。",
+    "translation": "提出明确根据。"
+  },
+  {
+    "id": 1360,
+    "cat": "paraphrase",
+    "sentence": "事件の経緯を説明する。",
+    "target": "経緯",
+    "options": [
+      "いきさつ",
+      "結論",
+      "結果",
+      "予測"
+    ],
+    "answer": 0,
+    "explanation": "「経緯」的近义表达是「いきさつ」，两者意思最接近。",
+    "translation": "说明事件经过。"
+  },
+  {
+    "id": 1361,
+    "cat": "paraphrase",
+    "sentence": "問題の核心に迫る。",
+    "target": "核心",
+    "options": [
+      "中心",
+      "外側",
+      "周辺",
+      "表面"
+    ],
+    "answer": 0,
+    "explanation": "「核心」的近义表达是「中心」，两者意思最接近。",
+    "translation": "切入问题核心。"
+  },
+  {
+    "id": 1362,
+    "cat": "paraphrase",
+    "sentence": "彼の動きは敏捷だ。",
+    "target": "敏捷",
+    "options": [
+      "素早い",
+      "鈍い",
+      "遅い",
+      "のろい"
+    ],
+    "answer": 0,
+    "explanation": "「敏捷」的近义表达是「素早い」，两者意思最接近。",
+    "translation": "他动作敏捷。"
+  },
+  {
+    "id": 1363,
+    "cat": "paraphrase",
+    "sentence": "沈着な判断をする。",
+    "target": "沈着",
+    "options": [
+      "落ち着いた",
+      "慌てた",
+      "焦った",
+      "動揺した"
+    ],
+    "answer": 0,
+    "explanation": "「沈着」的近义表达是「落ち着いた」，两者意思最接近。",
+    "translation": "做沉着判断。"
+  },
+  {
+    "id": 1364,
+    "cat": "paraphrase",
+    "sentence": "冷静な態度を保つ。",
+    "target": "冷静",
+    "options": [
+      "落ち着いた",
+      "興奮した",
+      "熱い",
+      "感情的"
+    ],
+    "answer": 0,
+    "explanation": "「冷静」的近义表达是「落ち着いた」，两者意思最接近。",
+    "translation": "保持冷静态度。"
+  },
+  {
+    "id": 1365,
+    "cat": "paraphrase",
+    "sentence": "果敢に挑戦する。",
+    "target": "果敢",
+    "options": [
+      "勇ましい",
+      "臆病",
+      "弱気",
+      "怯懦"
+    ],
+    "answer": 0,
+    "explanation": "「果敢」的近义表达是「勇ましい」，两者意思最接近。",
+    "translation": "果敢挑战。"
+  },
+  {
+    "id": 1366,
+    "cat": "paraphrase",
+    "sentence": "勇敢な行動を取る。",
+    "target": "勇敢",
+    "options": [
+      "勇ましい",
+      "臆病",
+      "弱気",
+      "怯懦"
+    ],
+    "answer": 0,
+    "explanation": "「勇敢」的近义表达是「勇ましい」，两者意思最接近。",
+    "translation": "采取勇敢行动。"
+  },
+  {
+    "id": 1367,
+    "cat": "paraphrase",
+    "sentence": "卑怯な手段を使う。",
+    "target": "卑怯",
+    "options": [
+      "ずるい",
+      "正々堂々",
+      "勇敢",
+      "立派"
+    ],
+    "answer": 0,
+    "explanation": "「卑怯」的近义表达是「ずるい」，两者意思最接近。",
+    "translation": "用卑鄙手段。"
+  },
+  {
+    "id": 1368,
+    "cat": "paraphrase",
+    "sentence": "横柄な態度を取る。",
+    "target": "横柄",
+    "options": [
+      "偉そう",
+      "謙虚",
+      "控えめ",
+      "腰低"
+    ],
+    "answer": 0,
+    "explanation": "「横柄」的近义表达是「偉そう」，两者意思最接近。",
+    "translation": "采取傲慢态度。"
+  },
+  {
+    "id": 1369,
+    "cat": "paraphrase",
+    "sentence": "謙虚な姿勢を保つ。",
+    "target": "謙虚",
+    "options": [
+      "控えめ",
+      "傲慢",
+      "横柄",
+      "偉そう"
+    ],
+    "answer": 0,
+    "explanation": "「謙虚」的近义表达是「控えめ」，两者意思最接近。",
+    "translation": "保持谦虚姿态。"
+  },
+  {
+    "id": 1370,
+    "cat": "paraphrase",
+    "sentence": "傲慢な態度だ。",
+    "target": "傲慢",
+    "options": [
+      "偉そう",
+      "謙虚",
+      "控えめ",
+      "素直"
+    ],
+    "answer": 0,
+    "explanation": "「傲慢」的近义表达是「偉そう」，两者意思最接近。",
+    "translation": "傲慢态度。"
+  },
+  {
+    "id": 1371,
+    "cat": "paraphrase",
+    "sentence": "頑固な性格だ。",
+    "target": "頑固",
+    "options": [
+      "意固地",
+      "柔軟",
+      "従順",
+      "素直"
+    ],
+    "answer": 0,
+    "explanation": "「頑固」的近义表达是「意固地」，两者意思最接近。",
+    "translation": "顽固性格。"
+  },
+  {
+    "id": 1372,
+    "cat": "paraphrase",
+    "sentence": "柔軟な発想だ。",
+    "target": "柔軟",
+    "options": [
+      "しなやか",
+      "頑固",
+      "固い",
+      "硬直"
+    ],
+    "answer": 0,
+    "explanation": "「柔軟」的近义表达是「しなやか」，两者意思最接近。",
+    "translation": "柔软发想。"
+  },
+  {
+    "id": 1373,
+    "cat": "paraphrase",
+    "sentence": "愚直に取り組む。",
+    "target": "愚直",
+    "options": [
+      "真面目",
+      "要領よく",
+      "ずる賢く",
+      "賢く"
+    ],
+    "answer": 0,
+    "explanation": "「愚直」的近义表达是「真面目」，两者意思最接近。",
+    "translation": "愚钝投入。"
+  },
+  {
+    "id": 1374,
+    "cat": "paraphrase",
+    "sentence": "狡猾な手段を使う。",
+    "target": "狡猾",
+    "options": [
+      "ずる賢い",
+      "正直",
+      "純真",
+      "素朴"
+    ],
+    "answer": 0,
+    "explanation": "「狡猾」的近义表达是「ずる賢い」，两者意思最接近。",
+    "translation": "用狡猾手段。"
+  },
+  {
+    "id": 1375,
+    "cat": "paraphrase",
+    "sentence": "純真な心を持つ。",
+    "target": "純真",
+    "options": [
+      "無垢",
+      "ずるい",
+      "狡猾",
+      "汚れた"
+    ],
+    "answer": 0,
+    "explanation": "「純真」的近义表达是「無垢」，两者意思最接近。",
+    "translation": "持纯真心。"
+  },
+  {
+    "id": 1376,
+    "cat": "paraphrase",
+    "sentence": "温厚な人柄だ。",
+    "target": "温厚",
+    "options": [
+      "穏やか",
+      "激しい",
+      "荒い",
+      "厳しい"
+    ],
+    "answer": 0,
+    "explanation": "「温厚」的近义表达是「穏やか」，两者意思最接近。",
+    "translation": "温厚人品。"
+  },
+  {
+    "id": 1377,
+    "cat": "paraphrase",
+    "sentence": "寛容な態度を示す。",
+    "target": "寛容",
+    "options": [
+      "広い心",
+      "厳しい",
+      "狭量",
+      "偏狭"
+    ],
+    "answer": 0,
+    "explanation": "「寛容」的近义表达是「広い心」，两者意思最接近。",
+    "translation": "显宽容态度。"
+  },
+  {
+    "id": 1378,
+    "cat": "paraphrase",
+    "sentence": "厳格な教育を受ける。",
+    "target": "厳格",
+    "options": [
+      "厳しい",
+      "緩い",
+      "甘い",
+      "寛容"
+    ],
+    "answer": 0,
+    "explanation": "「厳格」的近义表达是「厳しい」，两者意思最接近。",
+    "translation": "接受严格教育。"
+  },
+  {
+    "id": 1379,
+    "cat": "paraphrase",
+    "sentence": "寛大な処置を受ける。",
+    "target": "寛大",
+    "options": [
+      "広い心",
+      "厳しい",
+      "厳格",
+      "狭量"
+    ],
+    "answer": 0,
+    "explanation": "「寛大」的近义表达是「広い心」，两者意思最接近。",
+    "translation": "受宽大处置。"
+  },
+  {
+    "id": 1380,
+    "cat": "paraphrase",
+    "sentence": "質素な生活を送る。",
+    "target": "質素",
+    "options": [
+      "つつましい",
+      "派手",
+      "豪華",
+      "贅沢"
+    ],
+    "answer": 0,
+    "explanation": "「質素」的近义表达是「つつましい」，两者意思最接近。",
+    "translation": "过质朴生活。"
+  },
+  {
+    "id": 1381,
+    "cat": "paraphrase",
+    "sentence": "華美な装飾を好む。",
+    "target": "華美",
+    "options": [
+      "派手",
+      "地味",
+      "質素",
+      "簡素"
+    ],
+    "answer": 0,
+    "explanation": "「華美」的近义表达是「派手」，两者意思最接近。",
+    "translation": "偏好华丽装饰。"
+  },
+  {
+    "id": 1382,
+    "cat": "paraphrase",
+    "sentence": "豪華な料理が並ぶ。",
+    "target": "豪華",
+    "options": [
+      "贅沢",
+      "簡素",
+      "質素",
+      "地味"
+    ],
+    "answer": 0,
+    "explanation": "「豪華」的近义表达是「贅沢」，两者意思最接近。",
+    "translation": "豪华料理摆出。"
+  },
+  {
+    "id": 1383,
+    "cat": "paraphrase",
+    "sentence": "簡潔な説明をする。",
+    "target": "簡潔",
+    "options": [
+      "短くわかりやすい",
+      "長々しい",
+      "冗長",
+      "複雑"
+    ],
+    "answer": 0,
+    "explanation": "「簡潔」的近义表达是「短くわかりやすい」，两者意思最接近。",
+    "translation": "做简洁说明。"
+  },
+  {
+    "id": 1384,
+    "cat": "paraphrase",
+    "sentence": "冗長な文章だ。",
+    "target": "冗長",
+    "options": [
+      "長ったらしい",
+      "簡潔",
+      "短い",
+      "明快"
+    ],
+    "answer": 0,
+    "explanation": "「冗長」的近义表达是「長ったらしい」，两者意思最接近。",
+    "translation": "冗长文章。"
+  },
+  {
+    "id": 1385,
+    "cat": "paraphrase",
+    "sentence": "明快な論理だ。",
+    "target": "明快",
+    "options": [
+      "わかりやすい",
+      "曖昧",
+      "複雑",
+      "不明瞭"
+    ],
+    "answer": 0,
+    "explanation": "「明快」的近义表达是「わかりやすい」，两者意思最接近。",
+    "translation": "明快逻辑。"
+  },
+  {
+    "id": 1386,
+    "cat": "paraphrase",
+    "sentence": "難解な文章だ。",
+    "target": "難解",
+    "options": [
+      "わかりにくい",
+      "易しい",
+      "簡単",
+      "平易"
+    ],
+    "answer": 0,
+    "explanation": "「難解」的近义表达是「わかりにくい」，两者意思最接近。",
+    "translation": "难解文章。"
+  },
+  {
+    "id": 1387,
+    "cat": "paraphrase",
+    "sentence": "平易な表現を使う。",
+    "target": "平易",
+    "options": [
+      "易しい",
+      "難しい",
+      "複雑",
+      "難解"
+    ],
+    "answer": 0,
+    "explanation": "「平易」的近义表达是「易しい」，两者意思最接近。",
+    "translation": "用平易表达。"
+  },
+  {
+    "id": 1388,
+    "cat": "paraphrase",
+    "sentence": "熟慮の末に決める。",
+    "target": "熟慮",
+    "options": [
+      "よく考える",
+      "衝動的",
+      "即決",
+      "即断"
+    ],
+    "answer": 0,
+    "explanation": "「熟慮」的近义表达是「よく考える」，两者意思最接近。",
+    "translation": "熟虑后决定。"
+  },
+  {
+    "id": 1389,
+    "cat": "paraphrase",
+    "sentence": "即断即決する。",
+    "target": "即断",
+    "options": [
+      "すぐ決める",
+      "じっくり考える",
+      "熟考",
+      "熟慮"
+    ],
+    "answer": 0,
+    "explanation": "「即断」的近义表达是「すぐ決める」，两者意思最接近。",
+    "translation": "即断即决。"
+  },
+  {
+    "id": 1390,
+    "cat": "paraphrase",
+    "sentence": "躊躇なく選ぶ。",
+    "target": "躊躇",
+    "options": [
+      "迷い",
+      "決断",
+      "即断",
+      "即決"
+    ],
+    "answer": 0,
+    "explanation": "「躊躇」的近义表达是「迷い」，两者意思最接近。",
+    "translation": "毫不犹豫地选。"
+  },
+  {
+    "id": 1391,
+    "cat": "paraphrase",
+    "sentence": "潔く認める。",
+    "target": "潔く",
+    "options": [
+      "きっぱり",
+      "しぶしぶ",
+      "嫌々",
+      "不承不承"
+    ],
+    "answer": 0,
+    "explanation": "「潔く」的近义表达是「きっぱり」，两者意思最接近。",
+    "translation": "干脆承认。"
+  },
+  {
+    "id": 1392,
+    "cat": "paraphrase",
+    "sentence": "渋々引き受ける。",
+    "target": "渋々",
+    "options": [
+      "嫌々",
+      "喜んで",
+      "進んで",
+      "快く"
+    ],
+    "answer": 0,
+    "explanation": "「渋々」的近义表达是「嫌々」，两者意思最接近。",
+    "translation": "勉强接受。"
+  },
+  {
+    "id": 1393,
+    "cat": "paraphrase",
+    "sentence": "快く承諾する。",
+    "target": "快く",
+    "options": [
+      "喜んで",
+      "嫌々",
+      "しぶしぶ",
+      "不承"
+    ],
+    "answer": 0,
+    "explanation": "「快く」的近义表达是「喜んで」，两者意思最接近。",
+    "translation": "欣然同意。"
+  },
+  {
+    "id": 1394,
+    "cat": "paraphrase",
+    "sentence": "頑なに拒否する。",
+    "target": "頑なに",
+    "options": [
+      "意固地に",
+      "素直に",
+      "快く",
+      "喜んで"
+    ],
+    "answer": 0,
+    "explanation": "「頑なに」的近义表达是「意固地に」，两者意思最接近。",
+    "translation": "顽固拒绝。"
+  },
+  {
+    "id": 1395,
+    "cat": "paraphrase",
+    "sentence": "素直に謝る。",
+    "target": "素直",
+    "options": [
+      "率直",
+      "頑固",
+      "強情",
+      "意地悪"
+    ],
+    "answer": 0,
+    "explanation": "「素直」的近义表达是「率直」，两者意思最接近。",
+    "translation": "坦率道歉。"
+  },
+  {
+    "id": 1396,
+    "cat": "paraphrase",
+    "sentence": "率直な意見を述べる。",
+    "target": "率直",
+    "options": [
+      "正直",
+      "回りくどい",
+      "曖昧",
+      "遠回し"
+    ],
+    "answer": 0,
+    "explanation": "「率直」的近义表达是「正直」，两者意思最接近。",
+    "translation": "陈述坦率意见。"
+  },
+  {
+    "id": 1397,
+    "cat": "paraphrase",
+    "sentence": "遠回しに言う。",
+    "target": "遠回し",
+    "options": [
+      "婉曲",
+      "直接",
+      "率直",
+      "直球"
+    ],
+    "answer": 0,
+    "explanation": "「遠回し」的近义表达是「婉曲」，两者意思最接近。",
+    "translation": "婉转说。"
+  },
+  {
+    "id": 1398,
+    "cat": "paraphrase",
+    "sentence": "婉曲な表現を使う。",
+    "target": "婉曲",
+    "options": [
+      "遠回し",
+      "直接",
+      "率直",
+      "ストレート"
+    ],
+    "answer": 0,
+    "explanation": "「婉曲」的近义表达是「遠回し」，两者意思最接近。",
+    "translation": "用婉曲表达。"
+  },
+  {
+    "id": 1399,
+    "cat": "paraphrase",
+    "sentence": "露骨な態度を取る。",
+    "target": "露骨",
+    "options": [
+      "あからさま",
+      "控えめ",
+      "婉曲",
+      "遠回し"
+    ],
+    "answer": 0,
+    "explanation": "「露骨」的近义表达是「あからさま」，两者意思最接近。",
+    "translation": "采取露骨态度。"
+  },
+  {
+    "id": 1400,
+    "cat": "paraphrase",
+    "sentence": "明示的に示す。",
+    "target": "明示",
+    "options": [
+      "はっきり示す",
+      "暗に示す",
+      "ほのめかす",
+      "隠す"
+    ],
+    "answer": 0,
+    "explanation": "「明示」的近义表达是「はっきり示す」，两者意思最接近。",
+    "translation": "明示。"
+  },
+  {
+    "id": 1401,
+    "cat": "paraphrase",
+    "sentence": "暗示的な表現だ。",
+    "target": "暗示",
+    "options": [
+      "ほのめかし",
+      "明示",
+      "断言",
+      "宣言"
+    ],
+    "answer": 0,
+    "explanation": "「暗示」的近义表达是「ほのめかし」，两者意思最接近。",
+    "translation": "暗示性表达。"
+  },
+  {
+    "id": 1402,
+    "cat": "paraphrase",
+    "sentence": "ほのめかすように言う。",
+    "target": "ほのめかす",
+    "options": [
+      "暗示する",
+      "断言する",
+      "宣言する",
+      "明言する"
+    ],
+    "answer": 0,
+    "explanation": "「ほのめかす」的近义表达是「暗示する」，两者意思最接近。",
+    "translation": "暗指般说。"
+  },
+  {
+    "id": 1403,
+    "cat": "paraphrase",
+    "sentence": "断言できない。",
+    "target": "断言",
+    "options": [
+      "言い切る",
+      "ためらう",
+      "迷う",
+      "ぼかす"
+    ],
+    "answer": 0,
+    "explanation": "「断言」的近义表达是「言い切る」，两者意思最接近。",
+    "translation": "不能断言。"
+  },
+  {
+    "id": 1404,
+    "cat": "paraphrase",
+    "sentence": "宣言する。",
+    "target": "宣言",
+    "options": [
+      "公言する",
+      "隠す",
+      "ぼかす",
+      "ほのめかす"
+    ],
+    "answer": 0,
+    "explanation": "「宣言」的近义表达是「公言する」，两者意思最接近。",
+    "translation": "宣言。"
+  },
+  {
+    "id": 1405,
+    "cat": "paraphrase",
+    "sentence": "公言してはばからない。",
+    "target": "公言",
+    "options": [
+      "公に言う",
+      "黙る",
+      "隠す",
+      "ぼかす"
+    ],
+    "answer": 0,
+    "explanation": "「公言」的近义表达是「公に言う」，两者意思最接近。",
+    "translation": "毫不讳言。"
+  },
+  {
+    "id": 1406,
+    "cat": "paraphrase",
+    "sentence": "発言を撤回する。",
+    "target": "撤回",
+    "options": [
+      "取り消す",
+      "繰り返す",
+      "強調する",
+      "確認する"
+    ],
+    "answer": 0,
+    "explanation": "「撤回」的近义表达是「取り消す」，两者意思最接近。",
+    "translation": "撤回发言。"
+  },
+  {
+    "id": 1407,
+    "cat": "paraphrase",
+    "sentence": "約束を反故にする。",
+    "target": "反故",
+    "options": [
+      "破る",
+      "守る",
+      "結ぶ",
+      "交わす"
+    ],
+    "answer": 0,
+    "explanation": "「反故」的近义表达是「破る」，两者意思最接近。",
+    "translation": "毁约。"
+  },
+  {
+    "id": 1408,
+    "cat": "paraphrase",
+    "sentence": "契約を締結する。",
+    "target": "締結",
+    "options": [
+      "結ぶ",
+      "破る",
+      "解除する",
+      "反故にする"
+    ],
+    "answer": 0,
+    "explanation": "「締結」的近义表达是「結ぶ」，两者意思最接近。",
+    "translation": "缔结合同。"
+  },
+  {
+    "id": 1409,
+    "cat": "paraphrase",
+    "sentence": "契約を解除する。",
+    "target": "解除",
+    "options": [
+      "取り消す",
+      "結ぶ",
+      "締結する",
+      "維持する"
+    ],
+    "answer": 0,
+    "explanation": "「解除」的近义表达是「取り消す」，两者意思最接近。",
+    "translation": "解除合同。"
+  },
+  {
+    "id": 1410,
+    "cat": "paraphrase",
+    "sentence": "合意に達する。",
+    "target": "達する",
+    "options": [
+      "到達する",
+      "離れる",
+      "背く",
+      "逆らう"
+    ],
+    "answer": 0,
+    "explanation": "「達する」的近义表达是「到達する」，两者意思最接近。",
+    "translation": "达成合意。"
+  },
+  {
+    "id": 1411,
+    "cat": "paraphrase",
+    "sentence": "意向を打診する。",
+    "target": "打診",
+    "options": [
+      "探る",
+      "命令する",
+      "強制する",
+      "押し付ける"
+    ],
+    "answer": 0,
+    "explanation": "「打診」的近义表达是「探る」，两者意思最接近。",
+    "translation": "打探意向。"
+  },
+  {
+    "id": 1412,
+    "cat": "paraphrase",
+    "sentence": "交渉が決裂する。",
+    "target": "決裂",
+    "options": [
+      "破談",
+      "成立",
+      "合意",
+      "妥結"
+    ],
+    "answer": 0,
+    "explanation": "「決裂」的近义表达是「破談」，两者意思最接近。",
+    "translation": "谈判决裂。"
+  },
+  {
+    "id": 1413,
+    "cat": "paraphrase",
+    "sentence": "交渉が妥結する。",
+    "target": "妥結",
+    "options": [
+      "まとまる",
+      "決裂する",
+      "破談",
+      "崩れる"
+    ],
+    "answer": 0,
+    "explanation": "「妥結」的近义表达是「まとまる」，两者意思最接近。",
+    "translation": "谈判妥结。"
+  },
+  {
+    "id": 1414,
+    "cat": "paraphrase",
+    "sentence": "意見が一致する。",
+    "target": "一致",
+    "options": [
+      "合う",
+      "食い違う",
+      "対立する",
+      "分かれる"
+    ],
+    "answer": 0,
+    "explanation": "「一致」的近义表达是「合う」，两者意思最接近。",
+    "translation": "意见一致。"
+  },
+  {
+    "id": 1415,
+    "cat": "paraphrase",
+    "sentence": "意見が相違する。",
+    "target": "相違",
+    "options": [
+      "異なる",
+      "一致する",
+      "合う",
+      "同じ"
+    ],
+    "answer": 0,
+    "explanation": "「相違」的近义表达是「異なる」，两者意思最接近。",
+    "translation": "意见分歧。"
+  },
+  {
+    "id": 1416,
+    "cat": "paraphrase",
+    "sentence": "見解が分かれる。",
+    "target": "分かれる",
+    "options": [
+      "異なる",
+      "一致する",
+      "合致する",
+      "同じ"
+    ],
+    "answer": 0,
+    "explanation": "「分かれる」的近义表达是「異なる」，两者意思最接近。",
+    "translation": "见解分歧。"
+  },
+  {
+    "id": 1417,
+    "cat": "paraphrase",
+    "sentence": "対立を解消する。",
+    "target": "解消",
+    "options": [
+      "なくす",
+      "増やす",
+      "強める",
+      "深める"
+    ],
+    "answer": 0,
+    "explanation": "「解消」的近义表达是「なくす」，两者意思最接近。",
+    "translation": "消解对立。"
+  },
+  {
+    "id": 1418,
+    "cat": "paraphrase",
+    "sentence": "関係を断絶する。",
+    "target": "断絶",
+    "options": [
+      "断つ",
+      "結ぶ",
+      "築く",
+      "繋ぐ"
+    ],
+    "answer": 0,
+    "explanation": "「断絶」的近义表达是「断つ」，两者意思最接近。",
+    "translation": "断绝关系。"
+  },
+  {
+    "id": 1419,
+    "cat": "paraphrase",
+    "sentence": "友好関係を結ぶ。",
+    "target": "結ぶ",
+    "options": [
+      "築く",
+      "断つ",
+      "切る",
+      "終わらせる"
+    ],
+    "answer": 0,
+    "explanation": "「結ぶ」的近义表达是「築く」，两者意思最接近。",
+    "translation": "结友好关系。"
+  },
+  {
+    "id": 1420,
+    "cat": "paraphrase",
+    "sentence": "議論が白熱する。",
+    "target": "白熱",
+    "options": [
+      "激しくなる",
+      "冷める",
+      "落ち着く",
+      "静まる"
+    ],
+    "answer": 0,
+    "explanation": "「白熱」的近义表达是「激しくなる」，两者意思最接近。",
+    "translation": "议论白热。"
+  },
+  {
+    "id": 1421,
+    "cat": "paraphrase",
+    "sentence": "場が白ける。",
+    "target": "白ける",
+    "options": [
+      "冷める",
+      "盛り上がる",
+      "熱くなる",
+      "高まる"
+    ],
+    "answer": 0,
+    "explanation": "「白ける」的近义表达是「冷める」，两者意思最接近。",
+    "translation": "场面冷清。"
+  },
+  {
+    "id": 1422,
+    "cat": "paraphrase",
+    "sentence": "雰囲気が和む。",
+    "target": "和む",
+    "options": [
+      "穏やかになる",
+      "険悪になる",
+      "冷える",
+      "張り詰める"
+    ],
+    "answer": 0,
+    "explanation": "「和む」的近义表达是「穏やかになる」，两者意思最接近。",
+    "translation": "气氛缓和。"
+  },
+  {
+    "id": 1423,
+    "cat": "paraphrase",
+    "sentence": "険悪な雰囲気になる。",
+    "target": "険悪",
+    "options": [
+      "悪い",
+      "和やか",
+      "穏やか",
+      "友好"
+    ],
+    "answer": 0,
+    "explanation": "「険悪」的近义表达是「悪い」，两者意思最接近。",
+    "translation": "气氛险恶。"
+  },
+  {
+    "id": 1424,
+    "cat": "paraphrase",
+    "sentence": "和やかに話す。",
+    "target": "和やか",
+    "options": [
+      "穏やか",
+      "険悪",
+      "殺伐",
+      "張り詰める"
+    ],
+    "answer": 0,
+    "explanation": "「和やか」的近义表达是「穏やか」，两者意思最接近。",
+    "translation": "和睦谈话。"
+  },
+  {
+    "id": 1425,
+    "cat": "paraphrase",
+    "sentence": "殺伐とした雰囲気。",
+    "target": "殺伐",
+    "options": [
+      "荒んだ",
+      "和やか",
+      "穏やか",
+      "温和"
+    ],
+    "answer": 0,
+    "explanation": "「殺伐」的近义表达是「荒んだ」，两者意思最接近。",
+    "translation": "杀伐气氛。"
+  },
+  {
+    "id": 1426,
+    "cat": "paraphrase",
+    "sentence": "緊迫した状況だ。",
+    "target": "緊迫",
+    "options": [
+      "張り詰めた",
+      "緩んだ",
+      "リラックス",
+      "のんびり"
+    ],
+    "answer": 0,
+    "explanation": "「緊迫」的近义表达是「張り詰めた」，两者意思最接近。",
+    "translation": "紧迫状况。"
+  },
+  {
+    "id": 1427,
+    "cat": "paraphrase",
+    "sentence": "緩和策を講じる。",
+    "target": "緩和",
+    "options": [
+      "和らげる",
+      "強める",
+      "悪化",
+      "厳しくする"
+    ],
+    "answer": 0,
+    "explanation": "「緩和」的近义表达是「和らげる」，两者意思最接近。",
+    "translation": "采取缓和策。"
+  },
+  {
+    "id": 1428,
+    "cat": "paraphrase",
+    "sentence": "事態が沈静化する。",
+    "target": "沈静",
+    "options": [
+      "落ち着く",
+      "激化する",
+      "悪化",
+      "高まる"
+    ],
+    "answer": 0,
+    "explanation": "「沈静」的近义表达是「落ち着く」，两者意思最接近。",
+    "translation": "事态平息。"
+  },
+  {
+    "id": 1429,
+    "cat": "paraphrase",
+    "sentence": "事態が激化する。",
+    "target": "激化",
+    "options": [
+      "激しくなる",
+      "落ち着く",
+      "沈静",
+      "緩和"
+    ],
+    "answer": 0,
+    "explanation": "「激化」的近义表达是「激しくなる」，两者意思最接近。",
+    "translation": "事态激化。"
+  },
+  {
+    "id": 1430,
+    "cat": "paraphrase",
+    "sentence": "対策を講じる。",
+    "target": "講じる",
+    "options": [
+      "取る",
+      "避ける",
+      "怠る",
+      "放棄する"
+    ],
+    "answer": 0,
+    "explanation": "「講じる」的近义表达是「取る」，两者意思最接近。",
+    "translation": "采取对策。"
+  },
+  {
+    "id": 1431,
+    "cat": "paraphrase",
+    "sentence": "措置を取る。",
+    "target": "措置",
+    "options": [
+      "処置",
+      "放置",
+      "無視",
+      "怠る"
+    ],
+    "answer": 0,
+    "explanation": "「措置」的近义表达是「処置」，两者意思最接近。",
+    "translation": "采取措施。"
+  },
+  {
+    "id": 1432,
+    "cat": "paraphrase",
+    "sentence": "処置を施す。",
+    "target": "施す",
+    "options": [
+      "行う",
+      "怠る",
+      "避ける",
+      "放棄する"
+    ],
+    "answer": 0,
+    "explanation": "「施す」的近义表达是「行う」，两者意思最接近。",
+    "translation": "施以处置。"
+  },
+  {
+    "id": 1433,
+    "cat": "paraphrase",
+    "sentence": "手だてを講じる。",
+    "target": "手だて",
+    "options": [
+      "方法",
+      "結果",
+      "原因",
+      "目的"
+    ],
+    "answer": 0,
+    "explanation": "「手だて」的近义表达是「方法」，两者意思最接近。",
+    "translation": "谋划手段。"
+  },
+  {
+    "id": 1434,
+    "cat": "paraphrase",
+    "sentence": "苦肉の策を取る。",
+    "target": "苦肉の策",
+    "options": [
+      "最後の手段",
+      "楽な方法",
+      "簡単な策",
+      "無策"
+    ],
+    "answer": 0,
+    "explanation": "「苦肉の策」的近义表达是「最後の手段」，两者意思最接近。",
+    "translation": "采取苦肉计。"
+  },
+  {
+    "id": 1435,
+    "cat": "paraphrase",
+    "sentence": "妙案が浮かぶ。",
+    "target": "妙案",
+    "options": [
+      "良い考え",
+      "悪い考え",
+      "愚案",
+      "駄作"
+    ],
+    "answer": 0,
+    "explanation": "「妙案」的近义表达是「良い考え」，两者意思最接近。",
+    "translation": "浮现妙案。"
+  },
+  {
+    "id": 1436,
+    "cat": "paraphrase",
+    "sentence": "打開策を見出す。",
+    "target": "打開策",
+    "options": [
+      "解決法",
+      "行き詰まり",
+      "頓挫",
+      "失敗"
+    ],
+    "answer": 0,
+    "explanation": "「打開策」的近义表达是「解決法」，两者意思最接近。",
+    "translation": "找到打开之策。"
+  },
+  {
+    "id": 1437,
+    "cat": "paraphrase",
+    "sentence": "頓挫する。",
+    "target": "頓挫",
+    "options": [
+      "挫折",
+      "成功",
+      "達成",
+      "完了"
+    ],
+    "answer": 0,
+    "explanation": "「頓挫」的近义表达是「挫折」，两者意思最接近。",
+    "translation": "顿挫。"
+  },
+  {
+    "id": 1438,
+    "cat": "paraphrase",
+    "sentence": "挫折を経験する。",
+    "target": "挫折",
+    "options": [
+      "失敗",
+      "成功",
+      "達成",
+      "完遂"
+    ],
+    "answer": 0,
+    "explanation": "「挫折」的近义表达是「失敗」，两者意思最接近。",
+    "translation": "经历挫折。"
+  },
+  {
+    "id": 1439,
+    "cat": "paraphrase",
+    "sentence": "完遂する。",
+    "target": "完遂",
+    "options": [
+      "やり遂げる",
+      "失敗する",
+      "挫折する",
+      "諦める"
+    ],
+    "answer": 0,
+    "explanation": "「完遂」的近义表达是「やり遂げる」，两者意思最接近。",
+    "translation": "完成。"
+  },
+  {
+    "id": 1440,
+    "cat": "paraphrase",
+    "sentence": "達成感を味わう。",
+    "target": "達成",
+    "options": [
+      "成し遂げる",
+      "失敗する",
+      "諦める",
+      "放棄する"
+    ],
+    "answer": 0,
+    "explanation": "「達成」的近义表达是「成し遂げる」，两者意思最接近。",
+    "translation": "品尝达成感。"
+  },
+  {
+    "id": 1441,
+    "cat": "paraphrase",
+    "sentence": "成就を祈る。",
+    "target": "成就",
+    "options": [
+      "成功",
+      "失敗",
+      "挫折",
+      "頓挫"
+    ],
+    "answer": 0,
+    "explanation": "「成就」的近义表达是「成功」，两者意思最接近。",
+    "translation": "祈求成就。"
+  },
+  {
+    "id": 1442,
+    "cat": "paraphrase",
+    "sentence": "願望を叶える。",
+    "target": "叶える",
+    "options": [
+      "実現する",
+      "妨げる",
+      "阻む",
+      "潰す"
+    ],
+    "answer": 0,
+    "explanation": "「叶える」的近义表达是「実現する」，两者意思最接近。",
+    "translation": "实现愿望。"
+  },
+  {
+    "id": 1443,
+    "cat": "paraphrase",
+    "sentence": "夢を実現する。",
+    "target": "実現",
+    "options": [
+      "叶える",
+      "諦める",
+      "放棄する",
+      "挫折"
+    ],
+    "answer": 0,
+    "explanation": "「実現」的近义表达是「叶える」，两者意思最接近。",
+    "translation": "实现梦想。"
+  },
+  {
+    "id": 1444,
+    "cat": "paraphrase",
+    "sentence": "野望を抱く。",
+    "target": "野望",
+    "options": [
+      "大きな望み",
+      "小さな願い",
+      "日常",
+      "現実"
+    ],
+    "answer": 0,
+    "explanation": "「野望」的近义表达是「大きな望み」，两者意思最接近。",
+    "translation": "怀野望。"
+  },
+  {
+    "id": 1445,
+    "cat": "paraphrase",
+    "sentence": "大志を抱く。",
+    "target": "大志",
+    "options": [
+      "大きな志",
+      "小さな願い",
+      "些細な夢",
+      "日常"
+    ],
+    "answer": 0,
+    "explanation": "「大志」的近义表达是「大きな志」，两者意思最接近。",
+    "translation": "怀大志。"
+  },
+  {
+    "id": 1446,
+    "cat": "paraphrase",
+    "sentence": "名誉を重んじる。",
+    "target": "重んじる",
+    "options": [
+      "大切にする",
+      "軽視する",
+      "無視する",
+      "捨てる"
+    ],
+    "answer": 0,
+    "explanation": "「重んじる」的近义表达是「大切にする」，两者意思最接近。",
+    "translation": "重视名誉。"
+  },
+  {
+    "id": 1447,
+    "cat": "paraphrase",
+    "sentence": "信義を重んじる。",
+    "target": "信義",
+    "options": [
+      "信頼と義理",
+      "不信",
+      "裏切り",
+      "欺瞞"
+    ],
+    "answer": 0,
+    "explanation": "「信義」的近义表达是「信頼と義理」，两者意思最接近。",
+    "translation": "重视信义。"
+  },
+  {
+    "id": 1448,
+    "cat": "paraphrase",
+    "sentence": "忠義を尽くす。",
+    "target": "忠義",
+    "options": [
+      "忠誠",
+      "裏切り",
+      "反逆",
+      "離反"
+    ],
+    "answer": 0,
+    "explanation": "「忠義」的近义表达是「忠誠」，两者意思最接近。",
+    "translation": "尽忠义。"
+  },
+  {
+    "id": 1449,
+    "cat": "paraphrase",
+    "sentence": "忠誠を誓う。",
+    "target": "忠誠",
+    "options": [
+      "忠実",
+      "裏切り",
+      "反逆",
+      "背信"
+    ],
+    "answer": 0,
+    "explanation": "「忠誠」的近义表达是「忠実」，两者意思最接近。",
+    "translation": "誓忠诚。"
+  },
+  {
+    "id": 1450,
+    "cat": "paraphrase",
+    "sentence": "背信行為を働く。",
+    "target": "背信",
+    "options": [
+      "裏切り",
+      "忠誠",
+      "信頼",
+      "誠実"
+    ],
+    "answer": 0,
+    "explanation": "「背信」的近义表达是「裏切り」，两者意思最接近。",
+    "translation": "做背信行为。"
+  },
+  {
+    "id": 1451,
+    "cat": "paraphrase",
+    "sentence": "裏切り行為だ。",
+    "target": "裏切り",
+    "options": [
+      "背信",
+      "忠誠",
+      "信頼",
+      "誠実"
+    ],
+    "answer": 0,
+    "explanation": "「裏切り」的近义表达是「背信」，两者意思最接近。",
+    "translation": "是背叛行为。"
+  },
+  {
+    "id": 1452,
+    "cat": "paraphrase",
+    "sentence": "誠実な態度だ。",
+    "target": "誠実",
+    "options": [
+      "真面目",
+      "不誠実",
+      "偽善",
+      "欺瞞"
+    ],
+    "answer": 0,
+    "explanation": "「誠実」的近义表达是「真面目」，两者意思最接近。",
+    "translation": "诚实态度。"
+  },
+  {
+    "id": 1453,
+    "cat": "paraphrase",
+    "sentence": "偽善的な振る舞い。",
+    "target": "偽善",
+    "options": [
+      "見せかけ",
+      "誠実",
+      "真実",
+      "正直"
+    ],
+    "answer": 0,
+    "explanation": "「偽善」的近义表达是「見せかけ」，两者意思最接近。",
+    "translation": "伪善行为。"
+  },
+  {
+    "id": 1454,
+    "cat": "paraphrase",
+    "sentence": "欺瞞に満ちた世界。",
+    "target": "欺瞞",
+    "options": [
+      "偽り",
+      "真実",
+      "誠実",
+      "正直"
+    ],
+    "answer": 0,
+    "explanation": "「欺瞞」的近义表达是「偽り」，两者意思最接近。",
+    "translation": "满是欺瞒的世界。"
+  },
+  {
+    "id": 1455,
+    "cat": "paraphrase",
+    "sentence": "虚偽の報告をする。",
+    "target": "虚偽",
+    "options": [
+      "嘘",
+      "真実",
+      "本当",
+      "事実"
+    ],
+    "answer": 0,
+    "explanation": "「虚偽」的近义表达是「嘘」，两者意思最接近。",
+    "translation": "做虚假报告。"
+  },
+  {
+    "id": 1456,
+    "cat": "paraphrase",
+    "sentence": "真実を語る。",
+    "target": "真実",
+    "options": [
+      "本当のこと",
+      "虚偽",
+      "嘘",
+      "偽り"
+    ],
+    "answer": 0,
+    "explanation": "「真実」的近义表达是「本当のこと」，两者意思最接近。",
+    "translation": "讲真话。"
+  },
+  {
+    "id": 1457,
+    "cat": "paraphrase",
+    "sentence": "虚構の物語だ。",
+    "target": "虚構",
+    "options": [
+      "作り事",
+      "事実",
+      "真実",
+      "実話"
+    ],
+    "answer": 0,
+    "explanation": "「虚構」的近义表达是「作り事」，两者意思最接近。",
+    "translation": "是虚构故事。"
+  },
+  {
+    "id": 1458,
+    "cat": "paraphrase",
+    "sentence": "実話に基づく。",
+    "target": "実話",
+    "options": [
+      "本当の話",
+      "作り話",
+      "虚構",
+      "嘘"
+    ],
+    "answer": 0,
+    "explanation": "「実話」的近义表达是「本当の話」，两者意思最接近。",
+    "translation": "基于真实。"
+  },
+  {
+    "id": 1459,
+    "cat": "paraphrase",
+    "sentence": "逸話を紹介する。",
+    "target": "逸話",
+    "options": [
+      "エピソード",
+      "通説",
+      "定説",
+      "理論"
+    ],
+    "answer": 0,
+    "explanation": "「逸話」的近义表达是「エピソード」，两者意思最接近。",
+    "translation": "介绍轶事。"
+  },
+  {
+    "id": 1460,
+    "cat": "paraphrase",
+    "sentence": "通説を覆す。",
+    "target": "通説",
+    "options": [
+      "一般的な説",
+      "異説",
+      "新説",
+      "珍説"
+    ],
+    "answer": 0,
+    "explanation": "「通説」的近义表达是「一般的な説」，两者意思最接近。",
+    "translation": "颠覆通说。"
+  },
+  {
+    "id": 1461,
+    "cat": "paraphrase",
+    "sentence": "定説を疑う。",
+    "target": "定説",
+    "options": [
+      "確定した説",
+      "仮説",
+      "新説",
+      "珍説"
+    ],
+    "answer": 0,
+    "explanation": "「定説」的近义表达是「確定した説」，两者意思最接近。",
+    "translation": "怀疑定论。"
+  },
+  {
+    "id": 1462,
+    "cat": "paraphrase",
+    "sentence": "仮説を立てる。",
+    "target": "仮説",
+    "options": [
+      "推測",
+      "定説",
+      "事実",
+      "真実"
+    ],
+    "answer": 0,
+    "explanation": "「仮説」的近义表达是「推測」，两者意思最接近。",
+    "translation": "立假说。"
+  },
+  {
+    "id": 1463,
+    "cat": "paraphrase",
+    "sentence": "仮定の話だ。",
+    "target": "仮定",
+    "options": [
+      "もしもの話",
+      "事実",
+      "現実",
+      "実際"
+    ],
+    "answer": 0,
+    "explanation": "「仮定」的近义表达是「もしもの話」，两者意思最接近。",
+    "translation": "假设的话。"
+  },
+  {
+    "id": 1464,
+    "cat": "paraphrase",
+    "sentence": "憶測で話す。",
+    "target": "憶測",
+    "options": [
+      "当て推量",
+      "確証",
+      "事実",
+      "証拠"
+    ],
+    "answer": 0,
+    "explanation": "「憶測」的近义表达是「当て推量」，两者意思最接近。",
+    "translation": "凭臆测说。"
+  },
+  {
+    "id": 1465,
+    "cat": "paraphrase",
+    "sentence": "推測に過ぎない。",
+    "target": "推測",
+    "options": [
+      "当て推量",
+      "確証",
+      "事実",
+      "証拠"
+    ],
+    "answer": 0,
+    "explanation": "「推測」的近义表达是「当て推量」，两者意思最接近。",
+    "translation": "不过是推测。"
+  },
+  {
+    "id": 1466,
+    "cat": "paraphrase",
+    "sentence": "憶病な性格だ。",
+    "target": "憶病",
+    "options": [
+      "臆病",
+      "勇敢",
+      "大胆",
+      "豪胆"
+    ],
+    "answer": 0,
+    "explanation": "「憶病」的近义表达是「臆病」，两者意思最接近。",
+    "translation": "性格胆小。"
+  },
+  {
+    "id": 1467,
+    "cat": "paraphrase",
+    "sentence": "豪胆な人物だ。",
+    "target": "豪胆",
+    "options": [
+      "大胆",
+      "臆病",
+      "小心",
+      "怯懦"
+    ],
+    "answer": 0,
+    "explanation": "「豪胆」的近义表达是「大胆」，两者意思最接近。",
+    "translation": "豪胆的人物。"
+  },
+  {
+    "id": 1468,
+    "cat": "paraphrase",
+    "sentence": "小心者だ。",
+    "target": "小心",
+    "options": [
+      "気が小さい",
+      "大胆",
+      "豪快",
+      "勇敢"
+    ],
+    "answer": 0,
+    "explanation": "「小心」的近义表达是「気が小さい」，两者意思最接近。",
+    "translation": "小心眼的人。"
+  },
+  {
+    "id": 1469,
+    "cat": "paraphrase",
+    "sentence": "気さくな人だ。",
+    "target": "気さく",
+    "options": [
+      "親しみやすい",
+      "取っつきにくい",
+      "気難しい",
+      "無愛想"
+    ],
+    "answer": 0,
+    "explanation": "「気さく」的近义表达是「親しみやすい」，两者意思最接近。",
+    "translation": "随和的人。"
+  },
+  {
+    "id": 1470,
+    "cat": "paraphrase",
+    "sentence": "気難しい老人だ。",
+    "target": "気難しい",
+    "options": [
+      "機嫌が悪い",
+      "機嫌が良い",
+      "気さく",
+      "温和"
+    ],
+    "answer": 0,
+    "explanation": "「気難しい」的近义表达是「機嫌が悪い」，两者意思最接近。",
+    "translation": "难伺候的老人。"
+  },
+  {
+    "id": 1471,
+    "cat": "paraphrase",
+    "sentence": "気まぐれな性格。",
+    "target": "気まぐれ",
+    "options": [
+      "移り気",
+      "一途",
+      "真面目",
+      "堅実"
+    ],
+    "answer": 0,
+    "explanation": "「気まぐれ」的近义表达是「移り気」，两者意思最接近。",
+    "translation": "性情无常。"
+  },
+  {
+    "id": 1472,
+    "cat": "paraphrase",
+    "sentence": "一途な愛。",
+    "target": "一途",
+    "options": [
+      "ひたむき",
+      "気まぐれ",
+      "浮気",
+      "不真面目"
+    ],
+    "answer": 0,
+    "explanation": "「一途」的近义表达是「ひたむき」，两者意思最接近。",
+    "translation": "专一的爱。"
+  },
+  {
+    "id": 1473,
+    "cat": "paraphrase",
+    "sentence": "ひたむきに努力する。",
+    "target": "ひたむき",
+    "options": [
+      "一心に",
+      "気まぐれに",
+      "適当に",
+      "いい加減に"
+    ],
+    "answer": 0,
+    "explanation": "「ひたむき」的近义表达是「一心に」，两者意思最接近。",
+    "translation": "专注努力。"
+  },
+  {
+    "id": 1474,
+    "cat": "paraphrase",
+    "sentence": "一心に祈る。",
+    "target": "一心に",
+    "options": [
+      "ひたむきに",
+      "気まぐれに",
+      "いい加減に",
+      "適当に"
+    ],
+    "answer": 0,
+    "explanation": "「一心に」的近义表达是「ひたむきに」，两者意思最接近。",
+    "translation": "一心祈祷。"
+  },
+  {
+    "id": 1475,
+    "cat": "paraphrase",
+    "sentence": "懸命に働く。",
+    "target": "懸命",
+    "options": [
+      "一生懸命",
+      "怠慢",
+      "怠惰",
+      "適当"
+    ],
+    "answer": 0,
+    "explanation": "「懸命」的近义表达是「一生懸命」，两者意思最接近。",
+    "translation": "拼命工作。"
+  },
+  {
+    "id": 1476,
+    "cat": "paraphrase",
+    "sentence": "怠慢な態度だ。",
+    "target": "怠慢",
+    "options": [
+      "怠ける",
+      "勤勉",
+      "真面目",
+      "熱心"
+    ],
+    "answer": 0,
+    "explanation": "「怠慢」的近义表达是「怠ける」，两者意思最接近。",
+    "translation": "怠慢态度。"
+  },
+  {
+    "id": 1477,
+    "cat": "paraphrase",
+    "sentence": "勤勉に学ぶ。",
+    "target": "勤勉",
+    "options": [
+      "まじめに励む",
+      "怠ける",
+      "怠慢",
+      "手を抜く"
+    ],
+    "answer": 0,
+    "explanation": "「勤勉」的近义表达是「まじめに励む」，两者意思最接近。",
+    "translation": "勤奋学习。"
+  },
+  {
+    "id": 1478,
+    "cat": "paraphrase",
+    "sentence": "献身的に世話する。",
+    "target": "献身的",
+    "options": [
+      "身を捧げる",
+      "利己的",
+      "自己中心",
+      "身勝手"
+    ],
+    "answer": 0,
+    "explanation": "「献身的」的近义表达是「身を捧げる」，两者意思最接近。",
+    "translation": "献身照料。"
+  },
+  {
+    "id": 1479,
+    "cat": "paraphrase",
+    "sentence": "利己的な行動だ。",
+    "target": "利己的",
+    "options": [
+      "自己中心",
+      "献身的",
+      "利他的",
+      "博愛"
+    ],
+    "answer": 0,
+    "explanation": "「利己的」的近义表达是「自己中心」，两者意思最接近。",
+    "translation": "利己行为。"
+  },
+  {
+    "id": 1480,
+    "cat": "paraphrase",
+    "sentence": "利他的な行為。",
+    "target": "利他的",
+    "options": [
+      "他人のため",
+      "自己中心",
+      "利己的",
+      "身勝手"
+    ],
+    "answer": 0,
+    "explanation": "「利他的」的近义表达是「他人のため」，两者意思最接近。",
+    "translation": "利他行为。"
+  },
+  {
+    "id": 1481,
+    "cat": "paraphrase",
+    "sentence": "自己中心的な考え。",
+    "target": "自己中心",
+    "options": [
+      "利己的",
+      "利他的",
+      "献身的",
+      "博愛"
+    ],
+    "answer": 0,
+    "explanation": "「自己中心」的近义表达是「利己的」，两者意思最接近。",
+    "translation": "自我中心想法。"
+  },
+  {
+    "id": 1482,
+    "cat": "paraphrase",
+    "sentence": "博愛の精神を持つ。",
+    "target": "博愛",
+    "options": [
+      "広く愛する",
+      "狭い愛",
+      "偏愛",
+      "嫌悪"
+    ],
+    "answer": 0,
+    "explanation": "「博愛」的近义表达是「広く愛する」，两者意思最接近。",
+    "translation": "有博爱精神。"
+  },
+  {
+    "id": 1483,
+    "cat": "paraphrase",
+    "sentence": "偏愛が過ぎる。",
+    "target": "偏愛",
+    "options": [
+      "偏った愛",
+      "広い愛",
+      "博愛",
+      "公平"
+    ],
+    "answer": 0,
+    "explanation": "「偏愛」的近义表达是「偏った愛」，两者意思最接近。",
+    "translation": "偏爱过度。"
+  },
+  {
+    "id": 1484,
+    "cat": "paraphrase",
+    "sentence": "公平な裁定を下す。",
+    "target": "公平",
+    "options": [
+      "平等",
+      "不公平",
+      "偏り",
+      "偏向"
+    ],
+    "answer": 0,
+    "explanation": "「公平」的近义表达是「平等」，两者意思最接近。",
+    "translation": "做公平裁定。"
+  },
+  {
+    "id": 1485,
+    "cat": "paraphrase",
+    "sentence": "偏見を持つ。",
+    "target": "偏見",
+    "options": [
+      "偏った見方",
+      "公平",
+      "中立",
+      "客観"
+    ],
+    "answer": 0,
+    "explanation": "「偏見」的近义表达是「偏った見方」，两者意思最接近。",
+    "translation": "持偏见。"
+  },
+  {
+    "id": 1486,
+    "cat": "paraphrase",
+    "sentence": "中立の立場を取る。",
+    "target": "中立",
+    "options": [
+      "どちらにもつかない",
+      "偏る",
+      "片寄る",
+      "加担"
+    ],
+    "answer": 0,
+    "explanation": "「中立」的近义表达是「どちらにもつかない」，两者意思最接近。",
+    "translation": "采取中立立场。"
+  },
+  {
+    "id": 1487,
+    "cat": "paraphrase",
+    "sentence": "客観的な視点。",
+    "target": "客観",
+    "options": [
+      "第三者的",
+      "主観",
+      "個人的",
+      "偏見"
+    ],
+    "answer": 0,
+    "explanation": "「客観」的近义表达是「第三者的」，两者意思最接近。",
+    "translation": "客观视角。"
+  },
+  {
+    "id": 1488,
+    "cat": "paraphrase",
+    "sentence": "主観的な意見。",
+    "target": "主観",
+    "options": [
+      "個人的",
+      "客観",
+      "中立",
+      "公平"
+    ],
+    "answer": 0,
+    "explanation": "「主観」的近义表达是「個人的」，两者意思最接近。",
+    "translation": "主观意见。"
+  },
+  {
+    "id": 1489,
+    "cat": "paraphrase",
+    "sentence": "抽象的な議論。",
+    "target": "抽象",
+    "options": [
+      "観念的",
+      "具体",
+      "実際",
+      "現実"
+    ],
+    "answer": 0,
+    "explanation": "「抽象」的近义表达是「観念的」，两者意思最接近。",
+    "translation": "抽象议论。"
+  },
+  {
+    "id": 1490,
+    "cat": "paraphrase",
+    "sentence": "具体的な例を挙げる。",
+    "target": "具体",
+    "options": [
+      "実際的",
+      "抽象",
+      "観念",
+      "理論"
+    ],
+    "answer": 0,
+    "explanation": "「具体」的近义表达是「実際的」，两者意思最接近。",
+    "translation": "举具体例。"
+  },
+  {
+    "id": 1491,
+    "cat": "paraphrase",
+    "sentence": "観念的な話だ。",
+    "target": "観念",
+    "options": [
+      "理念的",
+      "具体",
+      "実際",
+      "実践"
+    ],
+    "answer": 0,
+    "explanation": "「観念」的近义表达是「理念的」，两者意思最接近。",
+    "translation": "观念性的话。"
+  },
+  {
+    "id": 1492,
+    "cat": "paraphrase",
+    "sentence": "実践を重んじる。",
+    "target": "実践",
+    "options": [
+      "行動",
+      "理論",
+      "観念",
+      "空論"
+    ],
+    "answer": 0,
+    "explanation": "「実践」的近义表达是「行動」，两者意思最接近。",
+    "translation": "重视实践。"
+  },
+  {
+    "id": 1493,
+    "cat": "paraphrase",
+    "sentence": "理論を構築する。",
+    "target": "理論",
+    "options": [
+      "学説",
+      "実践",
+      "経験",
+      "実例"
+    ],
+    "answer": 0,
+    "explanation": "「理論」的近义表达是「学説」，两者意思最接近。",
+    "translation": "构筑理论。"
+  },
+  {
+    "id": 1494,
+    "cat": "paraphrase",
+    "sentence": "経験を積む。",
+    "target": "経験",
+    "options": [
+      "体験",
+      "理論",
+      "空論",
+      "観念"
+    ],
+    "answer": 0,
+    "explanation": "「経験」的近义表达是「体験」，两者意思最接近。",
+    "translation": "积累经验。"
+  },
+  {
+    "id": 1495,
+    "cat": "paraphrase",
+    "sentence": "体験を語る。",
+    "target": "体験",
+    "options": [
+      "経験",
+      "理論",
+      "空論",
+      "仮想"
+    ],
+    "answer": 0,
+    "explanation": "「体験」的近义表达是「経験」，两者意思最接近。",
+    "translation": "讲述体验。"
+  },
+  {
+    "id": 1496,
+    "cat": "paraphrase",
+    "sentence": "空論に過ぎない。",
+    "target": "空論",
+    "options": [
+      "実効性のない議論",
+      "実践",
+      "実用",
+      "現実"
+    ],
+    "answer": 0,
+    "explanation": "「空論」的近义表达是「実効性のない議論」，两者意思最接近。",
+    "translation": "只是空论。"
+  },
+  {
+    "id": 1497,
+    "cat": "paraphrase",
+    "sentence": "実用的な道具。",
+    "target": "実用",
+    "options": [
+      "役立つ",
+      "無駄",
+      "不要",
+      "非実用"
+    ],
+    "answer": 0,
+    "explanation": "「実用」的近义表达是「役立つ」，两者意思最接近。",
+    "translation": "实用工具。"
+  },
+  {
+    "id": 1498,
+    "cat": "paraphrase",
+    "sentence": "無駄を省く。",
+    "target": "無駄",
+    "options": [
+      "むなしい",
+      "有用",
+      "実用",
+      "効率"
+    ],
+    "answer": 0,
+    "explanation": "「無駄」的近义表达是「むなしい」，两者意思最接近。",
+    "translation": "省去无用。"
+  },
+  {
+    "id": 1499,
+    "cat": "paraphrase",
+    "sentence": "効率的に働く。",
+    "target": "効率",
+    "options": [
+      "能率",
+      "無駄",
+      "非効率",
+      "冗長"
+    ],
+    "answer": 0,
+    "explanation": "「効率」的近义表达是「能率」，两者意思最接近。",
+    "translation": "高效工作。"
+  },
+  {
+    "id": 1500,
+    "cat": "paraphrase",
+    "sentence": "能率が上がる。",
+    "target": "能率",
+    "options": [
+      "効率",
+      "非効率",
+      "無駄",
+      "冗長"
+    ],
+    "answer": 0,
+    "explanation": "「能率」的近义表达是「効率」，两者意思最接近。",
+    "translation": "效率上升。"
+  }
+]

@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover" />
+  <meta name="mobile-web-app-capable" content="no" />
+  <meta name="apple-mobile-web-app-capable" content="no" />
+  <meta name="apple-mobile-web-app-title" content="同学会" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="theme-color" content="#6366f1" />
+  <title>日本语同学会</title>
+  <link rel="manifest" href="./pwa/manifest.json" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./pwa/icons/app-icon-192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="./pwa/icons/app-icon-512.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./pwa/icons/app-icon-180.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="./pwa/icons/app-icon-192.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="./pwa/icons/app-icon-180.png" />
+  <link rel="stylesheet" href="./style.css?v=2026-06-19.4" />
+</head>
+<body>
+  <div class="container">
+    <!-- ========== 模块选择页面 ========== -->
+    <div id="moduleScreen" class="screen">
+      <div class="start-hero">
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="zh-CN">简</button>
+          <button class="lang-btn" data-lang="zh-TW">繁</button>
+          <button class="lang-btn" data-lang="ja">日</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <div class="start-icon">あ</div>
+        <h1 data-i18n="title">日本语同学会</h1>
+        <p class="start-desc" data-i18n="subtitle">选择练习模块</p>
+      </div>
+
+      <div class="module-grid">
+        <div class="module-card" data-module="kana">
+          <div class="module-icon">あ</div>
+          <div class="module-name" data-i18n="mod_kana">50音基础</div>
+          <div class="module-desc" data-i18n="mod_kana_desc">清音・浊音・拗音</div>
+        </div>
+        <div class="module-card" data-module="word">
+          <div class="module-icon">言</div>
+          <div class="module-name" data-i18n="mod_word">日常短词</div>
+          <div class="module-desc" data-i18n="mod_word_desc">词汇・同近反义词</div>
+        </div>
+        <div class="module-card" data-module="wordMatch">
+          <div class="module-icon" data-i18n="mod_word_match_icon">消</div>
+          <div class="module-name" data-i18n="mod_word_match">短词消除</div>
+          <div class="module-desc" data-i18n="mod_word_match_desc">3对持续消除</div>
+        </div>
+        <div class="module-card" data-module="kanji">
+          <div class="module-icon">漢</div>
+          <div class="module-name" data-i18n="mod_kanji">汉字短词</div>
+          <div class="module-desc" data-i18n="mod_kanji_desc">汉字读写训练</div>
+        </div>
+        <div class="module-card" data-module="n2">
+          <div class="module-icon">JLPT</div>
+          <div class="module-name" data-i18n="mod_n2">日本语测试</div>
+          <div class="module-desc" data-i18n="mod_n2_desc">N1-N5 模拟练习</div>
+        </div>
+        <div class="module-card" data-module="grammar">
+          <div class="module-icon" data-i18n="mod_grammar_icon">语法</div>
+          <div class="module-name" data-i18n="mod_grammar">语法学习</div>
+          <div class="module-desc" data-i18n="mod_grammar_desc">动词分组・句型</div>
+        </div>
+        <div class="module-card" data-module="sentence">
+          <div class="module-icon" data-i18n="mod_sentence_icon">800</div>
+          <div class="module-name" data-i18n="mod_sentence">800句常用句</div>
+          <div class="module-desc" data-i18n="mod_sentence_desc">常用句式・发音学习</div>
+        </div>
+        <div class="module-card" data-module="songs">
+          <div class="module-icon" data-i18n="mod_songs_icon">歌</div>
+          <div class="module-name" data-i18n="mod_songs">日文歌曲</div>
+          <div class="module-desc" data-i18n="mod_songs_desc">本地歌词・逐行学习</div>
+        </div>
+      </div>
+
+      <div class="start-stats">
+        <span class="pill"><span data-i18n="today_label">今日：</span><b id="d_total_start">0</b><span data-i18n="today_unit"> 题</span></span>
+        <span class="pill ok"><span data-i18n="correct_label">正确：</span><b id="d_ok_start">0</b></span>
+        <span class="pill ng"><span data-i18n="wrong_label">错误：</span><b id="d_ng_start">0</b></span>
+        <span class="pill"><span data-i18n="done_label">完成：</span><b id="d_rounds_start">0</b><span data-i18n="rounds_unit"> 轮</span></span>
+      </div>
+
+      <div class="start-footer">
+        <button class="btn" id="btnResetSettings" data-i18n="reset_settings">复位设置</button>
+        <button class="btn" id="btnResetDay" data-i18n="reset_today">重置今日</button>
+        <button class="btn" id="btnRefreshApp" data-i18n="refresh_app">刷新/更新</button>
+        <button class="btn danger" id="btnResetAllStats" data-i18n="clear_all">清空全部</button>
+      </div>
+
+      <div class="version-tag" id="versionTag"></div>
+    </div>
+
+    <!-- ========== 设置页面 ========== -->
+    <div id="settingsScreen" class="screen hide">
+      <div class="settings-header">
+        <button class="btn-back" id="btnBackToModules">&#8592;</button>
+        <h2 class="settings-title" id="settingsTitle" data-i18n="mod_kana">50音基础</h2>
+      </div>
+
+      <!-- 50音设置 -->
+      <section class="card" id="settingsKana">
+        <div class="label" data-i18n="mode_type">题型</div>
+        <div class="checks" id="modeChecksKana">
+          <label class="chk" data-i18n="mode_rm_mc"><input type="checkbox" value="rm_mc" checked> 罗马音→选假名</label>
+          <label class="chk" data-i18n="mode_jp_mc"><input type="checkbox" value="jp_mc" checked> 假名→选罗马音</label>
+          <label class="chk" data-i18n="mode_rm_in"><input type="checkbox" value="rm_in"> 罗马音输入</label>
+          <label class="chk" data-i18n="mode_jp_in"><input type="checkbox" value="jp_in"> 假名输入</label>
+        </div>
+        <div class="label" style="margin-top:12px" data-i18n="set_label">集合</div>
+        <div class="checks" id="kanaSetChecks">
+          <label class="chk" data-i18n="set_seion"><input type="checkbox" value="seion" checked> 清音</label>
+          <label class="chk" data-i18n="set_dakuon"><input type="checkbox" value="dakuon"> 浊音</label>
+          <label class="chk" data-i18n="set_handakuon"><input type="checkbox" value="handakuon"> 半浊音</label>
+          <label class="chk" data-i18n="set_yoon"><input type="checkbox" value="yoon"> 拗音</label>
+        </div>
+      </section>
+
+      <!-- 日常短词设置 -->
+      <section class="card" id="settingsWord">
+        <div class="label" data-i18n="mode_type">题型</div>
+        <div class="checks" id="modeChecksWord">
+          <label class="chk" data-i18n="mode_rm_mc"><input type="checkbox" value="rm_mc" checked> 罗马音→选假名</label>
+          <label class="chk" data-i18n="mode_jp_mc"><input type="checkbox" value="jp_mc" checked> 假名→选罗马音</label>
+          <label class="chk" data-i18n="mode_rm_mean"><input type="checkbox" value="rm_mean"> 读音→选意思</label>
+          <label class="chk" data-i18n="mode_mean_rm"><input type="checkbox" value="mean_rm"> 意思→选读音</label>
+          <div class="chk-group-title" data-i18n="word_relation_label">词义关系</div>
+          <label class="chk" data-i18n="mode_word_synonym"><input type="checkbox" value="word_synonym"> 同义词</label>
+          <label class="chk" data-i18n="mode_word_near"><input type="checkbox" value="word_near"> 近义词</label>
+          <label class="chk" data-i18n="mode_word_antonym"><input type="checkbox" value="word_antonym"> 反义词</label>
+        </div>
+      </section>
+
+      <!-- 汉字短词设置 -->
+      <section class="card" id="settingsKanji">
+        <div class="label" data-i18n="mode_type">题型</div>
+        <div class="checks" id="modeChecksKanji">
+          <label class="chk" data-i18n="mode_kanji_read"><input type="checkbox" value="kanji_read" checked> 汉字→选读音</label>
+          <label class="chk" data-i18n="mode_read_kanji"><input type="checkbox" value="read_kanji" checked> 读音→选汉字</label>
+          <label class="chk" data-i18n="mode_kanji_mean"><input type="checkbox" value="kanji_mean"> 汉字→选意思</label>
+        </div>
+      </section>
+
+      <!-- N1-N5设置 -->
+      <section class="card" id="settingsN2">
+        <div class="label" data-i18n="jlpt_level_label">等级</div>
+        <div class="checks" id="jlptLevelChecks">
+          <label class="chk"><input type="radio" name="jlptLevel" value="n1"> N1</label>
+          <label class="chk"><input type="radio" name="jlptLevel" value="n2" checked> N2</label>
+          <label class="chk"><input type="radio" name="jlptLevel" value="n3"> N3</label>
+          <label class="chk"><input type="radio" name="jlptLevel" value="n4"> N4</label>
+          <label class="chk"><input type="radio" name="jlptLevel" value="n5"> N5</label>
+        </div>
+        <div class="label" style="margin-top:12px" data-i18n="jlpt_mode_label">学习方式</div>
+        <div class="checks" id="jlptModeChecks">
+          <label class="chk" data-i18n="jlpt_mode_quiz"><input type="radio" name="jlptMode" value="quiz" checked> 测试模式</label>
+          <label class="chk" data-i18n="jlpt_mode_study"><input type="radio" name="jlptMode" value="study"> 学习模式</label>
+          <label class="chk" data-i18n="jlpt_mode_progressive"><input type="radio" name="jlptMode" value="progressive"> 循序学习</label>
+        </div>
+        <button class="btn small" id="btnResetJlptProgress" type="button" style="margin-top:8px" data-i18n="jlpt_reset_progress">重置学习进度</button>
+        <div class="label" style="margin-top:12px" data-i18n="n2_cat_label">题目类型（可多选）</div>
+        <div class="checks" id="n2CatChecks">
+          <label class="chk" data-i18n="n2_kanji_reading"><input type="checkbox" value="kanji_reading" checked> 汉字读音</label>
+          <label class="chk" data-i18n="n2_orthography"><input type="checkbox" value="orthography" checked> 汉字写法</label>
+          <label class="chk" data-i18n="n2_context_vocab"><input type="checkbox" value="context_vocab" checked> 语境词汇</label>
+          <label class="chk" data-i18n="n2_paraphrase"><input type="checkbox" value="paraphrase" checked> 近义替换</label>
+          <label class="chk" data-i18n="n2_usage"><input type="checkbox" value="usage"> 用法</label>
+          <label class="chk" data-i18n="n2_grammar"><input type="checkbox" value="grammar" checked> 语法</label>
+        </div>
+      </section>
+
+      <!-- 800句常用句设置 -->
+      <section class="card" id="settingsSentence">
+        <div class="label" data-i18n="sentence_mode_label">学习方式</div>
+        <div class="checks" id="sentenceModeChecks">
+          <label class="chk" data-i18n="sentence_mode_progressive"><input type="radio" name="sentenceMode" value="progressive" checked> 循序学习</label>
+          <label class="chk" data-i18n="sentence_mode_study"><input type="radio" name="sentenceMode" value="study"> 随机学习</label>
+          <label class="chk" data-i18n="sentence_mode_quiz_jp_zh"><input type="radio" name="sentenceMode" value="quiz_jp_zh"> 日文→选中文</label>
+          <label class="chk" data-i18n="sentence_mode_quiz_zh_jp"><input type="radio" name="sentenceMode" value="quiz_zh_jp"> 中文→选日文</label>
+        </div>
+        <button class="btn small" id="btnResetSentenceProgress" type="button" style="margin-top:8px" data-i18n="sentence_reset_progress">重置800句进度</button>
+      </section>
+
+      <!-- 通用设置 -->
+      <section class="card">
+        <div class="grid2">
+          <div>
+            <div class="label" data-i18n="kana_mode_label">假名模式</div>
+            <select id="kanaMode">
+              <option value="hira" data-i18n="kana_hira">平假名</option>
+              <option value="kata" data-i18n="kana_kata">片假名</option>
+            </select>
+          </div>
+          <div>
+            <div class="label" data-i18n="session_size_label">本次题数</div>
+            <input type="number" id="sessionSize" value="20" min="5" max="800" />
+          </div>
+          <div>
+            <div class="label" data-i18n="other_options">其他选项</div>
+            <label class="chk" data-i18n="hide_meaning"><input type="checkbox" id="hideMeaning"> 隐藏中文释义</label>
+            <label class="chk" style="margin-top:8px" data-i18n="content_wrong"><input type="checkbox" id="wrongFirst"> 错题优先</label>
+          </div>
+        </div>
+      </section>
+
+      <!-- 隐藏的合并modeChecks容器 -->
+      <div class="hide" id="modeChecks"></div>
+
+      <button class="btn-start" id="btnStartSession" data-i18n="start_btn">开始练习</button>
+    </div>
+
+    <!-- ========== 语法主题列表页 ========== -->
+    <div id="grammarScreen" class="screen hide">
+      <div class="settings-header">
+        <button class="btn-back" id="btnGrammarBack">&#8592;</button>
+        <h2 class="settings-title" data-i18n="mod_grammar">语法学习</h2>
+      </div>
+
+      <div class="grammar-topics" id="grammarTopics">
+        <!-- Topics injected by JS -->
+      </div>
+    </div>
+
+    <!-- ========== 语法主题详情页 ========== -->
+    <div id="grammarTopicScreen" class="screen hide">
+      <div class="settings-header">
+        <button class="btn-back" id="btnGrammarTopicBack">&#8592;</button>
+        <h2 class="settings-title" id="grammarTopicTitle">语法</h2>
+      </div>
+      <button class="btn-start" id="btnGrammarPractice" data-i18n="grammar_practice_btn">开始练习</button>
+      <div class="grammar-content" id="grammarContent">
+        <!-- Content injected by JS -->
+      </div>
+    </div>
+
+    <!-- ========== 语法练习页 ========== -->
+    <div id="grammarPracticeScreen" class="screen hide">
+      <div class="settings-header">
+        <button class="btn-back" id="btnGrammarPracticeBack">&#8592;</button>
+        <h2 class="settings-title" id="grammarPracticeTitle" data-i18n="grammar_practice_title">练习</h2>
+      </div>
+      <div class="gp-progress">
+        <div class="progress-bar"><div class="progress-fill" id="gpProgressFill"></div></div>
+        <div class="gp-stats">
+          <span class="stat ok" id="gpOk">0</span>
+          <span class="stat ng" id="gpNg">0</span>
+          <span class="progress-text"><b id="gpDone">0</b> / <b id="gpTotal">0</b></span>
+        </div>
+      </div>
+      <section class="card quiz-card">
+        <div class="gp-hint" id="gpHint"></div>
+        <div class="gp-q" id="gpQ"></div>
+        <div class="gp-opts" id="gpOpts"></div>
+        <div class="result" id="gpResult"></div>
+        <div class="quiz-actions">
+          <button class="btn" id="btnGpSubmit" data-i18n="gp_submit" disabled>提交</button>
+          <button class="btn primary btn-next" id="btnGpNext">下一题</button>
+        </div>
+      </section>
+    </div>
+
+
+    <!-- ========== 日文歌曲本地学习页 ========== -->
+    <div id="songsScreen" class="screen hide">
+      <div class="settings-header">
+        <button class="btn-back" id="btnSongsBack">&#8592;</button>
+        <h2 class="settings-title" data-i18n="songs_title">日文歌曲</h2>
+      </div>
+      <section class="card songs-intro-card">
+        <div class="songs-intro-title" data-i18n="songs_intro_title">本地歌词学习</div>
+        <div class="muted" data-i18n="songs_intro">选择歌曲后粘贴你自己的日文歌词，内容只保存在本机；每行会自动标读音并可单独播放。</div>
+      </section>
+      <div class="songs-list" id="songsList"></div>
+      <section class="card song-detail hide" id="songDetail">
+        <div class="song-detail-head">
+          <div>
+            <div class="song-detail-title" id="songDetailTitle"></div>
+            <div class="song-detail-meta" id="songDetailMeta"></div>
+          </div>
+          <button class="btn small" id="btnSongClose" type="button" data-i18n="song_close">收起</button>
+        </div>
+        <div class="song-local-note" data-i18n="song_local_notice">不会内置或上传完整歌词；你粘贴的歌词仅保存在当前浏览器本地。</div>
+        <label class="label" for="songLyricsInput" data-i18n="song_paste_label">粘贴日文歌词</label>
+        <textarea id="songLyricsInput" class="song-lyrics-input" rows="8" data-i18n-placeholder="song_paste_placeholder"></textarea>
+        <div class="song-actions">
+          <button class="btn primary" id="btnSongSave" type="button" data-i18n="song_save">保存并生成读音</button>
+          <button class="btn" id="btnSongClear" type="button" data-i18n="song_clear">清空本歌歌词</button>
+        </div>
+        <div class="song-lines" id="songLines"></div>
+      </section>
+    </div>
+
+
+
+    <!-- ========== 短词消除游戏 ========== -->
+    <div id="wordMatchScreen" class="screen hide">
+      <div class="settings-header word-match-topbar">
+        <button class="btn-back" id="btnWordMatchBack">&#8592;</button>
+        <h2 class="settings-title" data-i18n="mod_word_match">短词消除</h2>
+        <button class="btn" id="btnWordMatchMusic" type="button">♪</button>
+        <button class="btn" id="btnWordMatchGuide" type="button" data-i18n="word_match_guide_btn">引导</button>
+        <button class="btn" id="btnWordMatchInvite" type="button" data-i18n="word_match_invite">邀请好友</button>
+        <button class="btn" id="btnWordMatchNew" type="button" data-i18n="word_match_new">换一局</button>
+      </div>
+      <section class="word-match-score card">
+        <div><span data-i18n="word_match_score">得分</span>：<b id="wmScore">0</b></div>
+        <div><span data-i18n="word_match_best">最高</span>：<b id="wmLeft">0</b></div>
+        <div><span data-i18n="word_match_time">时间</span>：<b id="wmTime">0:00</b></div>
+        <div><span data-i18n="word_match_combo">Combo</span>：<b id="wmCombo">0</b></div>
+        <div><span data-i18n="word_match_goal">目标</span>：<b id="wmGoal">-</b></div>
+        <div class="wm-power-cell"><span data-i18n="word_match_power">倍率</span>：<b id="wmPower">×1</b><span class="wm-tools-inline" id="wmTools"></span><span class="wm-lives" id="wmLives">♥️♥️♥️♥️♥️</span></div>
+      </section>
+      <section class="word-match-board card">
+        <div class="word-match-col">
+          <div class="word-match-col-title" data-i18n="word_match_reading">读音</div>
+          <div id="wmReadings" class="word-match-grid"></div>
+        </div>
+        <div class="word-match-col">
+          <div class="word-match-col-title" data-i18n="word_match_word">汉字</div>
+          <div id="wmWords" class="word-match-grid"></div>
+        </div>
+      </section>
+      <div id="wmMessage" class="word-match-message"></div>
+      <div id="wmOverlay" class="wm-overlay hide" aria-hidden="true"></div>
+      <div id="wmGuide" class="wm-guide hide" aria-hidden="true">
+        <div class="wm-guide-card wm-guide-sim" role="dialog" aria-modal="true" aria-labelledby="wmGuideTitle">
+          <button id="wmGuideClose" class="wm-guide-close" type="button" aria-label="Close">×</button>
+          <h3 id="wmGuideTitle" data-i18n="word_match_guide_title">短词消除试玩引导</h3>
+          <div class="wm-guide-hud">
+            <span>Score <b id="wmGuideScore">0</b></span>
+            <span>Combo <b id="wmGuideCombo">0</b></span>
+            <span id="wmGuideHearts">♥️♥️♥️♥️♥️</span>
+          </div>
+          <div id="wmGuidePrompt" class="wm-guide-prompt" data-i18n="word_match_guide_prompt_0">点发光的假名开始。</div>
+          <div class="wm-guide-board">
+            <div class="wm-guide-col">
+              <div class="word-match-col-title" data-i18n="word_match_reading">读音</div>
+              <button class="wm-tile reading wm-demo-tile" type="button" data-demo="l1">ねこ</button>
+              <button class="wm-tile reading wm-demo-tile" type="button" data-demo="l2">みず</button>
+              <button class="wm-tile reading wm-demo-tile" type="button" data-demo="l3">やま</button>
+            </div>
+            <div class="wm-guide-col">
+              <div class="word-match-col-title" data-i18n="word_match_word">汉字</div>
+              <button class="wm-tile word wm-demo-tile" type="button" data-demo="r1">猫</button>
+              <button class="wm-tile word wm-demo-tile" type="button" data-demo="r2">水</button>
+              <button class="wm-tile word wm-demo-tile" type="button" data-demo="r3">山</button>
+            </div>
+          </div>
+          <div class="wm-guide-tools-demo">
+            <button class="wm-tool-btn wm-demo-tool" type="button" data-demo="bomb">💣</button>
+            <button class="wm-tool-btn wm-demo-tool" type="button" data-demo="mag">🔍</button>
+            <span class="wm-guide-tool-label" id="wmGuideToolLabel" data-i18n="word_match_guide_tool_prompt">道具稍后会亮起。</span>
+          </div>
+          <button id="wmGuideStart" class="btn primary wm-guide-start" type="button" data-i18n="word_match_guide_next">下一步</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== 练习页面 ========== -->
+    <div id="quizScreen" class="screen hide">
+      <div class="quiz-lang-bar">
+        <button class="lang-btn active" data-lang="zh-CN">简</button>
+        <button class="lang-btn" data-lang="zh-TW">繁</button>
+        <button class="lang-btn" data-lang="ja">日</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <header class="quiz-header">
+        <div class="quiz-progress">
+          <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+          <span class="progress-text"><b id="s_done">0</b> / <b id="s_size">20</b></span>
+        </div>
+        <div class="quiz-stats">
+          <span class="stat round" id="s_round">第1轮</span>
+          <span class="stat time" id="timer">0:00</span>
+          <span class="stat acc" id="s_acc_display">0%</span>
+          <span class="stat ok" id="s_ok">0</span>
+          <span class="stat ng" id="s_ng">0</span>
+          <span class="stat streak" id="streak">0</span>
+        </div>
+        <button class="btn-back" id="btnBack" data-i18n="btn_back">退出</button>
+      </header>
+
+      <section class="card quiz-card">
+        <div class="q" id="q">准备开始...</div>
+        <div class="meaning muted" id="meaning"></div>
+
+        <div id="opts" class="opts"></div>
+
+        <div id="inputWrap" class="hide">
+          <input type="text" id="inp" placeholder="输入答案" autocomplete="off" autocapitalize="off" />
+          <button class="btn primary" id="btnCheck" data-i18n="btn_check">提交</button>
+          <button class="btn" id="btnShow" data-i18n="btn_show">显示答案</button>
+        </div>
+
+        <div class="result" id="result"></div>
+
+        <div class="quiz-actions">
+          <button class="btn primary btn-next" id="btnNew" data-i18n="btn_next">下一题</button>
+          <button class="btn" id="btnSpeak" data-i18n="btn_speak">播放发音</button>
+        </div>
+      </section>
+
+      <!-- 隐藏的统计元素 -->
+      <div class="hide">
+        <span id="d_total"></span>
+        <span id="d_ok"></span>
+        <span id="d_ng"></span>
+        <span id="d_acc"></span>
+        <span id="s_acc"></span>
+        <span id="tips"></span>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./app.js?v=2026-06-19.4"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      let swRegisterStarted = false;
+      const registerAppServiceWorker = () => {
+        if (swRegisterStarted) return;
+        swRegisterStarted = true;
+        const hadController = !!navigator.serviceWorker.controller;
+        navigator.serviceWorker.register('./sw.js').then((reg) => {
+          if (!reg) return;
+          // Check for updates on load and every 60s
+          reg.update?.();
+          setInterval(() => reg.update?.(), 60000);
+
+          // When a new SW is found, activate and reload
+          reg.addEventListener('updatefound', () => {
+            const newSW = reg.installing;
+            if (!newSW) return;
+            newSW.addEventListener('statechange', () => {
+              if (newSW.state === 'installed' && navigator.serviceWorker.controller) {
+                // New version available — activate immediately
+                newSW.postMessage('skipWaiting');
+              }
+            });
+          });
+
+          // Reload once when the controller changes (new SW took over)
+          let reloaded = false;
+          navigator.serviceWorker.addEventListener('controllerchange', () => {
+            if (!hadController) return;
+            if (reloaded) return;
+            reloaded = true;
+            location.reload();
+          });
+        }).catch(() => {});
+      };
+      if (window.__appDataReady) {
+        registerAppServiceWorker();
+      } else {
+        window.addEventListener('app-data-ready', registerAppServiceWorker, { once: true });
+      }
+    }
+  </script>
+</body>
+</html>
+
