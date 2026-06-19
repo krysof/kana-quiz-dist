@@ -15,7 +15,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="./pwa/icons/app-icon-180.png" />
   <link rel="apple-touch-icon" sizes="192x192" href="./pwa/icons/app-icon-192.png" />
   <link rel="apple-touch-icon-precomposed" sizes="180x180" href="./pwa/icons/app-icon-180.png" />
-  <link rel="stylesheet" href="./style.css?v=2026-06-19.8" />
+  <link rel="stylesheet" href="./style.css?v=2026-06-19.9" />
 </head>
 <body>
   <div class="container">
@@ -299,7 +299,7 @@
       <div class="settings-header word-match-topbar">
         <button class="btn-back" id="btnWordMatchBack">&#8592;</button>
         <h2 class="settings-title" data-i18n="mod_word_match">短词消除</h2>
-        <button class="btn" id="btnWordMatchMusic" type="button">♪</button>
+        <button class="btn wm-audio-btn" id="btnWordMatchMusic" type="button">♪</button><button class="btn wm-audio-btn" id="btnWordMatchSfx" type="button">FX</button><button class="btn wm-audio-btn" id="btnWordMatchVoice" type="button">声</button>
         <button class="btn" id="btnWordMatchGuide" type="button" data-i18n="word_match_guide_btn">新手教学</button>
         <button class="btn" id="btnWordMatchInvite" type="button" data-i18n="word_match_invite">邀请好友</button>
         <button class="btn" id="btnWordMatchNew" type="button" data-i18n="word_match_new">换一局</button>
@@ -416,7 +416,7 @@
     </div>
   </div>
 
-  <script type="module" src="./app.js?v=2026-06-19.8"></script>
+  <script type="module" src="./app.js?v=2026-06-19.9"></script>
   <script>
     if ('serviceWorker' in navigator) {
       let swRegisterStarted = false;
@@ -461,6 +461,8 @@
   </script>
 </body>
 </html>
+
+
 
 
 
