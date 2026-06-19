@@ -304,6 +304,22 @@
         <button class="btn" id="btnWordMatchInvite" type="button" data-i18n="word_match_invite">邀请好友</button>
         <button class="btn" id="btnWordMatchNew" type="button" data-i18n="word_match_new">换一局</button>
       </div>
+      <section id="wmSetup" class="word-match-setup card">
+        <h3 data-i18n="word_match_setup_title">开始前设置</h3>
+        <div class="wm-setup-block">
+          <div class="wm-setup-label" data-i18n="word_match_kana_label">左边假名显示</div>
+          <label class="wm-choice"><input id="wmKanaHira" type="checkbox" value="hira"><span data-i18n="word_match_hira">平假名</span></label>
+          <label class="wm-choice"><input id="wmKanaKata" type="checkbox" value="kata"><span data-i18n="word_match_kata">片假名</span></label>
+        </div>
+        <div class="wm-setup-block">
+          <div class="wm-setup-label" data-i18n="word_match_difficulty">难度</div>
+          <label class="wm-choice"><input type="radio" name="wmDifficulty" value="easy"><span data-i18n="word_match_easy">容易：从1列×3行开始</span></label>
+          <label class="wm-choice"><input type="radio" name="wmDifficulty" value="medium"><span data-i18n="word_match_medium">中等：从2列×3行开始</span></label>
+          <label class="wm-choice"><input type="radio" name="wmDifficulty" value="hard"><span data-i18n="word_match_hard">难：从3列×3行开始</span></label>
+        </div>
+        <button id="btnWordMatchStart" class="btn primary wm-start-btn" type="button" data-i18n="word_match_start_game">开始游戏</button>
+        <div id="wmSetupHint" class="wm-setup-hint"></div>
+      </section>
       <section class="word-match-score card">
         <div><span data-i18n="word_match_score">得分</span>：<b id="wmScore">0</b></div>
         <div><span data-i18n="word_match_best">最高</span>：<b id="wmLeft">0</b></div>
