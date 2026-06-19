@@ -15,7 +15,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="./pwa/icons/app-icon-180.png" />
   <link rel="apple-touch-icon" sizes="192x192" href="./pwa/icons/app-icon-192.png" />
   <link rel="apple-touch-icon-precomposed" sizes="180x180" href="./pwa/icons/app-icon-180.png" />
-  <link rel="stylesheet" href="./style.css?v=2026-06-19.7" />
+  <link rel="stylesheet" href="./style.css?v=2026-06-19.8" />
 </head>
 <body>
   <div class="container">
@@ -300,7 +300,7 @@
         <button class="btn-back" id="btnWordMatchBack">&#8592;</button>
         <h2 class="settings-title" data-i18n="mod_word_match">短词消除</h2>
         <button class="btn" id="btnWordMatchMusic" type="button">♪</button>
-        <button class="btn" id="btnWordMatchGuide" type="button" data-i18n="word_match_guide_btn">引导</button>
+        <button class="btn" id="btnWordMatchGuide" type="button" data-i18n="word_match_guide_btn">新手教学</button>
         <button class="btn" id="btnWordMatchInvite" type="button" data-i18n="word_match_invite">邀请好友</button>
         <button class="btn" id="btnWordMatchNew" type="button" data-i18n="word_match_new">换一局</button>
       </div>
@@ -327,7 +327,7 @@
       <div id="wmGuide" class="wm-guide hide" aria-hidden="true">
         <div class="wm-guide-card wm-guide-sim" role="dialog" aria-modal="true" aria-labelledby="wmGuideTitle">
           <button id="wmGuideClose" class="wm-guide-close" type="button" aria-label="Close">×</button>
-          <h3 id="wmGuideTitle" data-i18n="word_match_guide_title">短词消除试玩引导</h3>
+          <h3 id="wmGuideTitle" data-i18n="word_match_guide_title">短词消除新手教学</h3>
           <div class="wm-guide-hud">
             <span>Score <b id="wmGuideScore">0</b></span>
             <span>Combo <b id="wmGuideCombo">0</b></span>
@@ -416,7 +416,7 @@
     </div>
   </div>
 
-  <script type="module" src="./app.js?v=2026-06-19.7"></script>
+  <script type="module" src="./app.js?v=2026-06-19.8"></script>
   <script>
     if ('serviceWorker' in navigator) {
       let swRegisterStarted = false;
@@ -461,5 +461,7 @@
   </script>
 </body>
 </html>
+
+
 
 
