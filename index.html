@@ -15,7 +15,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="./pwa/icons/app-icon-180.png" />
   <link rel="apple-touch-icon" sizes="192x192" href="./pwa/icons/app-icon-192.png" />
   <link rel="apple-touch-icon-precomposed" sizes="180x180" href="./pwa/icons/app-icon-180.png" />
-  <link rel="stylesheet" href="./style.css?v=2026-06-20.12" />
+  <link rel="stylesheet" href="./style.css?v=2026-06-20.13" />
 </head>
 <body>
   <div class="container">
@@ -110,7 +110,32 @@
           <div class="module-name" data-i18n="mod_cultivate_game">日语修行</div>
           <div class="module-desc" data-i18n="mod_cultivate_game_desc">修炼・装备・挑战</div>
         </div>
+        <div class="module-card game-card" data-game="bladeKing">
+          <div class="module-icon">🐷</div>
+          <div class="module-name" data-i18n="mod_blade_game">短词刀王</div>
+          <div class="module-desc" data-i18n="mod_blade_game_desc">旋转飞刀・碰对词</div>
+        </div>
       </div>
+    </div>
+
+    <!-- ========== 短词刀王游戏 ========== -->
+    <div id="bladeKingScreen" class="screen hide">
+      <div class="blade-topbar">
+        <button class="btn-back" id="btnBladeBack">&#8592;</button>
+        <h2 class="settings-title" data-i18n="mod_blade_game">短词刀王</h2>
+        <button class="btn" id="btnBladeNew" type="button" data-i18n="blade_new">重开</button>
+      </div>
+      <section class="blade-hud card">
+        <div><span data-i18n="blade_score">得分</span>：<b id="bladeScore">0</b></div>
+        <div><span data-i18n="blade_knives">飞刀</span>：<b id="bladeKnives">3</b></div>
+        <div><span data-i18n="blade_level">等级</span>：<b id="bladeLevel">1</b></div>
+        <div><span data-i18n="blade_time">时间</span>：<b id="bladeTime">0:00</b></div>
+      </section>
+      <div class="blade-arena-wrap card">
+        <canvas id="bladeCanvas" width="720" height="960" aria-label="Blade King"></canvas>
+        <div id="bladeOverlay" class="blade-overlay hide"></div>
+      </div>
+      <div class="blade-help" data-i18n="blade_help">拖动移动。头顶会出短词，撞到对应答案才能击败目标并增加飞刀；撞错会掉刀。</div>
     </div>
 
     <!-- ========== 日语修行游戏 ========== -->
@@ -512,7 +537,7 @@
     </div>
   </div>
 
-  <script type="module" src="./app.js?v=2026-06-20.12"></script>
+  <script type="module" src="./app.js?v=2026-06-20.13"></script>
   <script>
     if ('serviceWorker' in navigator) {
       let swRegisterStarted = false;
@@ -557,6 +582,7 @@
   </script>
 </body>
 </html>
+
 
 
 
