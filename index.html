@@ -15,7 +15,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="./pwa/icons/app-icon-180.png" />
   <link rel="apple-touch-icon" sizes="192x192" href="./pwa/icons/app-icon-192.png" />
   <link rel="apple-touch-icon-precomposed" sizes="180x180" href="./pwa/icons/app-icon-180.png" />
-  <link rel="stylesheet" href="./style.css?v=2026-06-20.6" />
+  <link rel="stylesheet" href="./style.css?v=2026-06-20.7" />
 </head>
 <body>
   <div class="container">
@@ -135,6 +135,11 @@
       <section class="cultivate-actions card">
         <button class="btn primary cultivate-big-btn" id="btnCultivateTrain" type="button" data-i18n="cultivate_train">修炼一次</button>
         <button class="btn cultivate-big-btn" id="btnCultivateChallenge" type="button" data-i18n="cultivate_challenge">挑战词妖</button>
+      </section>
+      <section class="cultivate-insight card" id="cultivateInsight">
+        <div class="cultivate-insight-title" data-i18n="cultivate_insight">悟道问答</div>
+        <div class="cultivate-insight-q" id="cultivateInsightQ" data-i18n="cultivate_insight_empty">修炼后会出现悟道题。</div>
+        <div class="cultivate-insight-options" id="cultivateInsightOptions"></div>
       </section>
       <section class="cultivate-equipment card">
         <h3 data-i18n="cultivate_equipment">装备</h3>
@@ -496,7 +501,7 @@
     </div>
   </div>
 
-  <script type="module" src="./app.js?v=2026-06-20.6"></script>
+  <script type="module" src="./app.js?v=2026-06-20.7"></script>
   <script>
     if ('serviceWorker' in navigator) {
       let swRegisterStarted = false;
@@ -541,6 +546,7 @@
   </script>
 </body>
 </html>
+
 
 
 
