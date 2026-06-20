@@ -15,7 +15,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="./pwa/icons/app-icon-180.png" />
   <link rel="apple-touch-icon" sizes="192x192" href="./pwa/icons/app-icon-192.png" />
   <link rel="apple-touch-icon-precomposed" sizes="180x180" href="./pwa/icons/app-icon-180.png" />
-  <link rel="stylesheet" href="./style.css?v=2026-06-20.4" />
+  <link rel="stylesheet" href="./style.css?v=2026-06-20.5" />
 </head>
 <body>
   <div class="container">
@@ -44,10 +44,10 @@
           <div class="module-name" data-i18n="mod_word">日常短词</div>
           <div class="module-desc" data-i18n="mod_word_desc">词汇・同近反义词</div>
         </div>
-        <div class="module-card" data-module="wordMatch">
-          <div class="module-icon" data-i18n="mod_word_match_icon">消</div>
-          <div class="module-name" data-i18n="mod_word_match">短词消除</div>
-          <div class="module-desc" data-i18n="mod_word_match_desc">3对持续消除</div>
+        <div class="module-card" data-module="games">
+          <div class="module-icon" data-i18n="mod_games_icon">游</div>
+          <div class="module-name" data-i18n="mod_games">游戏</div>
+          <div class="module-desc" data-i18n="mod_games_desc">消除・修行</div>
         </div>
         <div class="module-card" data-module="kanji">
           <div class="module-icon">漢</div>
@@ -91,6 +91,26 @@
       </div>
 
       <div class="version-tag" id="versionTag"></div>
+    </div>
+
+    <!-- ========== 游戏选择页面 ========== -->
+    <div id="gamesScreen" class="screen hide">
+      <div class="settings-header">
+        <button class="btn-back" id="btnGamesBack">&#8592;</button>
+        <h2 class="settings-title" data-i18n="games_title">选择游戏</h2>
+      </div>
+      <div class="module-grid game-grid">
+        <div class="module-card game-card" data-game="wordMatch">
+          <div class="module-icon" data-i18n="mod_word_match_icon">消</div>
+          <div class="module-name" data-i18n="mod_word_match">短词消除</div>
+          <div class="module-desc" data-i18n="mod_word_match_desc">3对持续消除</div>
+        </div>
+        <div class="module-card game-card disabled" aria-disabled="true">
+          <div class="module-icon">修</div>
+          <div class="module-name" data-i18n="mod_cultivate_game">日语修行</div>
+          <div class="module-desc" data-i18n="mod_cultivate_game_desc">开发中</div>
+        </div>
+      </div>
     </div>
 
     <!-- ========== 设置页面 ========== -->
@@ -432,7 +452,7 @@
     </div>
   </div>
 
-  <script type="module" src="./app.js?v=2026-06-20.4"></script>
+  <script type="module" src="./app.js?v=2026-06-20.5"></script>
   <script>
     if ('serviceWorker' in navigator) {
       let swRegisterStarted = false;
@@ -477,6 +497,7 @@
   </script>
 </body>
 </html>
+
 
 
 
