@@ -1,4 +1,4 @@
-const CACHE_VERSION = '2026-06-20.1';
+const CACHE_VERSION = '2026-06-20.2';
 const CACHE_NAME = `gojuon-${CACHE_VERSION}`;
 
 // App shell - precached on install
@@ -90,6 +90,7 @@ self.addEventListener('fetch', (e) => {
 self.addEventListener('message', (e) => {
   if (e.data === 'skipWaiting') self.skipWaiting();
 });
+
 
 
 
