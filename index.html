@@ -15,7 +15,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="./pwa/icons/app-icon-180.png" />
   <link rel="apple-touch-icon" sizes="192x192" href="./pwa/icons/app-icon-192.png" />
   <link rel="apple-touch-icon-precomposed" sizes="180x180" href="./pwa/icons/app-icon-180.png" />
-  <link rel="stylesheet" href="./style.css?v=2026-06-20.5" />
+  <link rel="stylesheet" href="./style.css?v=2026-06-20.6" />
 </head>
 <body>
   <div class="container">
@@ -105,12 +105,56 @@
           <div class="module-name" data-i18n="mod_word_match">短词消除</div>
           <div class="module-desc" data-i18n="mod_word_match_desc">3对持续消除</div>
         </div>
-        <div class="module-card game-card disabled" aria-disabled="true">
+        <div class="module-card game-card" data-game="cultivate">
           <div class="module-icon">修</div>
           <div class="module-name" data-i18n="mod_cultivate_game">日语修行</div>
-          <div class="module-desc" data-i18n="mod_cultivate_game_desc">开发中</div>
+          <div class="module-desc" data-i18n="mod_cultivate_game_desc">修炼・装备・挑战</div>
         </div>
       </div>
+    </div>
+
+    <!-- ========== 日语修行游戏 ========== -->
+    <div id="cultivateScreen" class="screen hide">
+      <div class="settings-header cultivate-header">
+        <button class="btn-back" id="btnCultivateBack">&#8592;</button>
+        <h2 class="settings-title" data-i18n="cultivate_title">日语修行</h2>
+        <button class="btn" id="btnCultivateReset" type="button" data-i18n="cultivate_reset">重置</button>
+      </div>
+      <section class="cultivate-hero card">
+        <div class="cultivate-avatar">🦊</div>
+        <div class="cultivate-main">
+          <div class="cultivate-realm" id="cultivateRealm">假名小妖</div>
+          <div class="cultivate-exp-row"><span id="cultivateExpText">0 / 60</span><div class="cultivate-exp"><div id="cultivateExpFill"></div></div></div>
+          <div class="cultivate-stats">
+            <span><b id="cultivatePower">0</b><em data-i18n="cultivate_power">战力</em></span>
+            <span><b id="cultivateJade">0</b><em data-i18n="cultivate_jade">灵玉</em></span>
+            <span><b id="cultivateStage">1</b><em data-i18n="cultivate_stage">关卡</em></span>
+          </div>
+        </div>
+      </section>
+      <section class="cultivate-actions card">
+        <button class="btn primary cultivate-big-btn" id="btnCultivateTrain" type="button" data-i18n="cultivate_train">修炼一次</button>
+        <button class="btn cultivate-big-btn" id="btnCultivateChallenge" type="button" data-i18n="cultivate_challenge">挑战词妖</button>
+      </section>
+      <section class="cultivate-equipment card">
+        <h3 data-i18n="cultivate_equipment">装备</h3>
+        <div class="cultivate-equip-grid">
+          <div>
+            <div class="label" data-i18n="cultivate_current_equip">当前装备</div>
+            <div id="cultivateEquip" class="cultivate-item empty">—</div>
+          </div>
+          <div>
+            <div class="label" data-i18n="cultivate_new_drop">新掉落</div>
+            <div id="cultivateDrop" class="cultivate-item empty">—</div>
+            <button class="btn cultivate-equip-btn" id="btnCultivateEquip" type="button" data-i18n="cultivate_wear">穿戴</button>
+          </div>
+        </div>
+      </section>
+      <section class="cultivate-battle card">
+        <h3 data-i18n="cultivate_battle">词妖挑战</h3>
+        <div class="cultivate-enemy"><span id="cultivateEnemy">N5 词妖</span><b id="cultivateEnemyPower">20</b></div>
+        <div id="cultivateLog" class="cultivate-log"></div>
+      </section>
     </div>
 
     <!-- ========== 设置页面 ========== -->
@@ -452,7 +496,7 @@
     </div>
   </div>
 
-  <script type="module" src="./app.js?v=2026-06-20.5"></script>
+  <script type="module" src="./app.js?v=2026-06-20.6"></script>
   <script>
     if ('serviceWorker' in navigator) {
       let swRegisterStarted = false;
@@ -497,6 +541,7 @@
   </script>
 </body>
 </html>
+
 
 
 
