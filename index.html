@@ -15,7 +15,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="./pwa/icons/app-icon-180.png" />
   <link rel="apple-touch-icon" sizes="192x192" href="./pwa/icons/app-icon-192.png" />
   <link rel="apple-touch-icon-precomposed" sizes="180x180" href="./pwa/icons/app-icon-180.png" />
-  <link rel="stylesheet" href="./style.css?v=2026-06-21.2" />
+  <link rel="stylesheet" href="./style.css?v=2026-06-21.3" />
 </head>
 <body>
   <div class="container">
@@ -537,7 +537,7 @@
     </div>
   </div>
 
-  <script type="module" src="./app.js?v=2026-06-21.2"></script>
+  <script type="module" src="./app.js?v=2026-06-21.3"></script>
   <script>
     if ('serviceWorker' in navigator) {
       let swRegisterStarted = false;
@@ -563,14 +563,10 @@
             });
           });
 
-          // Reload once when the controller changes (new SW took over)
-          let reloaded = false;
-          navigator.serviceWorker.addEventListener('controllerchange', () => {
-            if (!hadController) return;
-            if (reloaded) return;
-            reloaded = true;
-            location.reload();
-          });
+          // New SW can take over silently. Do not auto-reload here:
+          // on iPhone this can happen right after entering a game and looks like
+          // the game was kicked back to the home page.
+          navigator.serviceWorker.addEventListener('controllerchange', () => {});
         }).catch(() => {});
       };
       if (window.__appDataReady) {
