@@ -15,7 +15,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="./pwa/icons/app-icon-180.png" />
   <link rel="apple-touch-icon" sizes="192x192" href="./pwa/icons/app-icon-192.png" />
   <link rel="apple-touch-icon-precomposed" sizes="180x180" href="./pwa/icons/app-icon-180.png" />
-  <link rel="stylesheet" href="./style.css?v=2026-06-20.9" />
+  <link rel="stylesheet" href="./style.css?v=2026-06-20.10" />
 </head>
 <body>
   <div class="container">
@@ -120,6 +120,17 @@
         <h2 class="settings-title" data-i18n="cultivate_title">日语修行</h2>
         <button class="btn" id="btnCultivateReset" type="button" data-i18n="cultivate_reset">重置</button>
       </div>
+      <section id="cultivateSetup" class="cultivate-setup card">
+        <h3 data-i18n="cultivate_setup_title">修行内容</h3>
+        <div class="cultivate-setup-sub" data-i18n="cultivate_setup_sub">进入前选择会出现的题目类型，至少选择一个。</div>
+        <div class="cultivate-script-grid">
+          <label class="wm-choice"><input id="cultivateUseHira" type="checkbox" value="hira" checked><span data-i18n="word_match_hira">平假名</span></label>
+          <label class="wm-choice"><input id="cultivateUseKata" type="checkbox" value="kata" checked><span data-i18n="word_match_kata">片假名</span></label>
+          <label class="wm-choice"><input id="cultivateUseKanji" type="checkbox" value="kanji" checked><span data-i18n="cultivate_kanji">汉字</span></label>
+        </div>
+        <button id="btnCultivateStart" class="btn primary cultivate-start-btn" type="button" data-i18n="cultivate_start">开始修行</button>
+        <div id="cultivateSetupHint" class="wm-setup-hint"></div>
+      </section>
       <section class="cultivate-hero card">
         <div class="cultivate-avatar">🦊</div>
         <div class="cultivate-main">
@@ -501,7 +512,7 @@
     </div>
   </div>
 
-  <script type="module" src="./app.js?v=2026-06-20.9"></script>
+  <script type="module" src="./app.js?v=2026-06-20.10"></script>
   <script>
     if ('serviceWorker' in navigator) {
       let swRegisterStarted = false;
@@ -546,6 +557,7 @@
   </script>
 </body>
 </html>
+
 
 
 
